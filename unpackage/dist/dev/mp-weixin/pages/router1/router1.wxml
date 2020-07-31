@@ -1,0 +1,1 @@
+<view><view class="_h1">这里路由1页面</view><button type="default" data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" bindtap="__e">去tab3页面</button></view>

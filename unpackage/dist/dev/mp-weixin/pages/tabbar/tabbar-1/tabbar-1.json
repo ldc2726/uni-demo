@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "dy-list-demo": "/components/dy-list-demo"
+  }
+}

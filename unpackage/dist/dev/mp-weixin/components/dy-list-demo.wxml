@@ -1,0 +1,1 @@
+<view>{{'这只是一个测试组件,接受父值：\n\t'+num+''}}<button data-event-opts="{{[['tap',[['emit',['$event']]]]]}}" bindtap="__e">子父传值</button></view>

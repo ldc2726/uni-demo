@@ -1,0 +1,1 @@
+<view class="content">页面 - 5<u-button bind:click="__e" vue-id="6c4f2aef-1" data-event-opts="{{[['^click',[['exit']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">退出登陆</u-button></view>

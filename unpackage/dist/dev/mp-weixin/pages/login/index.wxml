@@ -1,0 +1,1 @@
+<view class="login"><web-view src="http://192.168.13.215:8080?v=4.89" data-event-opts="{{[['message',[['handleMessage',['$event']]]]]}}" bindmessage="__e"></web-view></view>
