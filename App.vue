@@ -1,23 +1,7 @@
 <script>
 export default {
 	onLaunch: function() {
-		
-		uni.getStorageInfo({
-			success:  (res)=> {
-				if(!res.keys.includes('_tokens')){
-					this.$Router.replaceAll('/pages/login/index')
-				}
-			}
-		});
-		// setTimeout(() => {
-		// 	uni.setTabBarBadge({
-		// 		index: 1,
-		// 		text: '31'
-		// 	});
-		// 	uni.showTabBarRedDot({
-		// 		index: 3
-		// 	});
-		// }, 1000);
+		this.$store.dispatch('user/getUser')
 	},
 	onShow: function() {
 		console.log('App Show');

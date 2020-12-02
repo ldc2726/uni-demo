@@ -7792,7 +7792,7 @@ var whitelist = { //声明了一个白名单
 
 //初始化
 var router = new _uniSimpleRouter.default({
-  routes: [{"path":"/pages/tabbar/tabbar-1/tabbar-1","aliasPath":"/","name":"tabbar-1"},{"path":"/pages/tabbar/tabbar-2/tabbar-2","aliasPath":"/tabbar-2","name":"tabbar-2"},{"path":"/pages/tabbar/tabbar-3/tabbar-3","aliasPath":"/tabbar-3","name":"tabbar-3"},{"path":"/pages/tabbar/tabbar-4/tabbar-4","aliasPath":"/tabbar-4","name":"tabbar-4"},{"path":"/pages/tabbar/tabbar-5/tabbar-5","aliasPath":"/tabbar-5","name":"tabbar-5"},{"path":"/pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release"},{"path":"/pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video"},{"path":"/pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa"},{"path":"/pages/404/404","aliasPath":"/404","name":"404"},{"path":"/pages/router1/router1"},{"path":"/pages/login/index","aliasPath":"/login","name":"login"}].concat([{
+  routes: [{"path":"/pages/tabbar/tabbar-1/tabbar-1","aliasPath":"/","name":"tabbar-1"},{"path":"/pages/tabbar/tabbar-2/tabbar-2","aliasPath":"/tabbar-2","name":"tabbar-2"},{"path":"/pages/tabbar/tabbar-3/tabbar-3","aliasPath":"/tabbar-3","name":"tabbar-3"},{"path":"/pages/tabbar/tabbar-4/tabbar-4","aliasPath":"/tabbar-4","name":"tabbar-4"},{"path":"/pages/tabbar/tabbar-5/tabbar-5","aliasPath":"/tabbar-5","name":"tabbar-5"},{"path":"/pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release"},{"path":"/pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video"},{"path":"/pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa"},{"path":"/pages/404/404","aliasPath":"/404","name":"404"},{"path":"/pages/router1/router1"}].concat([{
     path: '*',
     name: 'moddle',
     redirect: function redirect(to) {
@@ -12005,7 +12005,3344 @@ var appletsInit = function appletsInit(Router) {
 };exports.appletsInit = appletsInit;
 
 /***/ }),
-/* 43 */
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */,
+/* 84 */,
+/* 85 */,
+/* 86 */,
+/* 87 */,
+/* 88 */,
+/* 89 */,
+/* 90 */,
+/* 91 */,
+/* 92 */,
+/* 93 */,
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */,
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
+/* 112 */,
+/* 113 */,
+/* 114 */,
+/* 115 */,
+/* 116 */,
+/* 117 */,
+/* 118 */,
+/* 119 */,
+/* 120 */,
+/* 121 */,
+/* 122 */,
+/* 123 */,
+/* 124 */,
+/* 125 */,
+/* 126 */,
+/* 127 */,
+/* 128 */,
+/* 129 */,
+/* 130 */,
+/* 131 */,
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */,
+/* 136 */,
+/* 137 */,
+/* 138 */,
+/* 139 */,
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */,
+/* 144 */,
+/* 145 */,
+/* 146 */,
+/* 147 */,
+/* 148 */,
+/* 149 */,
+/* 150 */,
+/* 151 */,
+/* 152 */,
+/* 153 */,
+/* 154 */,
+/* 155 */,
+/* 156 */,
+/* 157 */,
+/* 158 */,
+/* 159 */,
+/* 160 */
+/*!**************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/index.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 161));
+
+
+
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 162));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 166));
+
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 167));
+
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 168));
+
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 169));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 170));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 171));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 172));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 173));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 174));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 164));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 163));
+
+var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 175));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 165));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 176));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 177));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 178));
+
+var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 179));
+
+var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 180));
+
+
+
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 181));
+
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 182));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+// 引入关于是否mixin集成小程序分享的配置
+// import wxshare from './libs/mixin/mpShare.js'
+// 全局挂载引入http相关请求拦截插件
+function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
+  // 这个环境的来由是在程序编写时候,点击hx编辑器运行调试代码的时候,详见:
+  // 	https://uniapp.dcloud.io/frame?id=%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e5%92%8c%e7%94%9f%e4%ba%a7%e7%8e%af%e5%a2%83
+  if (true) {console.warn(str);}} // 尝试判断在根目录的/store中是否有$u.mixin.js，此文件uView默认为需要挂在到全局的vuex的state变量
+// HX2.6.11版本,放到try中,控制台依然会警告,暂时不用此方式，
+// let vuexStore = {};
+// try {
+// 	vuexStore = require("@/store/$u.mixin.js");
+// } catch (e) {
+// 	//TODO handle the exception
+// }
+// post类型对象参数转为get类型url参数
+var $u = { queryParams: _queryParams.default, route: _route.default, timeFormat: _timeFormat.default, date: _timeFormat.default, // 另名date
+  timeFrom: _timeFrom.default, colorGradient: _colorGradient.default.colorGradient, guid: _guid.default, color: _color.default, type2icon: _type2icon.default, randomArray: _randomArray.default, wranning: wranning, get: _request.default.get, post: _request.default.post, put: _request.default.put, 'delete': _request.default.delete,
+  hexToRgb: _colorGradient.default.hexToRgb,
+  rgbToHex: _colorGradient.default.rgbToHex,
+  test: _test.default,
+  random: _random.default,
+  deepClone: _deepClone.default,
+  deepMerge: _deepMerge.default,
+  getParent: _getParent.default,
+  $parent: _$parent.default,
+  addUnit: _addUnit.default,
+  trim: _trim.default,
+  type: ['primary', 'success', 'error', 'warning', 'info'],
+  http: _request.default,
+  toast: _toast.default,
+  config: _config.default, // uView配置信息相关，比如版本号
+  zIndex: _zIndex.default };
+
+
+var install = function install(Vue) {
+  Vue.mixin(_mixin.default);
+  if (Vue.prototype.openShare) {
+    Vue.mixin(mpShare);
+  }
+  // Vue.mixin(vuexStore);
+  // 时间格式化，同时两个名称，date和timeFormat
+  Vue.filter('timeFormat', function (timestamp, format) {
+    return (0, _timeFormat.default)(timestamp, format);
+  });
+  Vue.filter('date', function (timestamp, format) {
+    return (0, _timeFormat.default)(timestamp, format);
+  });
+  // 将多久以前的方法，注入到全局过滤器
+  Vue.filter('timeFrom', function (timestamp, format) {
+    return (0, _timeFrom.default)(timestamp, format);
+  });
+  // 获取设备信息，挂载到$u的sys(system的缩写)属性中，
+  // 同时把安卓和ios平台的名称"ios"和"android"挂到$u.os中，方便取用
+  $u.sys = uni.getSystemInfoSync();
+  $u.os = $u.sys.platform;
+  Vue.prototype.$u = $u;
+};var _default =
+
+{
+  install: install };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 161 */
+/*!*************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/mixin/mixin.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(uni) {module.exports = {
+  data: function data() {
+    return {};
+  },
+  onLoad: function onLoad() {
+    // getRect挂载到$u上，因为这方法需要使用in(this)，所以无法把它独立成一个单独的文件导出
+    this.$u.getRect = this.$uGetRect;
+  },
+  methods: {
+    // 查询节点信息
+    // 目前此方法在支付宝小程序中无法获取组件跟接点的尺寸，为支付宝的bug(2020-07-21)
+    // 解决办法为在组件根部再套一个没有任何作用的view元素
+    $uGetRect: function $uGetRect(selector, all) {var _this = this;
+      return new Promise(function (resolve) {
+        uni.createSelectorQuery().
+        in(_this)[all ? 'selectAll' : 'select'](selector).
+        boundingClientRect(function (rect) {
+          if (all && Array.isArray(rect) && rect.length) {
+            resolve(rect);
+          }
+          if (!all && rect) {
+            resolve(rect);
+          }
+        }).
+        exec();
+      });
+    } },
+
+  onReachBottom: function onReachBottom() {
+    uni.$emit('uOnReachBottom');
+  } };
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 162 */
+/*!***************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/request/index.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 163));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 165));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
+    // 设置全局默认配置
+    value: function setConfig(customConfig) {
+      // 深度合并对象，否则会造成对象深层属性丢失
+      this.config = (0, _deepMerge.default)(this.config, customConfig);
+    }
+
+    // 主要请求部分
+  }, { key: "request", value: function request() {var _this = this;var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      // 检查请求拦截
+      if (this.interceptor.request && typeof this.interceptor.request === 'function') {
+        var tmpConfig = {};
+        var interceptorReuest = this.interceptor.request(options);
+        if (interceptorReuest === false) {
+          // 返回一个处于pending状态中的Promise，来取消原promise
+          return new Promise(function () {});
+        }
+        this.options = interceptorReuest;
+      }
+      options.dataType = options.dataType || this.config.dataType;
+      options.responseType = options.responseType || this.config.responseType;
+      options.url = options.url || '';
+      options.params = options.params || {};
+      options.header = Object.assign(this.config.header, options.header);
+      options.method = options.method || this.config.method;
+
+      return new Promise(function (resolve, reject) {
+        options.complete = function (response) {
+          // 请求返回后，隐藏loading(如果请求返回快的话，可能会没有loading)
+          uni.hideLoading();
+          // 清除定时器，如果请求回来了，就无需loading
+          clearTimeout(_this.config.timer);
+          _this.timer = null;
+          // 判断用户对拦截返回数据的要求，如果originalData为true，返回所有的数据(response)到拦截器，否则只返回response.data
+          if (_this.config.originalData) {
+            // 判断是否存在拦截器
+            if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
+              var resInterceptors = _this.interceptor.response(response);
+              // 如果拦截器不返回false，就将拦截器返回的内容给this.$u.post的then回调
+              if (resInterceptors !== false) {
+                resolve(resInterceptors);
+              } else {
+                // 如果拦截器返回false，意味着拦截器定义者认为返回有问题，直接接入catch回调
+                reject(response);
+              }
+            } else {
+              // 如果要求返回原始数据，就算没有拦截器，也返回最原始的数据
+              resolve(response);
+            }
+          } else {
+            if (response.statusCode == 200) {
+              if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
+                var _resInterceptors = _this.interceptor.response(response.data);
+                if (_resInterceptors !== false) {
+                  resolve(_resInterceptors);
+                } else {
+                  reject(response.data);
+                }
+              } else {
+                // 如果不是返回原始数据(originalData=false)，且没有拦截器的情况下，返回纯数据给then回调
+                resolve(response.data);
+              }
+            } else {
+              // 不返回原始数据的情况下，服务器状态码不为200，modal弹框提示
+              if (response.errMsg) {
+                uni.showModal({
+                  title: response.errMsg });
+
+              }
+              reject(response);
+            }
+          }
+        };
+
+        // 判断用户传递的URL是否/开头,如果不是,加上/，这里使用了uView的test.js验证库的url()方法
+        options.url = _test.default.url(options.url) ? options.url : _this.config.baseUrl + (options.url.indexOf('/') == 0 ?
+        options.url : '/' + options.url);
+
+        // 是否显示loading
+        // 加一个是否已有timer定时器的判断，否则有两个同时请求的时候，后者会清除前者的定时器id
+        // 而没有清除前者的定时器，导致前者超时，一直显示loading
+        if (_this.config.showLoading && !_this.config.timer) {
+          _this.config.timer = setTimeout(function () {
+            uni.showLoading({
+              title: _this.config.loadingText,
+              mask: _this.config.loadingMask });
+
+            _this.config.timer = null;
+          }, _this.config.loadingTime);
+        }
+        uni.request(options);
+      }).catch(function (res) {
+        // 如果返回reject()，不让其进入this.$u.post().then().catch()后面的catct()
+        // 因为很多人都会忘了写后面的catch()，导致报错捕获不到catch
+        return new Promise(function () {});
+      });
+    } }]);
+
+  function Request() {var _this2 = this;_classCallCheck(this, Request);
+    this.config = {
+      baseUrl: '', // 请求的根域名
+      // 默认的请求头
+      header: {},
+      method: 'POST',
+      // 设置为json，返回后uni.request会对数据进行一次JSON.parse
+      dataType: 'json',
+      // 此参数无需处理，因为5+和支付宝小程序不支持，默认为text即可
+      responseType: 'text',
+      showLoading: true, // 是否显示请求中的loading
+      loadingText: '请求中...',
+      loadingTime: 800, // 在此时间内，请求还没回来的话，就显示加载中动画，单位ms
+      timer: null, // 定时器
+      originalData: false, // 是否在拦截器中返回服务端的原始数据，见文档说明
+      loadingMask: true // 展示loading的时候，是否给一个透明的蒙层，防止触摸穿透
+    };
+
+    // 拦截器
+    this.interceptor = {
+      // 请求前的拦截
+      request: null,
+      // 请求后的拦截
+      response: null };
+
+
+    // get请求
+    this.get = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        method: 'GET',
+        url: url,
+        header: header,
+        data: data });
+
+    };
+
+    // post请求
+    this.post = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'POST',
+        header: header,
+        data: data });
+
+    };
+
+    // put请求，不支持支付宝小程序(HX2.6.15)
+    this.put = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'PUT',
+        header: header,
+        data: data });
+
+    };
+
+    // delete请求，不支持支付宝和头条小程序(HX2.6.15)
+    this.delete = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'DELETE',
+        header: header,
+        data: data });
+
+    };
+  }return Request;}();var _default =
+
+new Request();exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 163 */
+/*!********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/deepMerge.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 164));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// JS对象深度合并
+function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  target = (0, _deepClone.default)(target);
+  if (typeof target !== 'object' || typeof source !== 'object') return false;
+  for (var prop in source) {
+    if (!source.hasOwnProperty(prop)) continue;
+    if (prop in target) {
+      if (typeof target[prop] !== 'object') {
+        target[prop] = source[prop];
+      } else {
+        if (typeof source[prop] !== 'object') {
+          target[prop] = source[prop];
+        } else {
+          if (target[prop].concat && source[prop].concat) {
+            target[prop] = target[prop].concat(source[prop]);
+          } else {
+            target[prop] = deepMerge(target[prop], source[prop]);
+          }
+        }
+      }
+    } else {
+      target[prop] = source[prop];
+    }
+  }
+  return target;
+}var _default =
+
+deepMerge;exports.default = _default;
+
+/***/ }),
+/* 164 */
+/*!********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/deepClone.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 判断arr是否为一个数组，返回一个bool值
+function isArray(arr) {
+  return Object.prototype.toString.call(arr) === '[object Array]';
+}
+
+// 深度克隆
+function deepClone(obj) {
+  // 对常见的“非”值，直接返回原来值
+  if ([null, undefined, NaN, false].includes(obj)) return obj;
+  if (typeof obj !== "object" && typeof obj !== 'function') {
+    //原始类型直接返回
+    return obj;
+  }
+  var o = isArray(obj) ? [] : {};
+  for (var i in obj) {
+    if (obj.hasOwnProperty(i)) {
+      o[i] = typeof obj[i] === "object" ? deepClone(obj[i]) : obj[i];
+    }
+  }
+  return o;
+}var _default =
+
+deepClone;exports.default = _default;
+
+/***/ }),
+/* 165 */
+/*!***************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/test.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 验证电子邮箱格式
+                                                                                                      */
+function email(value) {
+  return /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/.test(value);
+}
+
+/**
+   * 验证手机格式
+   */
+function mobile(value) {
+  return /^1[23456789]\d{9}$/.test(value);
+}
+
+/**
+   * 验证URL格式
+   */
+function url(value) {
+  return /^((https|http|ftp|rtsp|mms):\/\/)(([0-9a-zA-Z_!~*'().&=+$%-]+: )?[0-9a-zA-Z_!~*'().&=+$%-]+@)?(([0-9]{1,3}.){3}[0-9]{1,3}|([0-9a-zA-Z_!~*'()-]+.)*([0-9a-zA-Z][0-9a-zA-Z-]{0,61})?[0-9a-zA-Z].[a-zA-Z]{2,6})(:[0-9]{1,4})?((\/?)|(\/[0-9a-zA-Z_!~*'().;?:@&=+$,%#-]+)+\/?)$/.
+  test(value);
+}
+
+/**
+   * 验证日期格式
+   */
+function date(value) {
+  return !/Invalid|NaN/.test(new Date(value).toString());
+}
+
+/**
+   * 验证ISO类型的日期格式
+   */
+function dateISO(value) {
+  return /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(value);
+}
+
+/**
+   * 验证十进制数字
+   */
+function number(value) {
+  return /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
+}
+
+/**
+   * 验证整数
+   */
+function digits(value) {
+  return /^\d+$/.test(value);
+}
+
+/**
+   * 验证身份证号码
+   */
+function idCard(value) {
+  return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(
+  value);
+}
+
+/**
+   * 是否车牌号
+   */
+function carNo(value) {
+  // 新能源车牌
+  var xreg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}(([0-9]{5}[DF]$)|([DF][A-HJ-NP-Z0-9][0-9]{4}$))/;
+  // 旧车牌
+  var creg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]{1}$/;
+  if (value.length === 7) {
+    return creg.test(value);
+  } else if (value.length === 8) {
+    return xreg.test(value);
+  } else {
+    return false;
+  }
+}
+
+/**
+   * 金额,只允许2位小数
+   */
+function amount(value) {
+  //金额，只允许保留两位小数
+  return /^[1-9]\d*(,\d{3})*(\.\d{1,2})?$|^0\.\d{1,2}$/.test(value);
+}
+
+/**
+   * 中文
+   */
+function chinese(value) {
+  var reg = /^[\u4e00-\u9fa5]+$/gi;
+  return reg.test(value);
+}
+
+/**
+   * 只能输入字母
+   */
+function letter(value) {
+  return /^[a-zA-Z]*$/.test(value);
+}
+
+/**
+   * 只能是字母或者数字
+   */
+function enOrNum(value) {
+  //英文或者数字
+  var reg = /^[0-9a-zA-Z]*$/g;
+  return reg.test(value);
+}
+
+/**
+   * 验证是否包含某个值
+   */
+function contains(value, param) {
+  return value.indexOf(param) >= 0;
+}
+
+/**
+   * 验证一个值范围[min, max]
+   */
+function range(value, param) {
+  return value >= param[0] && value <= param[1];
+}
+
+/**
+   * 验证一个长度范围[min, max]
+   */
+function rangeLength(value, param) {
+  return value.length >= param[0] && value.length <= param[1];
+}
+
+/**
+   * 是否固定电话
+   */
+function landline(value) {
+  var reg = /^\d{3,4}-\d{7,8}(-\d{3,4})?$/;
+  return reg.test(value);
+}
+
+/**
+   * 判断是否为空
+   */
+function empty(value) {
+  switch (typeof value) {
+    case 'undefined':
+      return true;
+    case 'string':
+      if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
+      break;
+    case 'boolean':
+      if (!value) return true;
+      break;
+    case 'number':
+      if (0 === value || isNaN(value)) return true;
+      break;
+    case 'object':
+      if (null === value || value.length === 0) return true;
+      for (var i in value) {
+        return false;
+      }
+      return true;}
+
+  return false;
+}
+
+/**
+   * 是否json字符串
+   */
+function jsonString(value) {
+  if (typeof value == 'string') {
+    try {
+      var obj = JSON.parse(value);
+      if (typeof obj == 'object' && obj) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (e) {
+      return false;
+    }
+  }
+  return false;
+}
+
+
+/**
+   * 是否数组
+   */
+function array(value) {
+  if (typeof Array.isArray === "function") {
+    return Array.isArray(value);
+  } else {
+    return Object.prototype.toString.call(value) === "[object Array]";
+  }
+}
+
+
+/**
+   * 是否对象
+   */
+function object(value) {
+  return Object.prototype.toString.call(value) === '[object Object]';
+}var _default =
+
+
+{
+  email: email,
+  mobile: mobile,
+  url: url,
+  date: date,
+  dateISO: dateISO,
+  number: number,
+  digits: digits,
+  idCard: idCard,
+  carNo: carNo,
+  amount: amount,
+  chinese: chinese,
+  letter: letter,
+  enOrNum: enOrNum,
+  contains: contains,
+  range: range,
+  rangeLength: rangeLength,
+  empty: empty,
+  isEmpty: empty,
+  jsonString: jsonString,
+  landline: landline,
+  object: object,
+  array: array };exports.default = _default;
+
+/***/ }),
+/* 166 */
+/*!**********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/queryParams.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 对象转url参数
+                                                                                                      * @param {*} data,对象
+                                                                                                      * @param {*} isPrefix,是否自动加上"?"
+                                                                                                      */
+function queryParams() {var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var isPrefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var arrayFormat = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'brackets';
+  var prefix = isPrefix ? '?' : '';
+  var _result = [];
+  if (['indices', 'brackets', 'repeat', 'comma'].indexOf(arrayFormat) == -1) arrayFormat = 'brackets';var _loop = function _loop(
+  key) {
+    var value = data[key];
+    // 去掉为空的参数
+    if (['', undefined, null].indexOf(value) >= 0) {
+      return "continue";
+    }
+    // 如果值为数组，另行处理
+    if (value.constructor === Array) {
+      // e.g. {ids: [1, 2, 3]}
+      switch (arrayFormat) {
+        case 'indices':
+          // 结果: ids[0]=1&ids[1]=2&ids[2]=3
+          for (var i = 0; i < value.length; i++) {
+            _result.push(key + '[' + i + ']=' + value[i]);
+          }
+          break;
+        case 'brackets':
+          // 结果: ids[]=1&ids[]=2&ids[]=3
+          value.forEach(function (_value) {
+            _result.push(key + '[]=' + _value);
+          });
+          break;
+        case 'repeat':
+          // 结果: ids=1&ids=2&ids=3
+          value.forEach(function (_value) {
+            _result.push(key + '=' + _value);
+          });
+          break;
+        case 'comma':
+          // 结果: ids=1,2,3
+          var commaStr = "";
+          value.forEach(function (_value) {
+            commaStr += (commaStr ? "," : "") + _value;
+          });
+          _result.push(key + '=' + commaStr);
+          break;
+        default:
+          value.forEach(function (_value) {
+            _result.push(key + '[]=' + _value);
+          });}
+
+    } else {
+      _result.push(key + '=' + value);
+    }};for (var key in data) {var _ret = _loop(key);if (_ret === "continue") continue;
+  }
+  return _result.length ? prefix + _result.join('&') : '';
+}var _default =
+
+queryParams;exports.default = _default;
+
+/***/ }),
+/* 167 */
+/*!****************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/route.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 166));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+/**
+                                                                                                                                                                                                                                                                                            * 路由跳转
+                                                                                                                                                                                                                                                                                            * 注意:本方法没有对跳转的回调函数进行封装
+                                                                                                                                                                                                                                                                                            */
+function route() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  var config = {
+    type: 'navigateTo',
+    url: '',
+    delta: 1, // navigateBack页面后退时,回退的层数
+    params: {}, // 传递的参数
+    animationType: 'pop-in', // 窗口动画,只在APP有效
+    animationDuration: 300 // 窗口动画持续时间,单位毫秒,只在APP有效
+  };
+  config = Object.assign(config, options);
+  // 如果url没有"/"开头，添加上，因为uni的路由跳转需要"/"开头
+  if (config.url[0] != '/') config.url = '/' + config.url;
+  // 判断是否有传递显式的参数,Object.keys转为数组并判断长度,switchTab类型时不能携带参数
+  if (Object.keys(config.params).length && config.type != 'switchTab') {
+    // 判断用户传递的url中，是否带有参数
+    // 使用正则匹配，主要依据是判断是否有"/","?","="等，如“/page/index/index?name=mary"
+    // 如果有url中有get参数，转换后无需带上"?"
+    var query = '';
+    if (/.*\/.*\?.*=.*/.test(config.url)) {
+      // object对象转为get类型的参数
+      query = (0, _queryParams.default)(config.params, false);
+      // 因为已有get参数,所以后面拼接的参数需要带上"&"隔开
+      config.url += "&" + query;
+    } else {
+      query = (0, _queryParams.default)(config.params);
+      config.url += query;
+    }
+  }
+  // 简写形式，把url和参数拼接起来
+  if (typeof options === 'string' && typeof params == 'object') {
+    var _query = '';
+    if (/.*\/.*\?.*=.*/.test(options)) {
+      // object对象转为get类型的参数
+      _query = (0, _queryParams.default)(params, false);
+      // 因为已有get参数,所以后面拼接的参数需要带上"&"隔开
+      options += "&" + _query;
+    } else {
+      _query = (0, _queryParams.default)(params);
+      options += _query;
+    }
+  }
+  // 判断是否一个字符串，如果是，直接跳转(简写法)
+  // 如果是中情形，默认第二个参数为对象形式的参数
+  if (typeof options === 'string') {
+    if (options[0] != '/') options = '/' + options;
+    return uni.navigateTo({
+      url: options });
+
+  }
+  // navigateTo类型的跳转
+  if (config.type == 'navigateTo' || config.type == 'to') {
+    return uni.navigateTo({
+      url: config.url,
+      animationType: config.animationType,
+      animationDuration: config.animationDuration });
+
+  }
+  if (config.type == 'redirectTo' || config.type == 'redirect') {
+    return uni.redirectTo({
+      url: config.url });
+
+  }
+  if (config.type == 'switchTab' || config.type == 'tab') {
+    return uni.switchTab({
+      url: config.url });
+
+  }
+  if (config.type == 'reLaunch') {
+    return uni.reLaunch({
+      url: config.url });
+
+  }
+  if (config.type == 'navigateBack' || config.type == 'back') {
+    return uni.navigateBack({
+      delta: parseInt(config.delta ? config.delta : this.delta) });
+
+  }
+}var _default =
+
+route;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 168 */
+/*!*********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/timeFormat.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function timeFormat() {var timestamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;var fmt = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-mm-dd';
+  // 其他更多是格式化有如下:
+  // yyyy:mm:dd|yyyy:mm|yyyy年mm月dd日|yyyy年mm月dd日 hh时MM分等,可自定义组合
+  timestamp = parseInt(timestamp);
+  // 如果为null,则格式化当前时间
+  if (!timestamp) timestamp = Number(new Date());
+  // 判断用户输入的时间戳是秒还是毫秒,一般前端js获取的时间戳是毫秒(13位),后端传过来的为秒(10位)
+  if (timestamp.toString().length == 10) timestamp *= 1000;
+  var date = new Date(timestamp);
+  var ret;
+  var opt = {
+    "y+": date.getFullYear().toString(), // 年
+    "m+": (date.getMonth() + 1).toString(), // 月
+    "d+": date.getDate().toString(), // 日
+    "h+": date.getHours().toString(), // 时
+    "M+": date.getMinutes().toString(), // 分
+    "s+": date.getSeconds().toString() // 秒
+    // 有其他格式化字符需求可以继续添加，必须转化成字符串
+  };
+  for (var k in opt) {
+    ret = new RegExp("(" + k + ")").exec(fmt);
+    if (ret) {
+      fmt = fmt.replace(ret[1], ret[1].length == 1 ? opt[k] : opt[k].padStart(ret[1].length, "0"));
+    };
+  };
+  return fmt;
+}var _default =
+
+timeFormat;exports.default = _default;
+
+/***/ }),
+/* 169 */
+/*!*******************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/timeFrom.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 168));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+/**
+                                                                                                                                                                                                                                                                                          * 时间戳转为多久之前
+                                                                                                                                                                                                                                                                                          * @param String timestamp 时间戳
+                                                                                                                                                                                                                                                                                          * @param String | Boolean format 如果为时间格式字符串，超出一定时间范围，返回固定的时间格式；
+                                                                                                                                                                                                                                                                                          * 如果为布尔值false，无论什么时间，都返回多久以前的格式
+                                                                                                                                                                                                                                                                                          */
+function timeFrom() {var timestamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;var format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-mm-dd';
+  if (timestamp == null) timestamp = Number(new Date());
+  timestamp = parseInt(timestamp);
+  // 判断用户输入的时间戳是秒还是毫秒,一般前端js获取的时间戳是毫秒(13位),后端传过来的为秒(10位)
+  if (timestamp.toString().length == 10) timestamp *= 1000;
+  var timer = new Date().getTime() - timestamp;
+  timer = parseInt(timer / 1000);
+  // 如果小于5分钟,则返回"刚刚",其他以此类推
+  var tips = '';
+  switch (true) {
+    case timer < 300:
+      tips = '刚刚';
+      break;
+    case timer >= 300 && timer < 3600:
+      tips = parseInt(timer / 60) + '分钟前';
+      break;
+    case timer >= 3600 && timer < 86400:
+      tips = parseInt(timer / 3600) + '小时前';
+      break;
+    case timer >= 86400 && timer < 2592000:
+      tips = parseInt(timer / 86400) + '天前';
+      break;
+    default:
+      // 如果format为false，则无论什么时间戳，都显示xx之前
+      if (format === false) {
+        if (timer >= 2592000 && timer < 365 * 86400) {
+          tips = parseInt(timer / (86400 * 30)) + '个月前';
+        } else {
+          tips = parseInt(timer / (86400 * 365)) + '年前';
+        }
+      } else {
+        tips = (0, _timeFormat.default)(timestamp, format);
+      }}
+
+  return tips;
+}var _default =
+
+timeFrom;exports.default = _default;
+
+/***/ }),
+/* 170 */
+/*!************************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/colorGradient.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 求两个颜色之间的渐变值
+                                                                                                      * @param {string} startColor 开始的颜色
+                                                                                                      * @param {string} endColor 结束的颜色
+                                                                                                      * @param {number} step 颜色等分的份额
+                                                                                                      * */
+function colorGradient() {var startColor = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'rgb(0, 0, 0)';var endColor = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rgb(255, 255, 255)';var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
+  var startRGB = hexToRgb(startColor, false); //转换为rgb数组模式
+  var startR = startRGB[0];
+  var startG = startRGB[1];
+  var startB = startRGB[2];
+
+  var endRGB = hexToRgb(endColor, false);
+  var endR = endRGB[0];
+  var endG = endRGB[1];
+  var endB = endRGB[2];
+
+  var sR = (endR - startR) / step; //总差值
+  var sG = (endG - startG) / step;
+  var sB = (endB - startB) / step;
+  var colorArr = [];
+  for (var i = 0; i < step; i++) {
+    //计算每一步的hex值 
+    var hex = rgbToHex('rgb(' + Math.round(sR * i + startR) + ',' + Math.round(sG * i + startG) + ',' + Math.round(sB *
+    i + startB) + ')');
+    colorArr.push(hex);
+  }
+  return colorArr;
+}
+
+// 将hex表示方式转换为rgb表示方式(这里返回rgb数组模式)
+function hexToRgb(sColor) {var str = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+  sColor = sColor.toLowerCase();
+  if (sColor && reg.test(sColor)) {
+    if (sColor.length === 4) {
+      var sColorNew = "#";
+      for (var i = 1; i < 4; i += 1) {
+        sColorNew += sColor.slice(i, i + 1).concat(sColor.slice(i, i + 1));
+      }
+      sColor = sColorNew;
+    }
+    //处理六位的颜色值
+    var sColorChange = [];
+    for (var _i = 1; _i < 7; _i += 2) {
+      sColorChange.push(parseInt("0x" + sColor.slice(_i, _i + 2)));
+    }
+    if (!str) {
+      return sColorChange;
+    } else {
+      return "rgb(".concat(sColorChange[0], ",").concat(sColorChange[1], ",").concat(sColorChange[2], ")");
+    }
+  } else if (/^(rgb|RGB)/.test(sColor)) {
+    var arr = sColor.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
+    return arr.map(function (val) {return Number(val);});
+  } else {
+    return sColor;
+  }
+};
+
+// 将rgb表示方式转换为hex表示方式
+function rgbToHex(rgb) {
+  var _this = rgb;
+  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+  if (/^(rgb|RGB)/.test(_this)) {
+    var aColor = _this.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
+    var strHex = "#";
+    for (var i = 0; i < aColor.length; i++) {
+      var hex = Number(aColor[i]).toString(16);
+      hex = String(hex).length == 1 ? 0 + '' + hex : hex; // 保证每个rgb的值为2位
+      if (hex === "0") {
+        hex += hex;
+      }
+      strHex += hex;
+    }
+    if (strHex.length !== 7) {
+      strHex = _this;
+    }
+    return strHex;
+  } else if (reg.test(_this)) {
+    var aNum = _this.replace(/#/, "").split("");
+    if (aNum.length === 6) {
+      return _this;
+    } else if (aNum.length === 3) {
+      var numHex = "#";
+      for (var _i2 = 0; _i2 < aNum.length; _i2 += 1) {
+        numHex += aNum[_i2] + aNum[_i2];
+      }
+      return numHex;
+    }
+  } else {
+    return _this;
+  }
+}var _default =
+
+{
+  colorGradient: colorGradient,
+  hexToRgb: hexToRgb,
+  rgbToHex: rgbToHex };exports.default = _default;
+
+/***/ }),
+/* 171 */
+/*!***************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/guid.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 本算法来源于简书开源代码，详见：https://www.jianshu.com/p/fdbf293d0a85
+                                                                                                      * 全局唯一标识符（uuid，Globally Unique Identifier）,也称作 uuid(Universally Unique IDentifier) 
+                                                                                                      * 一般用于多个组件之间,给它一个唯一的标识符,或者v-for循环的时候,如果使用数组的index可能会导致更新列表出现问题
+                                                                                                      * 最可能的情况是左滑删除item或者对某条信息流"不喜欢"并去掉它的时候,会导致组件内的数据可能出现错乱
+                                                                                                      * v-for的时候,推荐使用后端返回的id而不是循环的index
+                                                                                                      * @param {Number} len uuid的长度
+                                                                                                      * @param {Boolean} firstU 将返回的首字母置为"u"
+                                                                                                      * @param {Nubmer} radix 生成uuid的基数(意味着返回的字符串都是这个基数),2-二进制,8-八进制,10-十进制,16-十六进制
+                                                                                                      */
+function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 32;var firstU = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var radix = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+  var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
+  var uuid = [];
+  radix = radix || chars.length;
+
+  if (len) {
+    // 如果指定uuid长度,只是取随机的字符,0|x为位运算,能去掉x的小数位,返回整数位
+    for (var i = 0; i < len; i++) {uuid[i] = chars[0 | Math.random() * radix];}
+  } else {
+    var r;
+    // rfc4122标准要求返回的uuid中,某些位为固定的字符
+    uuid[8] = uuid[13] = uuid[18] = uuid[23] = '-';
+    uuid[14] = '4';
+
+    for (var _i = 0; _i < 36; _i++) {
+      if (!uuid[_i]) {
+        r = 0 | Math.random() * 16;
+        uuid[_i] = chars[_i == 19 ? r & 0x3 | 0x8 : r];
+      }
+    }
+  }
+  // 移除第一个字符,并用u替代,因为第一个字符为数值时,该guuid不能用作id或者class
+  if (firstU) {
+    uuid.shift();
+    return 'u' + uuid.join('');
+  } else {
+    return uuid.join('');
+  }
+}var _default =
+
+guid;exports.default = _default;
+
+/***/ }),
+/* 172 */
+/*!****************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/color.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 为了让用户能够自定义主题，会逐步弃用此文件，各颜色通过css提供
+// 为了给某些特殊场景使用和向后兼容，无需删除此文件(2020-06-20)
+var color = {
+  primary: "#2979ff",
+  primaryDark: "#2b85e4",
+  primaryDisabled: "#a0cfff",
+  primaryLight: "#ecf5ff",
+  bgColor: "#f3f4f6",
+
+  info: "#909399",
+  infoDark: "#82848a",
+  infoDisabled: "#c8c9cc",
+  infoLight: "#f4f4f5",
+
+  warning: "#ff9900",
+  warningDark: "#f29100",
+  warningDisabled: "#fcbd71",
+  warningLight: "#fdf6ec",
+
+  error: "#fa3534",
+  errorDark: "#dd6161",
+  errorDisabled: "#fab6b6",
+  errorLight: "#fef0f0",
+
+  success: "#19be6b",
+  successDark: "#18b566",
+  successDisabled: "#71d5a1",
+  successLight: "#dbf1e1",
+
+  mainColor: "#303133",
+  contentColor: "#606266",
+  tipsColor: "#909399",
+  lightColor: "#c0c4cc",
+  borderColor: "#e4e7ed" };var _default =
+
+
+color;exports.default = _default;
+
+/***/ }),
+/* 173 */
+/*!********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/type2icon.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 根据主题type值,获取对应的图标
+                                                                                                      * @param String type 主题名称,primary|info|error|warning|success
+                                                                                                      * @param String fill 是否使用fill填充实体的图标  
+                                                                                                      */
+function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'success';var fill = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  // 如果非预置值,默认为success
+  if (['primary', 'info', 'error', 'warning', 'success'].indexOf(type) == -1) type = 'success';
+  var iconName = '';
+  // 目前(2019-12-12),info和primary使用同一个图标
+  switch (type) {
+    case 'primary':
+      iconName = 'info-circle';
+      break;
+    case 'info':
+      iconName = 'info-circle';
+      break;
+    case 'error':
+      iconName = 'close-circle';
+      break;
+    case 'warning':
+      iconName = 'error-circle';
+      break;
+    case 'success':
+      iconName = 'checkmark-circle';
+      break;
+    default:
+      iconName = 'checkmark-circle';}
+
+  // 是否是实体类型,加上-fill,在icon组件库中,实体的类名是后面加-fill的
+  if (fill) iconName += '-fill';
+  return iconName;
+}var _default =
+
+type2icon;exports.default = _default;
+
+/***/ }),
+/* 174 */
+/*!**********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/randomArray.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 打乱数组
+function randomArray() {var array = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  // 原理是sort排序,Math.random()产生0<= x < 1之间的数,会导致x-0.05大于或者小于0
+  return array.sort(function () {return Math.random() - 0.5;});
+}var _default =
+
+randomArray;exports.default = _default;
+
+/***/ }),
+/* 175 */
+/*!******************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/addUnit.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 165));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
+function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
+  value = String(value);
+  // 用uView内置验证规则中的number判断是否为数值
+  return _test.default.number(value) ? "".concat(value).concat(unit) : value;
+}
+
+/***/ }),
+/* 176 */
+/*!*****************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/random.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function random(min, max) {
+  if (min >= 0 && max > 0 && max >= min) {
+    var gab = max - min + 1;
+    return Math.floor(Math.random() * gab + min);
+  } else {
+    return 0;
+  }
+}var _default =
+
+random;exports.default = _default;
+
+/***/ }),
+/* 177 */
+/*!***************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/trim.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function trim(str) {var pos = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'both';
+  if (pos == 'both') {
+    return str.replace(/^\s+|\s+$/g, "");
+  } else if (pos == "left") {
+    return str.replace(/^\s*/, '');
+  } else if (pos == 'right') {
+    return str.replace(/(\s*$)/g, "");
+  } else if (pos == 'all') {
+    return str.replace(/\s+/g, "");
+  } else {
+    return str;
+  }
+}var _default =
+
+trim;exports.default = _default;
+
+/***/ }),
+/* 178 */
+/*!****************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/toast.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
+  uni.showToast({
+    title: title,
+    icon: 'none',
+    duration: duration });
+
+}var _default =
+
+toast;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 179 */
+/*!********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/getParent.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = getParent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+function getParent(name, keys) {
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {var _ret = function () {
+        var data = {};
+        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
+        if (Array.isArray(keys)) {
+          keys.map(function (val) {
+            data[val] = parent[val] ? parent[val] : '';
+          });
+        } else {
+          // 历遍传过来的对象参数
+          for (var i in keys) {
+            // 如果子组件有此值则用，无此值则用父组件的值
+            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
+            if (Array.isArray(keys[i])) {
+              if (keys[i].length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else if (keys[i].constructor === Object) {
+              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
+              if (Object.keys(keys[i]).length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else {
+              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
+              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
+            }
+          }
+        }
+        return { v: data };}();if (typeof _ret === "object") return _ret.v;
+    }
+  }
+
+  return {};
+}
+
+/***/ }),
+/* 180 */
+/*!******************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/$parent.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+function $parent(name, keys) {
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {
+      return parent;
+    }
+  }
+  return false;
+}
+
+/***/ }),
+/* 181 */
+/*!***************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/config/config.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 此版本发布于2020-07-28
+var version = '1.5.6';var _default =
+
+{
+  v: version,
+  version: version,
+  // 主题名称
+  type: [
+  'primary',
+  'success',
+  'info',
+  'error',
+  'warning'] };exports.default = _default;
+
+/***/ }),
+/* 182 */
+/*!***************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/config/zIndex.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // uniapp在H5中各API的z-index值如下：
+/**
+ * actionsheet: 999
+ * modal: 999
+ * navigate: 998
+ * tabbar: 998
+ * toast: 999
+ */var _default =
+
+{
+  toast: 10090,
+  noNetwork: 10080,
+  // popup包含popup，actionsheet，keyboard，picker的值
+  popup: 10075,
+  mask: 10070,
+  navbar: 980,
+  topTips: 975,
+  sticky: 970,
+  indexListSticky: 965 };exports.default = _default;
+
+/***/ }),
+/* 183 */,
+/* 184 */,
+/* 185 */,
+/* 186 */,
+/* 187 */,
+/* 188 */,
+/* 189 */,
+/* 190 */,
+/* 191 */,
+/* 192 */,
+/* 193 */,
+/* 194 */,
+/* 195 */,
+/* 196 */,
+/* 197 */,
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */
+/*!**************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/util/emitter.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 递归使用 call 方式this指向
+                                                                                                      * @param componentName // 需要找的组件的名称
+                                                                                                      * @param eventName // 事件名称
+                                                                                                      * @param params // 需要传递的参数
+                                                                                                      */
+function _broadcast(componentName, eventName, params) {
+  // 循环子节点找到名称一样的子节点 否则 递归 当前子节点
+  this.$children.map(function (child) {
+    if (componentName === child.$options.name) {
+      child.$emit.apply(child, [eventName].concat(params));
+    } else {
+      _broadcast.apply(child, [componentName, eventName].concat(params));
+    }
+  });
+}var _default =
+{
+  methods: {
+    /**
+              * 派发 (向上查找) (一个)
+              * @param componentName // 需要找的组件的名称
+              * @param eventName // 事件名称
+              * @param params // 需要传递的参数
+              */
+    dispatch: function dispatch(componentName, eventName, params) {
+      var parent = this.$parent || this.$root; //$parent 找到最近的父节点 $root 根节点
+      var name = parent.$options.name; // 获取当前组件实例的name
+      // 如果当前有节点 && 当前没名称 且 当前名称等于需要传进来的名称的时候就去查找当前的节点
+      // 循环出当前名称的一样的组件实例
+      while (parent && (!name || name !== componentName)) {
+        parent = parent.$parent;
+        if (parent) {
+          name = parent.$options.name;
+        }
+      }
+      // 有节点表示当前找到了name一样的实例
+      if (parent) {
+        parent.$emit.apply(parent, [eventName].concat(params));
+      }
+    },
+    /**
+        * 广播 (向下查找) (广播多个)
+        * @param componentName // 需要找的组件的名称
+        * @param eventName // 事件名称
+        * @param params // 需要传递的参数
+        */
+    broadcast: function broadcast(componentName, eventName, params) {
+      _broadcast.call(this, componentName, eventName, params);
+    } } };exports.default = _default;
+
+/***/ }),
+/* 202 */
+/*!**********************************************************************************!*\
+  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/util/async-validator.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+/* eslint no-console:0 */
+var formatRegExp = /%[sdj%]/g;
+var warning = function warning() {}; // don't print warning message when in production env or node runtime
+
+if (typeof process !== 'undefined' && Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}) && "development" !== 'production' && typeof window !==
+'undefined' && typeof document !== 'undefined') {
+  warning = function warning(type, errors) {
+    if (typeof console !== 'undefined' && console.warn) {
+      if (errors.every(function (e) {
+        return typeof e === 'string';
+      })) {
+        console.warn(type, errors);
+      }
+    }
+  };
+}
+
+function convertFieldsError(errors) {
+  if (!errors || !errors.length) return null;
+  var fields = {};
+  errors.forEach(function (error) {
+    var field = error.field;
+    fields[field] = fields[field] || [];
+    fields[field].push(error);
+  });
+  return fields;
+}
+
+function format() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  var i = 1;
+  var f = args[0];
+  var len = args.length;
+
+  if (typeof f === 'function') {
+    return f.apply(null, args.slice(1));
+  }
+
+  if (typeof f === 'string') {
+    var str = String(f).replace(formatRegExp, function (x) {
+      if (x === '%%') {
+        return '%';
+      }
+
+      if (i >= len) {
+        return x;
+      }
+
+      switch (x) {
+        case '%s':
+          return String(args[i++]);
+
+        case '%d':
+          return Number(args[i++]);
+
+        case '%j':
+          try {
+            return JSON.stringify(args[i++]);
+          } catch (_) {
+            return '[Circular]';
+          }
+
+          break;
+
+        default:
+          return x;}
+
+    });
+
+    for (var arg = args[i]; i < len; arg = args[++i]) {
+      str += " " + arg;
+    }
+
+    return str;
+  }
+
+  return f;
+}
+
+function isNativeStringType(type) {
+  return type === 'string' || type === 'url' || type === 'hex' || type === 'email' || type === 'pattern';
+}
+
+function isEmptyValue(value, type) {
+  if (value === undefined || value === null) {
+    return true;
+  }
+
+  if (type === 'array' && Array.isArray(value) && !value.length) {
+    return true;
+  }
+
+  if (isNativeStringType(type) && typeof value === 'string' && !value) {
+    return true;
+  }
+
+  return false;
+}
+
+function asyncParallelArray(arr, func, callback) {
+  var results = [];
+  var total = 0;
+  var arrLength = arr.length;
+
+  function count(errors) {
+    results.push.apply(results, errors);
+    total++;
+
+    if (total === arrLength) {
+      callback(results);
+    }
+  }
+
+  arr.forEach(function (a) {
+    func(a, count);
+  });
+}
+
+function asyncSerialArray(arr, func, callback) {
+  var index = 0;
+  var arrLength = arr.length;
+
+  function next(errors) {
+    if (errors && errors.length) {
+      callback(errors);
+      return;
+    }
+
+    var original = index;
+    index = index + 1;
+
+    if (original < arrLength) {
+      func(arr[original], next);
+    } else {
+      callback([]);
+    }
+  }
+
+  next([]);
+}
+
+function flattenObjArr(objArr) {
+  var ret = [];
+  Object.keys(objArr).forEach(function (k) {
+    ret.push.apply(ret, objArr[k]);
+  });
+  return ret;
+}
+
+function asyncMap(objArr, option, func, callback) {
+  if (option.first) {
+    var _pending = new Promise(function (resolve, reject) {
+      var next = function next(errors) {
+        callback(errors);
+        return errors.length ? reject({
+          errors: errors,
+          fields: convertFieldsError(errors) }) :
+        resolve();
+      };
+
+      var flattenArr = flattenObjArr(objArr);
+      asyncSerialArray(flattenArr, func, next);
+    });
+
+    _pending["catch"](function (e) {
+      return e;
+    });
+
+    return _pending;
+  }
+
+  var firstFields = option.firstFields || [];
+
+  if (firstFields === true) {
+    firstFields = Object.keys(objArr);
+  }
+
+  var objArrKeys = Object.keys(objArr);
+  var objArrLength = objArrKeys.length;
+  var total = 0;
+  var results = [];
+  var pending = new Promise(function (resolve, reject) {
+    var next = function next(errors) {
+      results.push.apply(results, errors);
+      total++;
+
+      if (total === objArrLength) {
+        callback(results);
+        return results.length ? reject({
+          errors: results,
+          fields: convertFieldsError(results) }) :
+        resolve();
+      }
+    };
+
+    if (!objArrKeys.length) {
+      callback(results);
+      resolve();
+    }
+
+    objArrKeys.forEach(function (key) {
+      var arr = objArr[key];
+
+      if (firstFields.indexOf(key) !== -1) {
+        asyncSerialArray(arr, func, next);
+      } else {
+        asyncParallelArray(arr, func, next);
+      }
+    });
+  });
+  pending["catch"](function (e) {
+    return e;
+  });
+  return pending;
+}
+
+function complementError(rule) {
+  return function (oe) {
+    if (oe && oe.message) {
+      oe.field = oe.field || rule.fullField;
+      return oe;
+    }
+
+    return {
+      message: typeof oe === 'function' ? oe() : oe,
+      field: oe.field || rule.fullField };
+
+  };
+}
+
+function deepMerge(target, source) {
+  if (source) {
+    for (var s in source) {
+      if (source.hasOwnProperty(s)) {
+        var value = source[s];
+
+        if (typeof value === 'object' && typeof target[s] === 'object') {
+          target[s] = _extends({}, target[s], {}, value);
+        } else {
+          target[s] = value;
+        }
+      }
+    }
+  }
+
+  return target;
+}
+
+/**
+   *  Rule for validating required fields.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param source The source object being validated.
+   *  @param errors An array of errors that this rule may add
+   *  validation errors to.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function required(rule, value, source, errors, options, type) {
+  if (rule.required && (!source.hasOwnProperty(rule.field) || isEmptyValue(value, type || rule.type))) {
+    errors.push(format(options.messages.required, rule.fullField));
+  }
+}
+
+/**
+   *  Rule for validating whitespace.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param source The source object being validated.
+   *  @param errors An array of errors that this rule may add
+   *  validation errors to.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function whitespace(rule, value, source, errors, options) {
+  if (/^\s+$/.test(value) || value === '') {
+    errors.push(format(options.messages.whitespace, rule.fullField));
+  }
+}
+
+/* eslint max-len:0 */
+
+var pattern = {
+  // http://emailregex.com/
+  email: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+  url: new RegExp(
+  "^(?!mailto:)(?:(?:http|https|ftp)://|//)(?:\\S+(?::\\S*)?@)?(?:(?:(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}(?:\\.(?:[0-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))|(?:(?:[a-z\\u00a1-\\uffff0-9]+-*)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]+-*)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.(?:[a-z\\u00a1-\\uffff]{2,})))|localhost)(?::\\d{2,5})?(?:(/|\\?|#)[^\\s]*)?$",
+  'i'),
+  hex: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/i };
+
+var types = {
+  integer: function integer(value) {
+    return types.number(value) && parseInt(value, 10) === value;
+  },
+  "float": function _float(value) {
+    return types.number(value) && !types.integer(value);
+  },
+  array: function array(value) {
+    return Array.isArray(value);
+  },
+  regexp: function regexp(value) {
+    if (value instanceof RegExp) {
+      return true;
+    }
+
+    try {
+      return !!new RegExp(value);
+    } catch (e) {
+      return false;
+    }
+  },
+  date: function date(value) {
+    return typeof value.getTime === 'function' && typeof value.getMonth === 'function' && typeof value.getYear ===
+    'function';
+  },
+  number: function number(value) {
+    if (isNaN(value)) {
+      return false;
+    }
+
+    // 修改源码，将字符串数值先转为数值
+    return typeof +value === 'number';
+  },
+  object: function object(value) {
+    return typeof value === 'object' && !types.array(value);
+  },
+  method: function method(value) {
+    return typeof value === 'function';
+  },
+  email: function email(value) {
+    return typeof value === 'string' && !!value.match(pattern.email) && value.length < 255;
+  },
+  url: function url(value) {
+    return typeof value === 'string' && !!value.match(pattern.url);
+  },
+  hex: function hex(value) {
+    return typeof value === 'string' && !!value.match(pattern.hex);
+  } };
+
+/**
+        *  Rule for validating the type of a value.
+        *
+        *  @param rule The validation rule.
+        *  @param value The value of the field on the source object.
+        *  @param source The source object being validated.
+        *  @param errors An array of errors that this rule may add
+        *  validation errors to.
+        *  @param options The validation options.
+        *  @param options.messages The validation messages.
+        */
+
+function type(rule, value, source, errors, options) {
+  if (rule.required && value === undefined) {
+    required(rule, value, source, errors, options);
+    return;
+  }
+
+  var custom = ['integer', 'float', 'array', 'regexp', 'object', 'method', 'email', 'number', 'date', 'url', 'hex'];
+  var ruleType = rule.type;
+
+  if (custom.indexOf(ruleType) > -1) {
+    if (!types[ruleType](value)) {
+      errors.push(format(options.messages.types[ruleType], rule.fullField, rule.type));
+    } // straight typeof check
+
+  } else if (ruleType && typeof value !== rule.type) {
+    errors.push(format(options.messages.types[ruleType], rule.fullField, rule.type));
+  }
+}
+
+/**
+   *  Rule for validating minimum and maximum allowed values.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param source The source object being validated.
+   *  @param errors An array of errors that this rule may add
+   *  validation errors to.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function range(rule, value, source, errors, options) {
+  var len = typeof rule.len === 'number';
+  var min = typeof rule.min === 'number';
+  var max = typeof rule.max === 'number'; // 正则匹配码点范围从U+010000一直到U+10FFFF的文字（补充平面Supplementary Plane）
+
+  var spRegexp = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g;
+  var val = value;
+  var key = null;
+  var num = typeof value === 'number';
+  var str = typeof value === 'string';
+  var arr = Array.isArray(value);
+
+  if (num) {
+    key = 'number';
+  } else if (str) {
+    key = 'string';
+  } else if (arr) {
+    key = 'array';
+  } // if the value is not of a supported type for range validation
+  // the validation rule rule should use the
+  // type property to also test for a particular type
+
+
+  if (!key) {
+    return false;
+  }
+
+  if (arr) {
+    val = value.length;
+  }
+
+  if (str) {
+    // 处理码点大于U+010000的文字length属性不准确的bug，如"𠮷𠮷𠮷".lenght !== 3
+    val = value.replace(spRegexp, '_').length;
+  }
+
+  if (len) {
+    if (val !== rule.len) {
+      errors.push(format(options.messages[key].len, rule.fullField, rule.len));
+    }
+  } else if (min && !max && val < rule.min) {
+    errors.push(format(options.messages[key].min, rule.fullField, rule.min));
+  } else if (max && !min && val > rule.max) {
+    errors.push(format(options.messages[key].max, rule.fullField, rule.max));
+  } else if (min && max && (val < rule.min || val > rule.max)) {
+    errors.push(format(options.messages[key].range, rule.fullField, rule.min, rule.max));
+  }
+}
+
+var ENUM = 'enum';
+/**
+                    *  Rule for validating a value exists in an enumerable list.
+                    *
+                    *  @param rule The validation rule.
+                    *  @param value The value of the field on the source object.
+                    *  @param source The source object being validated.
+                    *  @param errors An array of errors that this rule may add
+                    *  validation errors to.
+                    *  @param options The validation options.
+                    *  @param options.messages The validation messages.
+                    */
+
+function enumerable(rule, value, source, errors, options) {
+  rule[ENUM] = Array.isArray(rule[ENUM]) ? rule[ENUM] : [];
+
+  if (rule[ENUM].indexOf(value) === -1) {
+    errors.push(format(options.messages[ENUM], rule.fullField, rule[ENUM].join(', ')));
+  }
+}
+
+/**
+   *  Rule for validating a regular expression pattern.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param source The source object being validated.
+   *  @param errors An array of errors that this rule may add
+   *  validation errors to.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function pattern$1(rule, value, source, errors, options) {
+  if (rule.pattern) {
+    if (rule.pattern instanceof RegExp) {
+      // if a RegExp instance is passed, reset `lastIndex` in case its `global`
+      // flag is accidentally set to `true`, which in a validation scenario
+      // is not necessary and the result might be misleading
+      rule.pattern.lastIndex = 0;
+
+      if (!rule.pattern.test(value)) {
+        errors.push(format(options.messages.pattern.mismatch, rule.fullField, value, rule.pattern));
+      }
+    } else if (typeof rule.pattern === 'string') {
+      var _pattern = new RegExp(rule.pattern);
+
+      if (!_pattern.test(value)) {
+        errors.push(format(options.messages.pattern.mismatch, rule.fullField, value, rule.pattern));
+      }
+    }
+  }
+}
+
+var rules = {
+  required: required,
+  whitespace: whitespace,
+  type: type,
+  range: range,
+  "enum": enumerable,
+  pattern: pattern$1 };
+
+
+/**
+                         *  Performs validation for string types.
+                         *
+                         *  @param rule The validation rule.
+                         *  @param value The value of the field on the source object.
+                         *  @param callback The callback function.
+                         *  @param source The source object being validated.
+                         *  @param options The validation options.
+                         *  @param options.messages The validation messages.
+                         */
+
+function string(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, 'string') && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options, 'string');
+
+    if (!isEmptyValue(value, 'string')) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+      rules.pattern(rule, value, source, errors, options);
+
+      if (rule.whitespace === true) {
+        rules.whitespace(rule, value, source, errors, options);
+      }
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates a function.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function method(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates a number.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function number(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (value === '') {
+      value = undefined;
+    }
+
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates a boolean.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function _boolean(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates the regular expression type.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function regexp(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (!isEmptyValue(value)) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates a number is an integer.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function integer(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates a number is a floating point number.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function floatFn(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates an array.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function array(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, 'array') && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options, 'array');
+
+    if (!isEmptyValue(value, 'array')) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates an object.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function object(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+var ENUM$1 = 'enum';
+/**
+                      *  Validates an enumerable list.
+                      *
+                      *  @param rule The validation rule.
+                      *  @param value The value of the field on the source object.
+                      *  @param callback The callback function.
+                      *  @param source The source object being validated.
+                      *  @param options The validation options.
+                      *  @param options.messages The validation messages.
+                      */
+
+function enumerable$1(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules[ENUM$1](rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Validates a regular expression pattern.
+   *
+   *  Performs validation when a rule only contains
+   *  a pattern property but is not declared as a string type.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function pattern$2(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, 'string') && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (!isEmptyValue(value, 'string')) {
+      rules.pattern(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+function date(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field); // console.log('validate on %s value', value);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (!isEmptyValue(value)) {
+      var dateObject;
+
+      if (typeof value === 'number') {
+        dateObject = new Date(value);
+      } else {
+        dateObject = value;
+      }
+
+      rules.type(rule, dateObject, source, errors, options);
+
+      if (dateObject) {
+        rules.range(rule, dateObject.getTime(), source, errors, options);
+      }
+    }
+  }
+
+  callback(errors);
+}
+
+function required$1(rule, value, callback, source, options) {
+  var errors = [];
+  var type = Array.isArray(value) ? 'array' : typeof value;
+  rules.required(rule, value, source, errors, options, type);
+  callback(errors);
+}
+
+function type$1(rule, value, callback, source, options) {
+  var ruleType = rule.type;
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, ruleType) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options, ruleType);
+
+    if (!isEmptyValue(value, ruleType)) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+}
+
+/**
+   *  Performs validation for any type.
+   *
+   *  @param rule The validation rule.
+   *  @param value The value of the field on the source object.
+   *  @param callback The callback function.
+   *  @param source The source object being validated.
+   *  @param options The validation options.
+   *  @param options.messages The validation messages.
+   */
+
+function any(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+  }
+
+  callback(errors);
+}
+
+var validators = {
+  string: string,
+  method: method,
+  number: number,
+  "boolean": _boolean,
+  regexp: regexp,
+  integer: integer,
+  "float": floatFn,
+  array: array,
+  object: object,
+  "enum": enumerable$1,
+  pattern: pattern$2,
+  date: date,
+  url: type$1,
+  hex: type$1,
+  email: type$1,
+  required: required$1,
+  any: any };
+
+
+function newMessages() {
+  return {
+    "default": 'Validation error on field %s',
+    required: '%s is required',
+    "enum": '%s must be one of %s',
+    whitespace: '%s cannot be empty',
+    date: {
+      format: '%s date %s is invalid for format %s',
+      parse: '%s date could not be parsed, %s is invalid ',
+      invalid: '%s date %s is invalid' },
+
+    types: {
+      string: '%s is not a %s',
+      method: '%s is not a %s (function)',
+      array: '%s is not an %s',
+      object: '%s is not an %s',
+      number: '%s is not a %s',
+      date: '%s is not a %s',
+      "boolean": '%s is not a %s',
+      integer: '%s is not an %s',
+      "float": '%s is not a %s',
+      regexp: '%s is not a valid %s',
+      email: '%s is not a valid %s',
+      url: '%s is not a valid %s',
+      hex: '%s is not a valid %s' },
+
+    string: {
+      len: '%s must be exactly %s characters',
+      min: '%s must be at least %s characters',
+      max: '%s cannot be longer than %s characters',
+      range: '%s must be between %s and %s characters' },
+
+    number: {
+      len: '%s must equal %s',
+      min: '%s cannot be less than %s',
+      max: '%s cannot be greater than %s',
+      range: '%s must be between %s and %s' },
+
+    array: {
+      len: '%s must be exactly %s in length',
+      min: '%s cannot be less than %s in length',
+      max: '%s cannot be greater than %s in length',
+      range: '%s must be between %s and %s in length' },
+
+    pattern: {
+      mismatch: '%s value %s does not match pattern %s' },
+
+    clone: function clone() {
+      var cloned = JSON.parse(JSON.stringify(this));
+      cloned.clone = this.clone;
+      return cloned;
+    } };
+
+}
+var messages = newMessages();
+
+/**
+                               *  Encapsulates a validation schema.
+                               *
+                               *  @param descriptor An object declaring validation rules
+                               *  for this schema.
+                               */
+
+function Schema(descriptor) {
+  this.rules = null;
+  this._messages = messages;
+  this.define(descriptor);
+}
+
+Schema.prototype = {
+  messages: function messages(_messages) {
+    if (_messages) {
+      this._messages = deepMerge(newMessages(), _messages);
+    }
+
+    return this._messages;
+  },
+  define: function define(rules) {
+    if (!rules) {
+      throw new Error('Cannot configure a schema with no rules');
+    }
+
+    if (typeof rules !== 'object' || Array.isArray(rules)) {
+      throw new Error('Rules must be an object');
+    }
+
+    this.rules = {};
+    var z;
+    var item;
+
+    for (z in rules) {
+      if (rules.hasOwnProperty(z)) {
+        item = rules[z];
+        this.rules[z] = Array.isArray(item) ? item : [item];
+      }
+    }
+  },
+  validate: function validate(source_, o, oc) {
+    var _this = this;
+
+    if (o === void 0) {
+      o = {};
+    }
+
+    if (oc === void 0) {
+      oc = function oc() {};
+    }
+
+    var source = source_;
+    var options = o;
+    var callback = oc;
+
+    if (typeof options === 'function') {
+      callback = options;
+      options = {};
+    }
+
+    if (!this.rules || Object.keys(this.rules).length === 0) {
+      if (callback) {
+        callback();
+      }
+
+      return Promise.resolve();
+    }
+
+    function complete(results) {
+      var i;
+      var errors = [];
+      var fields = {};
+
+      function add(e) {
+        if (Array.isArray(e)) {
+          var _errors;
+
+          errors = (_errors = errors).concat.apply(_errors, e);
+        } else {
+          errors.push(e);
+        }
+      }
+
+      for (i = 0; i < results.length; i++) {
+        add(results[i]);
+      }
+
+      if (!errors.length) {
+        errors = null;
+        fields = null;
+      } else {
+        fields = convertFieldsError(errors);
+      }
+
+      callback(errors, fields);
+    }
+
+    if (options.messages) {
+      var messages$1 = this.messages();
+
+      if (messages$1 === messages) {
+        messages$1 = newMessages();
+      }
+
+      deepMerge(messages$1, options.messages);
+      options.messages = messages$1;
+    } else {
+      options.messages = this.messages();
+    }
+
+    var arr;
+    var value;
+    var series = {};
+    var keys = options.keys || Object.keys(this.rules);
+    keys.forEach(function (z) {
+      arr = _this.rules[z];
+      value = source[z];
+      arr.forEach(function (r) {
+        var rule = r;
+
+        if (typeof rule.transform === 'function') {
+          if (source === source_) {
+            source = _extends({}, source);
+          }
+
+          value = source[z] = rule.transform(value);
+        }
+
+        if (typeof rule === 'function') {
+          rule = {
+            validator: rule };
+
+        } else {
+          rule = _extends({}, rule);
+        }
+
+        rule.validator = _this.getValidationMethod(rule);
+        rule.field = z;
+        rule.fullField = rule.fullField || z;
+        rule.type = _this.getType(rule);
+
+        if (!rule.validator) {
+          return;
+        }
+
+        series[z] = series[z] || [];
+        series[z].push({
+          rule: rule,
+          value: value,
+          source: source,
+          field: z });
+
+      });
+    });
+    var errorFields = {};
+    return asyncMap(series, options, function (data, doIt) {
+      var rule = data.rule;
+      var deep = (rule.type === 'object' || rule.type === 'array') && (typeof rule.fields === 'object' || typeof rule.defaultField ===
+      'object');
+      deep = deep && (rule.required || !rule.required && data.value);
+      rule.field = data.field;
+
+      function addFullfield(key, schema) {
+        return _extends({}, schema, {
+          fullField: rule.fullField + "." + key });
+
+      }
+
+      function cb(e) {
+        if (e === void 0) {
+          e = [];
+        }
+
+        var errors = e;
+
+        if (!Array.isArray(errors)) {
+          errors = [errors];
+        }
+
+        if (!options.suppressWarning && errors.length) {
+          Schema.warning('async-validator:', errors);
+        }
+
+        if (errors.length && rule.message) {
+          errors = [].concat(rule.message);
+        }
+
+        errors = errors.map(complementError(rule));
+
+        if (options.first && errors.length) {
+          errorFields[rule.field] = 1;
+          return doIt(errors);
+        }
+
+        if (!deep) {
+          doIt(errors);
+        } else {
+          // if rule is required but the target object
+          // does not exist fail at the rule level and don't
+          // go deeper
+          if (rule.required && !data.value) {
+            if (rule.message) {
+              errors = [].concat(rule.message).map(complementError(rule));
+            } else if (options.error) {
+              errors = [options.error(rule, format(options.messages.required, rule.field))];
+            } else {
+              errors = [];
+            }
+
+            return doIt(errors);
+          }
+
+          var fieldsSchema = {};
+
+          if (rule.defaultField) {
+            for (var k in data.value) {
+              if (data.value.hasOwnProperty(k)) {
+                fieldsSchema[k] = rule.defaultField;
+              }
+            }
+          }
+
+          fieldsSchema = _extends({}, fieldsSchema, {}, data.rule.fields);
+
+          for (var f in fieldsSchema) {
+            if (fieldsSchema.hasOwnProperty(f)) {
+              var fieldSchema = Array.isArray(fieldsSchema[f]) ? fieldsSchema[f] : [fieldsSchema[f]];
+              fieldsSchema[f] = fieldSchema.map(addFullfield.bind(null, f));
+            }
+          }
+
+          var schema = new Schema(fieldsSchema);
+          schema.messages(options.messages);
+
+          if (data.rule.options) {
+            data.rule.options.messages = options.messages;
+            data.rule.options.error = options.error;
+          }
+
+          schema.validate(data.value, data.rule.options || options, function (errs) {
+            var finalErrors = [];
+
+            if (errors && errors.length) {
+              finalErrors.push.apply(finalErrors, errors);
+            }
+
+            if (errs && errs.length) {
+              finalErrors.push.apply(finalErrors, errs);
+            }
+
+            doIt(finalErrors.length ? finalErrors : null);
+          });
+        }
+      }
+
+      var res;
+
+      if (rule.asyncValidator) {
+        res = rule.asyncValidator(rule, data.value, cb, data.source, options);
+      } else if (rule.validator) {
+        res = rule.validator(rule, data.value, cb, data.source, options);
+
+        if (res === true) {
+          cb();
+        } else if (res === false) {
+          cb(rule.message || rule.field + " fails");
+        } else if (res instanceof Array) {
+          cb(res);
+        } else if (res instanceof Error) {
+          cb(res.message);
+        }
+      }
+
+      if (res && res.then) {
+        res.then(function () {
+          return cb();
+        }, function (e) {
+          return cb(e);
+        });
+      }
+    }, function (results) {
+      complete(results);
+    });
+  },
+  getType: function getType(rule) {
+    if (rule.type === undefined && rule.pattern instanceof RegExp) {
+      rule.type = 'pattern';
+    }
+
+    if (typeof rule.validator !== 'function' && rule.type && !validators.hasOwnProperty(rule.type)) {
+      throw new Error(format('Unknown rule type %s', rule.type));
+    }
+
+    return rule.type || 'string';
+  },
+  getValidationMethod: function getValidationMethod(rule) {
+    if (typeof rule.validator === 'function') {
+      return rule.validator;
+    }
+
+    var keys = Object.keys(rule);
+    var messageIndex = keys.indexOf('message');
+
+    if (messageIndex !== -1) {
+      keys.splice(messageIndex, 1);
+    }
+
+    if (keys.length === 1 && keys[0] === 'required') {
+      return validators.required;
+    }
+
+    return validators[this.getType(rule)] || false;
+  } };
+
+
+Schema.register = function register(type, validator) {
+  if (typeof validator !== 'function') {
+    throw new Error('Cannot register a validator by type, validator is not a function');
+  }
+
+  validators[type] = validator;
+};
+
+Schema.warning = warning;
+Schema.messages = messages;var _default =
+
+Schema;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/node-libs-browser/mock/process.js */ 203)))
+
+/***/ }),
+/* 203 */
+/*!********************************************************!*\
+  !*** ./node_modules/node-libs-browser/mock/process.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.nextTick = function nextTick(fn) {
+    var args = Array.prototype.slice.call(arguments);
+    args.shift();
+    setTimeout(function () {
+        fn.apply(null, args);
+    }, 0);
+};
+
+exports.platform = exports.arch = 
+exports.execPath = exports.title = 'browser';
+exports.pid = 1;
+exports.browser = true;
+exports.env = {};
+exports.argv = [];
+
+exports.binding = function (name) {
+	throw new Error('No such module. (Possibly not yet loaded)')
+};
+
+(function () {
+    var cwd = '/';
+    var path;
+    exports.cwd = function () { return cwd };
+    exports.chdir = function (dir) {
+        if (!path) path = __webpack_require__(/*! path */ 204);
+        cwd = path.resolve(dir, cwd);
+    };
+})();
+
+exports.exit = exports.kill = 
+exports.umask = exports.dlopen = 
+exports.uptime = exports.memoryUsage = 
+exports.uvCounters = function() {};
+exports.features = {};
+
+
+/***/ }),
+/* 204 */
+/*!***********************************************!*\
+  !*** ./node_modules/path-browserify/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process) {// .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
+// backported and transplited with Babel, with backwards-compat fixes
+
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// resolves . and .. elements in a path array with directory names there
+// must be no slashes, empty elements, or device names (c:\) in the array
+// (so also no leading and trailing slashes - it does not distinguish
+// relative and absolute paths)
+function normalizeArray(parts, allowAboveRoot) {
+  // if the path tries to go above the root, `up` ends up > 0
+  var up = 0;
+  for (var i = parts.length - 1; i >= 0; i--) {
+    var last = parts[i];
+    if (last === '.') {
+      parts.splice(i, 1);
+    } else if (last === '..') {
+      parts.splice(i, 1);
+      up++;
+    } else if (up) {
+      parts.splice(i, 1);
+      up--;
+    }
+  }
+
+  // if the path is allowed to go above the root, restore leading ..s
+  if (allowAboveRoot) {
+    for (; up--; up) {
+      parts.unshift('..');
+    }
+  }
+
+  return parts;
+}
+
+// path.resolve([from ...], to)
+// posix version
+exports.resolve = function() {
+  var resolvedPath = '',
+      resolvedAbsolute = false;
+
+  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
+    var path = (i >= 0) ? arguments[i] : process.cwd();
+
+    // Skip empty and invalid entries
+    if (typeof path !== 'string') {
+      throw new TypeError('Arguments to path.resolve must be strings');
+    } else if (!path) {
+      continue;
+    }
+
+    resolvedPath = path + '/' + resolvedPath;
+    resolvedAbsolute = path.charAt(0) === '/';
+  }
+
+  // At this point the path should be resolved to a full absolute path, but
+  // handle relative paths to be safe (might happen when process.cwd() fails)
+
+  // Normalize the path
+  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {
+    return !!p;
+  }), !resolvedAbsolute).join('/');
+
+  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
+};
+
+// path.normalize(path)
+// posix version
+exports.normalize = function(path) {
+  var isAbsolute = exports.isAbsolute(path),
+      trailingSlash = substr(path, -1) === '/';
+
+  // Normalize the path
+  path = normalizeArray(filter(path.split('/'), function(p) {
+    return !!p;
+  }), !isAbsolute).join('/');
+
+  if (!path && !isAbsolute) {
+    path = '.';
+  }
+  if (path && trailingSlash) {
+    path += '/';
+  }
+
+  return (isAbsolute ? '/' : '') + path;
+};
+
+// posix version
+exports.isAbsolute = function(path) {
+  return path.charAt(0) === '/';
+};
+
+// posix version
+exports.join = function() {
+  var paths = Array.prototype.slice.call(arguments, 0);
+  return exports.normalize(filter(paths, function(p, index) {
+    if (typeof p !== 'string') {
+      throw new TypeError('Arguments to path.join must be strings');
+    }
+    return p;
+  }).join('/'));
+};
+
+
+// path.relative(from, to)
+// posix version
+exports.relative = function(from, to) {
+  from = exports.resolve(from).substr(1);
+  to = exports.resolve(to).substr(1);
+
+  function trim(arr) {
+    var start = 0;
+    for (; start < arr.length; start++) {
+      if (arr[start] !== '') break;
+    }
+
+    var end = arr.length - 1;
+    for (; end >= 0; end--) {
+      if (arr[end] !== '') break;
+    }
+
+    if (start > end) return [];
+    return arr.slice(start, end - start + 1);
+  }
+
+  var fromParts = trim(from.split('/'));
+  var toParts = trim(to.split('/'));
+
+  var length = Math.min(fromParts.length, toParts.length);
+  var samePartsLength = length;
+  for (var i = 0; i < length; i++) {
+    if (fromParts[i] !== toParts[i]) {
+      samePartsLength = i;
+      break;
+    }
+  }
+
+  var outputParts = [];
+  for (var i = samePartsLength; i < fromParts.length; i++) {
+    outputParts.push('..');
+  }
+
+  outputParts = outputParts.concat(toParts.slice(samePartsLength));
+
+  return outputParts.join('/');
+};
+
+exports.sep = '/';
+exports.delimiter = ':';
+
+exports.dirname = function (path) {
+  if (typeof path !== 'string') path = path + '';
+  if (path.length === 0) return '.';
+  var code = path.charCodeAt(0);
+  var hasRoot = code === 47 /*/*/;
+  var end = -1;
+  var matchedSlash = true;
+  for (var i = path.length - 1; i >= 1; --i) {
+    code = path.charCodeAt(i);
+    if (code === 47 /*/*/) {
+        if (!matchedSlash) {
+          end = i;
+          break;
+        }
+      } else {
+      // We saw the first non-path separator
+      matchedSlash = false;
+    }
+  }
+
+  if (end === -1) return hasRoot ? '/' : '.';
+  if (hasRoot && end === 1) {
+    // return '//';
+    // Backwards-compat fix:
+    return '/';
+  }
+  return path.slice(0, end);
+};
+
+function basename(path) {
+  if (typeof path !== 'string') path = path + '';
+
+  var start = 0;
+  var end = -1;
+  var matchedSlash = true;
+  var i;
+
+  for (i = path.length - 1; i >= 0; --i) {
+    if (path.charCodeAt(i) === 47 /*/*/) {
+        // If we reached a path separator that was not part of a set of path
+        // separators at the end of the string, stop now
+        if (!matchedSlash) {
+          start = i + 1;
+          break;
+        }
+      } else if (end === -1) {
+      // We saw the first non-path separator, mark this as the end of our
+      // path component
+      matchedSlash = false;
+      end = i + 1;
+    }
+  }
+
+  if (end === -1) return '';
+  return path.slice(start, end);
+}
+
+// Uses a mixed approach for backwards-compatibility, as ext behavior changed
+// in new Node.js versions, so only basename() above is backported here
+exports.basename = function (path, ext) {
+  var f = basename(path);
+  if (ext && f.substr(-1 * ext.length) === ext) {
+    f = f.substr(0, f.length - ext.length);
+  }
+  return f;
+};
+
+exports.extname = function (path) {
+  if (typeof path !== 'string') path = path + '';
+  var startDot = -1;
+  var startPart = 0;
+  var end = -1;
+  var matchedSlash = true;
+  // Track the state of characters (if any) we see before our first dot and
+  // after any path separator we find
+  var preDotState = 0;
+  for (var i = path.length - 1; i >= 0; --i) {
+    var code = path.charCodeAt(i);
+    if (code === 47 /*/*/) {
+        // If we reached a path separator that was not part of a set of path
+        // separators at the end of the string, stop now
+        if (!matchedSlash) {
+          startPart = i + 1;
+          break;
+        }
+        continue;
+      }
+    if (end === -1) {
+      // We saw the first non-path separator, mark this as the end of our
+      // extension
+      matchedSlash = false;
+      end = i + 1;
+    }
+    if (code === 46 /*.*/) {
+        // If this is our first dot, mark it as the start of our extension
+        if (startDot === -1)
+          startDot = i;
+        else if (preDotState !== 1)
+          preDotState = 1;
+    } else if (startDot !== -1) {
+      // We saw a non-dot and non-path separator before our dot, so we should
+      // have a good chance at having a non-empty extension
+      preDotState = -1;
+    }
+  }
+
+  if (startDot === -1 || end === -1 ||
+      // We saw a non-dot character immediately before the dot
+      preDotState === 0 ||
+      // The (right-most) trimmed path component is exactly '..'
+      preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
+    return '';
+  }
+  return path.slice(startDot, end);
+};
+
+function filter (xs, f) {
+    if (xs.filter) return xs.filter(f);
+    var res = [];
+    for (var i = 0; i < xs.length; i++) {
+        if (f(xs[i], i, xs)) res.push(xs[i]);
+    }
+    return res;
+}
+
+// String.prototype.substr - negative index don't work in IE8
+var substr = 'ab'.substr(-1) === 'b'
+    ? function (str, start, len) { return str.substr(start, len) }
+    : function (str, start, len) {
+        if (start < 0) start = str.length + start;
+        return str.substr(start, len);
+    }
+;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 203)))
+
+/***/ }),
+/* 205 */,
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */
 /*!**********************************************!*\
   !*** E:/demo/uni-router-demo/utils/index.js ***!
   \**********************************************/
@@ -12043,13 +15380,13 @@ function merges(data) {
    * @param {*} data 传输的数据
    */
 var getApi = function getApi(key) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  return Promise.resolve().then(function () {return _interopRequireWildcard(__webpack_require__(/*! @/http/api */ 44));}).then(function (res) {
+  return Promise.resolve().then(function () {return _interopRequireWildcard(__webpack_require__(/*! @/http/api */ 213));}).then(function (res) {
     return res.default[key](data);
   });
 };exports.getApi = getApi;
 
 /***/ }),
-/* 44 */
+/* 213 */
 /*!*************************************************!*\
   !*** E:/demo/uni-router-demo/http/api/index.js ***!
   \*************************************************/
@@ -12058,10 +15395,10 @@ var getApi = function getApi(key) {var data = arguments.length > 1 && arguments[
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = exports.apiList = void 0;
-var _request = __webpack_require__(/*! @/http/request */ 45);
-var _utils = __webpack_require__(/*! @/utils */ 43);
-var _WorkOrderApi = _interopRequireDefault(__webpack_require__(/*! @/http/api/WorkOrderApi */ 50));
-var _ErpBasicApi = _interopRequireDefault(__webpack_require__(/*! @/http/api/ErpBasicApi */ 51));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 导入所有接口
+var _request = __webpack_require__(/*! @/http/request */ 214);
+var _utils = __webpack_require__(/*! @/utils */ 212);
+var _WorkOrderApi = _interopRequireDefault(__webpack_require__(/*! @/http/api/WorkOrderApi */ 219));
+var _ErpBasicApi = _interopRequireDefault(__webpack_require__(/*! @/http/api/ErpBasicApi */ 220));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 导入所有接口
 
 var apiList = (0, _utils.mergeObject)(_WorkOrderApi.default, _ErpBasicApi.default);exports.apiList = apiList;
 
@@ -12083,7 +15420,7 @@ i) {
 api;exports.default = _default;
 
 /***/ }),
-/* 45 */
+/* 214 */
 /*!***********************************************!*\
   !*** E:/demo/uni-router-demo/http/request.js ***!
   \***********************************************/
@@ -12091,8 +15428,8 @@ api;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.$request = void 0;var _config = _interopRequireDefault(__webpack_require__(/*! @/http/config */ 46));
-var _mock = _interopRequireDefault(__webpack_require__(/*! @/http/mock */ 47));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.$request = void 0;var _config = _interopRequireDefault(__webpack_require__(/*! @/http/config */ 215));
+var _mock = _interopRequireDefault(__webpack_require__(/*! @/http/mock */ 216));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
 
 var num = 0;
 var $request = function $request(url, data, header) {var type = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'post';
@@ -12161,7 +15498,7 @@ function resCode(data, resolve, reject) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 46 */
+/* 215 */
 /*!**********************************************!*\
   !*** E:/demo/uni-router-demo/http/config.js ***!
   \**********************************************/
@@ -12174,7 +15511,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   master: "http://uatapi.diyibox.cn" };exports.default = _default;
 
 /***/ }),
-/* 47 */
+/* 216 */
 /*!**************************************************!*\
   !*** E:/demo/uni-router-demo/http/mock/index.js ***!
   \**************************************************/
@@ -12182,10 +15519,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _mockMin = _interopRequireDefault(__webpack_require__(/*! @/node_modules/mockjs/dist/mock-min.js */ 48));
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _mockMin = _interopRequireDefault(__webpack_require__(/*! @/node_modules/mockjs/dist/mock-min.js */ 217));
 
-var _api = __webpack_require__(/*! @/http/api */ 44);
-var _mockApi = _interopRequireDefault(__webpack_require__(/*! ./mockApi.js */ 49));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var devBaseUrl = 'https://opendemo.diyibox.cn';
+var _api = __webpack_require__(/*! @/http/api */ 213);
+var _mockApi = _interopRequireDefault(__webpack_require__(/*! ./mockApi.js */ 218));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var devBaseUrl = 'https://opendemo.diyibox.cn';
 var mockApis = {};
 
 for (var i in _mockApi.default) {
@@ -12203,7 +15540,7 @@ function mockjs(data) {
 }
 
 /***/ }),
-/* 48 */
+/* 217 */
 /*!**********************************************************************************!*\
   !*** E:/demo/uni-router-demo/node_modules/_mockjs@1.1.0@mockjs/dist/mock-min.js ***!
   \**********************************************************************************/
@@ -12221,7 +15558,7 @@ function mockjs(data) {
         },kn = "\\w",En = '"\\\\w"',Rn = function Rn() {return new n("word");},An = "\\W",_n = '"\\\\W"',Mn = function Mn() {return new n("non-word");},Pn = "\\c",Tn = '"\\\\c"',Hn = "any character",Sn = function Sn(t) {return new v(t);},Dn = "\\",qn = '"\\\\"',Fn = /^[1-9]/,Ln = "[1-9]",On = function On(t) {return new m(t);},In = "\\0",jn = '"\\\\0"',Nn = /^[0-7]/,zn = "[0-7]",Un = function Un(t) {return new d(t.join(""));},Bn = "\\x",Gn = '"\\\\x"',Xn = /^[0-9a-fA-F]/,Kn = "[0-9a-fA-F]",Wn = function Wn(t) {return new f(t.join(""));},Yn = "\\u",$n = "\"\\\\u\"",Jn = function Jn(t) {return new p(t.join(""));},Vn = function Vn() {return new n("null-character");},Zn = 0,Qn = 0,tr = 0,er = { line: 1, column: 1, seenCR: !1 },nr = 0,rr = [],ar = 0;if ("startRule" in bt) {if (!(bt.startRule in wt)) throw new Error("Can't start parsing from rule \"" + bt.startRule + '".');Ct = wt[bt.startRule];}if (n.offset = x, n.text = g, yt = Ct(), null !== yt && Zn === t.length) return yt;throw w(rr), Qn = Math.max(Zn, nr), new e(rr, Qn < t.length ? t.charAt(Qn) : null, Qn, y(Qn).line, y(Qn).column);}return t(e, Error), { SyntaxError: e, parse: g };}(),x = 1,y = {};t.exports = g;}, function (t, e, n) {function r(t, e) {for (var n = "", r = t; r <= e; r++) {n += String.fromCharCode(r);}return n;}var a = n(3),o = n(5),u = { extend: a.extend },i = r(97, 122),l = r(65, 90),c = r(48, 57),s = r(32, 47) + r(58, 64) + r(91, 96) + r(123, 126),h = r(32, 126),p = " \f\n\r\t\x0B\xA0\u2028\u2029",f = { "\\w": i + l + c + "_", "\\W": s.replace("_", ""), "\\s": p, "\\S": function () {for (var t = h, e = 0; e < p.length; e++) {t = t.replace(p[e], "");}return t;}(), "\\d": c, "\\D": i + l + s };u.gen = function (t, e, n) {return n = n || { guid: 1 }, u[t.type] ? u[t.type](t, e, n) : u.token(t, e, n);}, u.extend({ token: function token(t, e, n) {switch (t.type) {case "start":case "end":return "";case "any-character":return o.character();case "backspace":return "";case "word-boundary":return "";case "non-word-boundary":break;case "digit":return o.pick(c.split(""));case "non-digit":return o.pick((i + l + s).split(""));case "form-feed":break;case "line-feed":return t.body || t.text;case "carriage-return":break;case "white-space":return o.pick(p.split(""));case "non-white-space":return o.pick((i + l + c).split(""));case "tab":break;case "vertical-tab":break;case "word":return o.pick((i + l + c).split(""));case "non-word":return o.pick(s.replace("_", "").split(""));case "null-character":}return t.body || t.text;}, alternate: function alternate(t, e, n) {return this.gen(o.boolean() ? t.left : t.right, e, n);}, match: function match(t, e, n) {e = "";for (var r = 0; r < t.body.length; r++) {e += this.gen(t.body[r], e, n);}return e;}, "capture-group": function captureGroup(t, e, n) {return e = this.gen(t.body, e, n), n[n.guid++] = e, e;}, "non-capture-group": function nonCaptureGroup(t, e, n) {return this.gen(t.body, e, n);}, "positive-lookahead": function positiveLookahead(t, e, n) {return this.gen(t.body, e, n);}, "negative-lookahead": function negativeLookahead(t, e, n) {return "";}, quantified: function quantified(t, e, n) {e = "";for (var r = this.quantifier(t.quantifier), a = 0; a < r; a++) {e += this.gen(t.body, e, n);}return e;}, quantifier: function quantifier(t, e, n) {var r = Math.max(t.min, 0),a = isFinite(t.max) ? t.max : r + o.integer(3, 7);return o.integer(r, a);}, charset: function charset(t, e, n) {if (t.invert) return this["invert-charset"](t, e, n);var r = o.pick(t.body);return this.gen(r, e, n);}, "invert-charset": function invertCharset(t, e, n) {for (var r, a = h, u = 0; u < t.body.length; u++) {switch (r = t.body[u], r.type) {case "literal":a = a.replace(r.body, "");break;case "range":for (var i = this.gen(r.start, e, n).charCodeAt(), l = this.gen(r.end, e, n).charCodeAt(), c = i; c <= l; c++) {a = a.replace(String.fromCharCode(c), "");}default:var s = f[r.text];if (s) for (var p = 0; p <= s.length; p++) {a = a.replace(s[p], "");}}}return o.pick(a.split(""));}, range: function range(t, e, n) {var r = this.gen(t.start, e, n).charCodeAt(),a = this.gen(t.end, e, n).charCodeAt();return String.fromCharCode(o.integer(r, a));}, literal: function literal(t, e, n) {return t.escaped ? t.body : t.text;}, unicode: function unicode(t, e, n) {return String.fromCharCode(parseInt(t.code, 16));}, hex: function hex(t, e, n) {return String.fromCharCode(parseInt(t.code, 16));}, octal: function octal(t, e, n) {return String.fromCharCode(parseInt(t.code, 8));}, "back-reference": function backReference(t, e, n) {return n[t.code] || "";}, CONTROL_CHARACTER_MAP: function () {for (var t = "@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _".split(" "), e = "\0        \b \t \n \v \f \r                  ".split(" "), n = {}, r = 0; r < t.length; r++) {n[t[r]] = e[r];}return n;}(), "control-character": function controlCharacter(t, e, n) {return this.CONTROL_CHARACTER_MAP[t.code];} }), t.exports = u;}, function (t, e, n) {t.exports = n(24);}, function (t, e, n) {function r(t, e, n) {n = n || [];var i = { name: "string" == typeof e ? e.replace(a.RE_KEY, "$1") : e, template: t, type: o.type(t), rule: u.parse(e) };switch (i.path = n.slice(0), i.path.push(void 0 === e ? "ROOT" : i.name), i.type) {case "array":i.items = [], o.each(t, function (t, e) {i.items.push(r(t, e, i.path));});break;case "object":i.properties = [], o.each(t, function (t, e) {i.properties.push(r(t, e, i.path));});}return i;}var a = n(2),o = n(3),u = n(4);t.exports = r;}, function (t, e, n) {t.exports = n(26);}, function (t, e, n) {function r(t, e) {for (var n = u(t), r = i.diff(n, e), a = 0; a < r.length; a++) {;}return r;}var a = n(2),o = n(3),u = n(23),i = { diff: function diff(t, e, n) {var r = [];return this.name(t, e, n, r) && this.type(t, e, n, r) && (this.value(t, e, n, r), this.properties(t, e, n, r), this.items(t, e, n, r)), r;}, name: function name(t, e, n, r) {var a = r.length;return l.equal("name", t.path, n + "", t.name + "", r), r.length === a;}, type: function type(t, e, n, r) {var u = r.length;switch (t.type) {case "string":if (t.template.match(a.RE_PLACEHOLDER)) return !0;break;case "array":if (t.rule.parameters) {if (void 0 !== t.rule.min && void 0 === t.rule.max && 1 === t.rule.count) return !0;if (t.rule.parameters[2]) return !0;}break;case "function":return !0;}return l.equal("type", t.path, o.type(e), t.type, r), r.length === u;}, value: function value(t, e, n, r) {var o = r.length,u = t.rule,i = t.type;if ("object" === i || "array" === i || "function" === i) return !0;if (!u.parameters) {switch (i) {case "regexp":return l.match("value", t.path, e, t.template, r), r.length === o;case "string":if (t.template.match(a.RE_PLACEHOLDER)) return r.length === o;}return l.equal("value", t.path, e, t.template, r), r.length === o;}var c;switch (i) {case "number":var s = (e + "").split(".");s[0] = +s[0], void 0 !== u.min && void 0 !== u.max && (l.greaterThanOrEqualTo("value", t.path, s[0], Math.min(u.min, u.max), r), l.lessThanOrEqualTo("value", t.path, s[0], Math.max(u.min, u.max), r)), void 0 !== u.min && void 0 === u.max && l.equal("value", t.path, s[0], u.min, r, "[value] " + n), u.decimal && (void 0 !== u.dmin && void 0 !== u.dmax && (l.greaterThanOrEqualTo("value", t.path, s[1].length, u.dmin, r), l.lessThanOrEqualTo("value", t.path, s[1].length, u.dmax, r)), void 0 !== u.dmin && void 0 === u.dmax && l.equal("value", t.path, s[1].length, u.dmin, r));break;case "boolean":break;case "string":c = e.match(new RegExp(t.template, "g")), c = c ? c.length : 0, void 0 !== u.min && void 0 !== u.max && (l.greaterThanOrEqualTo("repeat count", t.path, c, u.min, r), l.lessThanOrEqualTo("repeat count", t.path, c, u.max, r)), void 0 !== u.min && void 0 === u.max && l.equal("repeat count", t.path, c, u.min, r);break;case "regexp":c = e.match(new RegExp(t.template.source.replace(/^\^|\$$/g, ""), "g")), c = c ? c.length : 0, void 0 !== u.min && void 0 !== u.max && (l.greaterThanOrEqualTo("repeat count", t.path, c, u.min, r), l.lessThanOrEqualTo("repeat count", t.path, c, u.max, r)), void 0 !== u.min && void 0 === u.max && l.equal("repeat count", t.path, c, u.min, r);}return r.length === o;}, properties: function properties(t, e, n, r) {var a = r.length,u = t.rule,i = o.keys(e);if (t.properties) {if (t.rule.parameters ? (void 0 !== u.min && void 0 !== u.max && (l.greaterThanOrEqualTo("properties length", t.path, i.length, Math.min(u.min, u.max), r), l.lessThanOrEqualTo("properties length", t.path, i.length, Math.max(u.min, u.max), r)), void 0 !== u.min && void 0 === u.max && 1 !== u.count && l.equal("properties length", t.path, i.length, u.min, r)) : l.equal("properties length", t.path, i.length, t.properties.length, r), r.length !== a) return !1;for (var c = 0; c < i.length; c++) {r.push.apply(r, this.diff(function () {var e;return o.each(t.properties, function (t) {t.name === i[c] && (e = t);}), e || t.properties[c];}(), e[i[c]], i[c]));}return r.length === a;}}, items: function items(t, e, n, r) {var a = r.length;if (t.items) {var o = t.rule;if (t.rule.parameters) {if (void 0 !== o.min && void 0 !== o.max && (l.greaterThanOrEqualTo("items", t.path, e.length, Math.min(o.min, o.max) * t.items.length, r, "[{utype}] array is too short: {path} must have at least {expected} elements but instance has {actual} elements"), l.lessThanOrEqualTo("items", t.path, e.length, Math.max(o.min, o.max) * t.items.length, r, "[{utype}] array is too long: {path} must have at most {expected} elements but instance has {actual} elements")), void 0 !== o.min && void 0 === o.max) {if (1 === o.count) return r.length === a;l.equal("items length", t.path, e.length, o.min * t.items.length, r);}if (o.parameters[2]) return r.length === a;} else l.equal("items length", t.path, e.length, t.items.length, r);if (r.length !== a) return !1;for (var u = 0; u < e.length; u++) {r.push.apply(r, this.diff(t.items[u % t.items.length], e[u], u % t.items.length));}return r.length === a;}} },l = { message: function message(t) {return (t.message || "[{utype}] Expect {path}'{ltype} {action} {expected}, but is {actual}").replace("{utype}", t.type.toUpperCase()).replace("{ltype}", t.type.toLowerCase()).replace("{path}", o.isArray(t.path) && t.path.join(".") || t.path).replace("{action}", t.action).replace("{expected}", t.expected).replace("{actual}", t.actual);}, equal: function equal(t, e, n, r, a, o) {if (n === r) return !0;switch (t) {case "type":if ("regexp" === r && "string" === n) return !0;}var u = { path: e, type: t, actual: n, expected: r, action: "is equal to", message: o };return u.message = l.message(u), a.push(u), !1;}, match: function match(t, e, n, r, a, o) {if (r.test(n)) return !0;var u = { path: e, type: t, actual: n, expected: r, action: "matches", message: o };return u.message = l.message(u), a.push(u), !1;}, notEqual: function notEqual(t, e, n, r, a, o) {if (n !== r) return !0;var u = { path: e, type: t, actual: n, expected: r, action: "is not equal to", message: o };return u.message = l.message(u), a.push(u), !1;}, greaterThan: function greaterThan(t, e, n, r, a, o) {if (n > r) return !0;var u = { path: e, type: t, actual: n, expected: r, action: "is greater than", message: o };return u.message = l.message(u), a.push(u), !1;}, lessThan: function lessThan(t, e, n, r, a, o) {if (n < r) return !0;var u = { path: e, type: t, actual: n, expected: r, action: "is less to", message: o };return u.message = l.message(u), a.push(u), !1;}, greaterThanOrEqualTo: function greaterThanOrEqualTo(t, e, n, r, a, o) {if (n >= r) return !0;var u = { path: e, type: t, actual: n, expected: r, action: "is greater than or equal to", message: o };return u.message = l.message(u), a.push(u), !1;}, lessThanOrEqualTo: function lessThanOrEqualTo(t, e, n, r, a, o) {if (n <= r) return !0;var u = { path: e, type: t, actual: n, expected: r, action: "is less than or equal to", message: o };return u.message = l.message(u), a.push(u), !1;} };r.Diff = i, r.Assert = l, t.exports = r;}, function (t, e, n) {t.exports = n(28);}, function (t, e, n) {function r() {this.custom = { events: {}, requestHeaders: {}, responseHeaders: {} };}function a() {function t() {try {return new window._XMLHttpRequest();} catch (t) {}}function e() {try {return new window._ActiveXObject("Microsoft.XMLHTTP");} catch (t) {}}var n = function () {var t = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,e = /^([\w.+-]+:)(?:\/\/([^\/?#:]*)(?::(\d+)|)|)/,n = location.href,r = e.exec(n.toLowerCase()) || [];return t.test(r[1]);}();return window.ActiveXObject ? !n && t() || e() : t();}function o(t) {function e(t, e) {return "string" === i.type(t) ? t === e : "regexp" === i.type(t) ? t.test(e) : void 0;}for (var n in r.Mock._mocked) {var a = r.Mock._mocked[n];if ((!a.rurl || e(a.rurl, t.url)) && (!a.rtype || e(a.rtype, t.type.toLowerCase()))) return a;}}function u(t, e) {return i.isFunction(t.template) ? t.template(e) : r.Mock.mock(t.template);}var i = n(3);window._XMLHttpRequest = window.XMLHttpRequest, window._ActiveXObject = window.ActiveXObject;try {new window.Event("custom");} catch (t) {window.Event = function (t, e, n, r) {var a = document.createEvent("CustomEvent");return a.initCustomEvent(t, e, n, r), a;};}var l = { UNSENT: 0, OPENED: 1, HEADERS_RECEIVED: 2, LOADING: 3, DONE: 4 },c = "readystatechange loadstart progress abort error load timeout loadend".split(" "),s = "timeout withCredentials".split(" "),h = "readyState responseURL status statusText responseType response responseText responseXML".split(" "),p = { 100: "Continue", 101: "Switching Protocols", 200: "OK", 201: "Created", 202: "Accepted", 203: "Non-Authoritative Information", 204: "No Content", 205: "Reset Content", 206: "Partial Content", 300: "Multiple Choice", 301: "Moved Permanently", 302: "Found", 303: "See Other", 304: "Not Modified", 305: "Use Proxy", 307: "Temporary Redirect", 400: "Bad Request", 401: "Unauthorized", 402: "Payment Required", 403: "Forbidden", 404: "Not Found", 405: "Method Not Allowed", 406: "Not Acceptable", 407: "Proxy Authentication Required", 408: "Request Timeout", 409: "Conflict", 410: "Gone", 411: "Length Required", 412: "Precondition Failed", 413: "Request Entity Too Large", 414: "Request-URI Too Long", 415: "Unsupported Media Type", 416: "Requested Range Not Satisfiable", 417: "Expectation Failed", 422: "Unprocessable Entity", 500: "Internal Server Error", 501: "Not Implemented", 502: "Bad Gateway", 503: "Service Unavailable", 504: "Gateway Timeout", 505: "HTTP Version Not Supported" };r._settings = { timeout: "10-100" }, r.setup = function (t) {return i.extend(r._settings, t), r._settings;}, i.extend(r, l), i.extend(r.prototype, l), r.prototype.mock = !0, r.prototype.match = !1, i.extend(r.prototype, { open: function open(t, e, n, u, l) {function p(t) {for (var e = 0; e < h.length; e++) {try {f[h[e]] = m[h[e]];} catch (t) {}}f.dispatchEvent(new Event(t.type));}var f = this;i.extend(this.custom, { method: t, url: e, async: "boolean" != typeof n || n, username: u, password: l, options: { url: e, type: t } }), this.custom.timeout = function (t) {if ("number" == typeof t) return t;if ("string" == typeof t && !~t.indexOf("-")) return parseInt(t, 10);if ("string" == typeof t && ~t.indexOf("-")) {var e = t.split("-"),n = parseInt(e[0], 10),r = parseInt(e[1], 10);return Math.round(Math.random() * (r - n)) + n;}}(r._settings.timeout);var d = o(this.custom.options);if (d) this.match = !0, this.custom.template = d, this.readyState = r.OPENED, this.dispatchEvent(new Event("readystatechange"));else {var m = a();this.custom.xhr = m;for (var v = 0; v < c.length; v++) {m.addEventListener(c[v], p);}u ? m.open(t, e, n, u, l) : m.open(t, e, n);for (var g = 0; g < s.length; g++) {try {m[s[g]] = f[s[g]];} catch (t) {}}}}, setRequestHeader: function setRequestHeader(t, e) {if (!this.match) return void this.custom.xhr.setRequestHeader(t, e);var n = this.custom.requestHeaders;n[t] ? n[t] += "," + e : n[t] = e;}, timeout: 0, withCredentials: !1, upload: {}, send: function send(t) {function e() {n.readyState = r.HEADERS_RECEIVED, n.dispatchEvent(new Event("readystatechange")), n.readyState = r.LOADING, n.dispatchEvent(new Event("readystatechange")), n.status = 200, n.statusText = p[200], n.response = n.responseText = JSON.stringify(u(n.custom.template, n.custom.options), null, 4), n.readyState = r.DONE, n.dispatchEvent(new Event("readystatechange")), n.dispatchEvent(new Event("load")), n.dispatchEvent(new Event("loadend"));}var n = this;return this.custom.options.body = t, this.match ? (this.setRequestHeader("X-Requested-With", "MockXMLHttpRequest"), this.dispatchEvent(new Event("loadstart")), void (this.custom.async ? setTimeout(e, this.custom.timeout) : e())) : void this.custom.xhr.send(t);}, abort: function abort() {return this.match ? (this.readyState = r.UNSENT, this.dispatchEvent(new Event("abort", !1, !1, this)), void this.dispatchEvent(new Event("error", !1, !1, this))) : void this.custom.xhr.abort();} }), i.extend(r.prototype, { responseURL: "", status: r.UNSENT, statusText: "", getResponseHeader: function getResponseHeader(t) {return this.match ? this.custom.responseHeaders[t.toLowerCase()] : this.custom.xhr.getResponseHeader(t);}, getAllResponseHeaders: function getAllResponseHeaders() {if (!this.match) return this.custom.xhr.getAllResponseHeaders();var t = this.custom.responseHeaders,e = "";for (var n in t) {t.hasOwnProperty(n) && (e += n + ": " + t[n] + "\r\n");}return e;}, overrideMimeType: function overrideMimeType() {}, responseType: "", response: null, responseText: "", responseXML: null }), i.extend(r.prototype, { addEventListener: function addEventListener(t, e) {var n = this.custom.events;n[t] || (n[t] = []), n[t].push(e);}, removeEventListener: function removeEventListener(t, e) {for (var n = this.custom.events[t] || [], r = 0; r < n.length; r++) {n[r] === e && n.splice(r--, 1);}}, dispatchEvent: function dispatchEvent(t) {for (var e = this.custom.events[t.type] || [], n = 0; n < e.length; n++) {e[n].call(this, t);}var r = "on" + t.type;this[r] && this[r](t);} }), t.exports = r;}]);});
 
 /***/ }),
-/* 49 */
+/* 218 */
 /*!****************************************************!*\
   !*** E:/demo/uni-router-demo/http/mock/mockApi.js ***!
   \****************************************************/
@@ -12240,7 +15577,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       article: '@csentence' } } };exports.default = _default;
 
 /***/ }),
-/* 50 */
+/* 219 */
 /*!********************************************************!*\
   !*** E:/demo/uni-router-demo/http/api/WorkOrderApi.js ***!
   \********************************************************/
@@ -12262,7 +15599,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     url: '/WorkOrder/AppWorkOrder/List' } };exports.default = _default;
 
 /***/ }),
-/* 51 */
+/* 220 */
 /*!*******************************************************!*\
   !*** E:/demo/uni-router-demo/http/api/ErpBasicApi.js ***!
   \*******************************************************/
@@ -12289,7 +15626,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     url: '/ErpBasic/Account/DeleteAccount' } };exports.default = _default;
 
 /***/ }),
-/* 52 */
+/* 221 */
 /*!**********************************************!*\
   !*** E:/demo/uni-router-demo/store/index.js ***!
   \**********************************************/
@@ -12298,7 +15635,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 53));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 222));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 _vue.default.use(_vuex.default);
 var store = new _vuex.default.Store({
   state: {
@@ -12310,7 +15647,7 @@ var store = new _vuex.default.Store({
 store;exports.default = _default;
 
 /***/ }),
-/* 53 */
+/* 222 */
 /*!********************************************!*\
   !*** ./node_modules/vuex/dist/vuex.esm.js ***!
   \********************************************/
@@ -13260,1426 +16597,12 @@ var index_esm = {
 
 
 /***/ }),
-/* 54 */
-/*!**************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/index.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 55));
-
-
-
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 56));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 60));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 61));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 62));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 63));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 64));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 65));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 66));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 67));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 68));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 58));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 57));
-
-var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 69));
-
-
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 59));
-
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 70));
-
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 71));
-
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 72));
-
-var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 73));
-
-var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 74));
-
-
-
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 75));
-
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 76));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
-// 引入关于是否mixin集成小程序分享的配置
-// import wxshare from './libs/mixin/mpShare.js'
-// 全局挂载引入http相关请求拦截插件
-function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
-  // 这个环境的来由是在程序编写时候,点击hx编辑器运行调试代码的时候,详见:
-  // 	https://uniapp.dcloud.io/frame?id=%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e5%92%8c%e7%94%9f%e4%ba%a7%e7%8e%af%e5%a2%83
-  if (true) {console.warn(str);}} // 尝试判断在根目录的/store中是否有$u.mixin.js，此文件uView默认为需要挂在到全局的vuex的state变量
-// HX2.6.11版本,放到try中,控制台依然会警告,暂时不用此方式，
-// let vuexStore = {};
-// try {
-// 	vuexStore = require("@/store/$u.mixin.js");
-// } catch (e) {
-// 	//TODO handle the exception
-// }
-// post类型对象参数转为get类型url参数
-var $u = { queryParams: _queryParams.default, route: _route.default, timeFormat: _timeFormat.default, date: _timeFormat.default, // 另名date
-  timeFrom: _timeFrom.default, colorGradient: _colorGradient.default.colorGradient, guid: _guid.default, color: _color.default, type2icon: _type2icon.default, randomArray: _randomArray.default, wranning: wranning, get: _request.default.get, post: _request.default.post, put: _request.default.put, 'delete': _request.default.delete,
-  hexToRgb: _colorGradient.default.hexToRgb,
-  rgbToHex: _colorGradient.default.rgbToHex,
-  test: _test.default,
-  random: _random.default,
-  deepClone: _deepClone.default,
-  deepMerge: _deepMerge.default,
-  getParent: _getParent.default,
-  $parent: _$parent.default,
-  addUnit: _addUnit.default,
-  trim: _trim.default,
-  type: ['primary', 'success', 'error', 'warning', 'info'],
-  http: _request.default,
-  toast: _toast.default,
-  config: _config.default, // uView配置信息相关，比如版本号
-  zIndex: _zIndex.default };
-
-
-var install = function install(Vue) {
-  Vue.mixin(_mixin.default);
-  if (Vue.prototype.openShare) {
-    Vue.mixin(mpShare);
-  }
-  // Vue.mixin(vuexStore);
-  // 时间格式化，同时两个名称，date和timeFormat
-  Vue.filter('timeFormat', function (timestamp, format) {
-    return (0, _timeFormat.default)(timestamp, format);
-  });
-  Vue.filter('date', function (timestamp, format) {
-    return (0, _timeFormat.default)(timestamp, format);
-  });
-  // 将多久以前的方法，注入到全局过滤器
-  Vue.filter('timeFrom', function (timestamp, format) {
-    return (0, _timeFrom.default)(timestamp, format);
-  });
-  // 获取设备信息，挂载到$u的sys(system的缩写)属性中，
-  // 同时把安卓和ios平台的名称"ios"和"android"挂到$u.os中，方便取用
-  $u.sys = uni.getSystemInfoSync();
-  $u.os = $u.sys.platform;
-  Vue.prototype.$u = $u;
-};var _default =
-
-{
-  install: install };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 55 */
-/*!*************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/mixin/mixin.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(uni) {module.exports = {
-  data: function data() {
-    return {};
-  },
-  onLoad: function onLoad() {
-    // getRect挂载到$u上，因为这方法需要使用in(this)，所以无法把它独立成一个单独的文件导出
-    this.$u.getRect = this.$uGetRect;
-  },
-  methods: {
-    // 查询节点信息
-    // 目前此方法在支付宝小程序中无法获取组件跟接点的尺寸，为支付宝的bug(2020-07-21)
-    // 解决办法为在组件根部再套一个没有任何作用的view元素
-    $uGetRect: function $uGetRect(selector, all) {var _this = this;
-      return new Promise(function (resolve) {
-        uni.createSelectorQuery().
-        in(_this)[all ? 'selectAll' : 'select'](selector).
-        boundingClientRect(function (rect) {
-          if (all && Array.isArray(rect) && rect.length) {
-            resolve(rect);
-          }
-          if (!all && rect) {
-            resolve(rect);
-          }
-        }).
-        exec();
-      });
-    } },
-
-  onReachBottom: function onReachBottom() {
-    uni.$emit('uOnReachBottom');
-  } };
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 56 */
-/*!***************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/request/index.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 57));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 59));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
-Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
-    // 设置全局默认配置
-    value: function setConfig(customConfig) {
-      // 深度合并对象，否则会造成对象深层属性丢失
-      this.config = (0, _deepMerge.default)(this.config, customConfig);
-    }
-
-    // 主要请求部分
-  }, { key: "request", value: function request() {var _this = this;var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-      // 检查请求拦截
-      if (this.interceptor.request && typeof this.interceptor.request === 'function') {
-        var tmpConfig = {};
-        var interceptorReuest = this.interceptor.request(options);
-        if (interceptorReuest === false) {
-          // 返回一个处于pending状态中的Promise，来取消原promise
-          return new Promise(function () {});
-        }
-        this.options = interceptorReuest;
-      }
-      options.dataType = options.dataType || this.config.dataType;
-      options.responseType = options.responseType || this.config.responseType;
-      options.url = options.url || '';
-      options.params = options.params || {};
-      options.header = Object.assign(this.config.header, options.header);
-      options.method = options.method || this.config.method;
-
-      return new Promise(function (resolve, reject) {
-        options.complete = function (response) {
-          // 请求返回后，隐藏loading(如果请求返回快的话，可能会没有loading)
-          uni.hideLoading();
-          // 清除定时器，如果请求回来了，就无需loading
-          clearTimeout(_this.config.timer);
-          _this.timer = null;
-          // 判断用户对拦截返回数据的要求，如果originalData为true，返回所有的数据(response)到拦截器，否则只返回response.data
-          if (_this.config.originalData) {
-            // 判断是否存在拦截器
-            if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
-              var resInterceptors = _this.interceptor.response(response);
-              // 如果拦截器不返回false，就将拦截器返回的内容给this.$u.post的then回调
-              if (resInterceptors !== false) {
-                resolve(resInterceptors);
-              } else {
-                // 如果拦截器返回false，意味着拦截器定义者认为返回有问题，直接接入catch回调
-                reject(response);
-              }
-            } else {
-              // 如果要求返回原始数据，就算没有拦截器，也返回最原始的数据
-              resolve(response);
-            }
-          } else {
-            if (response.statusCode == 200) {
-              if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
-                var _resInterceptors = _this.interceptor.response(response.data);
-                if (_resInterceptors !== false) {
-                  resolve(_resInterceptors);
-                } else {
-                  reject(response.data);
-                }
-              } else {
-                // 如果不是返回原始数据(originalData=false)，且没有拦截器的情况下，返回纯数据给then回调
-                resolve(response.data);
-              }
-            } else {
-              // 不返回原始数据的情况下，服务器状态码不为200，modal弹框提示
-              if (response.errMsg) {
-                uni.showModal({
-                  title: response.errMsg });
-
-              }
-              reject(response);
-            }
-          }
-        };
-
-        // 判断用户传递的URL是否/开头,如果不是,加上/，这里使用了uView的test.js验证库的url()方法
-        options.url = _test.default.url(options.url) ? options.url : _this.config.baseUrl + (options.url.indexOf('/') == 0 ?
-        options.url : '/' + options.url);
-
-        // 是否显示loading
-        // 加一个是否已有timer定时器的判断，否则有两个同时请求的时候，后者会清除前者的定时器id
-        // 而没有清除前者的定时器，导致前者超时，一直显示loading
-        if (_this.config.showLoading && !_this.config.timer) {
-          _this.config.timer = setTimeout(function () {
-            uni.showLoading({
-              title: _this.config.loadingText,
-              mask: _this.config.loadingMask });
-
-            _this.config.timer = null;
-          }, _this.config.loadingTime);
-        }
-        uni.request(options);
-      }).catch(function (res) {
-        // 如果返回reject()，不让其进入this.$u.post().then().catch()后面的catct()
-        // 因为很多人都会忘了写后面的catch()，导致报错捕获不到catch
-        return new Promise(function () {});
-      });
-    } }]);
-
-  function Request() {var _this2 = this;_classCallCheck(this, Request);
-    this.config = {
-      baseUrl: '', // 请求的根域名
-      // 默认的请求头
-      header: {},
-      method: 'POST',
-      // 设置为json，返回后uni.request会对数据进行一次JSON.parse
-      dataType: 'json',
-      // 此参数无需处理，因为5+和支付宝小程序不支持，默认为text即可
-      responseType: 'text',
-      showLoading: true, // 是否显示请求中的loading
-      loadingText: '请求中...',
-      loadingTime: 800, // 在此时间内，请求还没回来的话，就显示加载中动画，单位ms
-      timer: null, // 定时器
-      originalData: false, // 是否在拦截器中返回服务端的原始数据，见文档说明
-      loadingMask: true // 展示loading的时候，是否给一个透明的蒙层，防止触摸穿透
-    };
-
-    // 拦截器
-    this.interceptor = {
-      // 请求前的拦截
-      request: null,
-      // 请求后的拦截
-      response: null };
-
-
-    // get请求
-    this.get = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        method: 'GET',
-        url: url,
-        header: header,
-        data: data });
-
-    };
-
-    // post请求
-    this.post = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'POST',
-        header: header,
-        data: data });
-
-    };
-
-    // put请求，不支持支付宝小程序(HX2.6.15)
-    this.put = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'PUT',
-        header: header,
-        data: data });
-
-    };
-
-    // delete请求，不支持支付宝和头条小程序(HX2.6.15)
-    this.delete = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'DELETE',
-        header: header,
-        data: data });
-
-    };
-  }return Request;}();var _default =
-
-new Request();exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 57 */
-/*!********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/deepMerge.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 58));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-// JS对象深度合并
-function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  target = (0, _deepClone.default)(target);
-  if (typeof target !== 'object' || typeof source !== 'object') return false;
-  for (var prop in source) {
-    if (!source.hasOwnProperty(prop)) continue;
-    if (prop in target) {
-      if (typeof target[prop] !== 'object') {
-        target[prop] = source[prop];
-      } else {
-        if (typeof source[prop] !== 'object') {
-          target[prop] = source[prop];
-        } else {
-          if (target[prop].concat && source[prop].concat) {
-            target[prop] = target[prop].concat(source[prop]);
-          } else {
-            target[prop] = deepMerge(target[prop], source[prop]);
-          }
-        }
-      }
-    } else {
-      target[prop] = source[prop];
-    }
-  }
-  return target;
-}var _default =
-
-deepMerge;exports.default = _default;
-
-/***/ }),
-/* 58 */
-/*!********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/deepClone.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 判断arr是否为一个数组，返回一个bool值
-function isArray(arr) {
-  return Object.prototype.toString.call(arr) === '[object Array]';
-}
-
-// 深度克隆
-function deepClone(obj) {
-  // 对常见的“非”值，直接返回原来值
-  if ([null, undefined, NaN, false].includes(obj)) return obj;
-  if (typeof obj !== "object" && typeof obj !== 'function') {
-    //原始类型直接返回
-    return obj;
-  }
-  var o = isArray(obj) ? [] : {};
-  for (var i in obj) {
-    if (obj.hasOwnProperty(i)) {
-      o[i] = typeof obj[i] === "object" ? deepClone(obj[i]) : obj[i];
-    }
-  }
-  return o;
-}var _default =
-
-deepClone;exports.default = _default;
-
-/***/ }),
-/* 59 */
-/*!***************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/test.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 验证电子邮箱格式
-                                                                                                      */
-function email(value) {
-  return /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/.test(value);
-}
-
-/**
-   * 验证手机格式
-   */
-function mobile(value) {
-  return /^1[23456789]\d{9}$/.test(value);
-}
-
-/**
-   * 验证URL格式
-   */
-function url(value) {
-  return /^((https|http|ftp|rtsp|mms):\/\/)(([0-9a-zA-Z_!~*'().&=+$%-]+: )?[0-9a-zA-Z_!~*'().&=+$%-]+@)?(([0-9]{1,3}.){3}[0-9]{1,3}|([0-9a-zA-Z_!~*'()-]+.)*([0-9a-zA-Z][0-9a-zA-Z-]{0,61})?[0-9a-zA-Z].[a-zA-Z]{2,6})(:[0-9]{1,4})?((\/?)|(\/[0-9a-zA-Z_!~*'().;?:@&=+$,%#-]+)+\/?)$/.
-  test(value);
-}
-
-/**
-   * 验证日期格式
-   */
-function date(value) {
-  return !/Invalid|NaN/.test(new Date(value).toString());
-}
-
-/**
-   * 验证ISO类型的日期格式
-   */
-function dateISO(value) {
-  return /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(value);
-}
-
-/**
-   * 验证十进制数字
-   */
-function number(value) {
-  return /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
-}
-
-/**
-   * 验证整数
-   */
-function digits(value) {
-  return /^\d+$/.test(value);
-}
-
-/**
-   * 验证身份证号码
-   */
-function idCard(value) {
-  return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(
-  value);
-}
-
-/**
-   * 是否车牌号
-   */
-function carNo(value) {
-  // 新能源车牌
-  var xreg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}(([0-9]{5}[DF]$)|([DF][A-HJ-NP-Z0-9][0-9]{4}$))/;
-  // 旧车牌
-  var creg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]{1}$/;
-  if (value.length === 7) {
-    return creg.test(value);
-  } else if (value.length === 8) {
-    return xreg.test(value);
-  } else {
-    return false;
-  }
-}
-
-/**
-   * 金额,只允许2位小数
-   */
-function amount(value) {
-  //金额，只允许保留两位小数
-  return /^[1-9]\d*(,\d{3})*(\.\d{1,2})?$|^0\.\d{1,2}$/.test(value);
-}
-
-/**
-   * 中文
-   */
-function chinese(value) {
-  var reg = /^[\u4e00-\u9fa5]+$/gi;
-  return reg.test(value);
-}
-
-/**
-   * 只能输入字母
-   */
-function letter(value) {
-  return /^[a-zA-Z]*$/.test(value);
-}
-
-/**
-   * 只能是字母或者数字
-   */
-function enOrNum(value) {
-  //英文或者数字
-  var reg = /^[0-9a-zA-Z]*$/g;
-  return reg.test(value);
-}
-
-/**
-   * 验证是否包含某个值
-   */
-function contains(value, param) {
-  return value.indexOf(param) >= 0;
-}
-
-/**
-   * 验证一个值范围[min, max]
-   */
-function range(value, param) {
-  return value >= param[0] && value <= param[1];
-}
-
-/**
-   * 验证一个长度范围[min, max]
-   */
-function rangeLength(value, param) {
-  return value.length >= param[0] && value.length <= param[1];
-}
-
-/**
-   * 是否固定电话
-   */
-function landline(value) {
-  var reg = /^\d{3,4}-\d{7,8}(-\d{3,4})?$/;
-  return reg.test(value);
-}
-
-/**
-   * 判断是否为空
-   */
-function empty(value) {
-  switch (typeof value) {
-    case 'undefined':
-      return true;
-    case 'string':
-      if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
-      break;
-    case 'boolean':
-      if (!value) return true;
-      break;
-    case 'number':
-      if (0 === value || isNaN(value)) return true;
-      break;
-    case 'object':
-      if (null === value || value.length === 0) return true;
-      for (var i in value) {
-        return false;
-      }
-      return true;}
-
-  return false;
-}
-
-/**
-   * 是否json字符串
-   */
-function jsonString(value) {
-  if (typeof value == 'string') {
-    try {
-      var obj = JSON.parse(value);
-      if (typeof obj == 'object' && obj) {
-        return true;
-      } else {
-        return false;
-      }
-    } catch (e) {
-      return false;
-    }
-  }
-  return false;
-}
-
-
-/**
-   * 是否数组
-   */
-function array(value) {
-  if (typeof Array.isArray === "function") {
-    return Array.isArray(value);
-  } else {
-    return Object.prototype.toString.call(value) === "[object Array]";
-  }
-}
-
-
-/**
-   * 是否对象
-   */
-function object(value) {
-  return Object.prototype.toString.call(value) === '[object Object]';
-}var _default =
-
-
-{
-  email: email,
-  mobile: mobile,
-  url: url,
-  date: date,
-  dateISO: dateISO,
-  number: number,
-  digits: digits,
-  idCard: idCard,
-  carNo: carNo,
-  amount: amount,
-  chinese: chinese,
-  letter: letter,
-  enOrNum: enOrNum,
-  contains: contains,
-  range: range,
-  rangeLength: rangeLength,
-  empty: empty,
-  isEmpty: empty,
-  jsonString: jsonString,
-  landline: landline,
-  object: object,
-  array: array };exports.default = _default;
-
-/***/ }),
-/* 60 */
-/*!**********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/queryParams.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 对象转url参数
-                                                                                                      * @param {*} data,对象
-                                                                                                      * @param {*} isPrefix,是否自动加上"?"
-                                                                                                      */
-function queryParams() {var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var isPrefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var arrayFormat = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'brackets';
-  var prefix = isPrefix ? '?' : '';
-  var _result = [];
-  if (['indices', 'brackets', 'repeat', 'comma'].indexOf(arrayFormat) == -1) arrayFormat = 'brackets';var _loop = function _loop(
-  key) {
-    var value = data[key];
-    // 去掉为空的参数
-    if (['', undefined, null].indexOf(value) >= 0) {
-      return "continue";
-    }
-    // 如果值为数组，另行处理
-    if (value.constructor === Array) {
-      // e.g. {ids: [1, 2, 3]}
-      switch (arrayFormat) {
-        case 'indices':
-          // 结果: ids[0]=1&ids[1]=2&ids[2]=3
-          for (var i = 0; i < value.length; i++) {
-            _result.push(key + '[' + i + ']=' + value[i]);
-          }
-          break;
-        case 'brackets':
-          // 结果: ids[]=1&ids[]=2&ids[]=3
-          value.forEach(function (_value) {
-            _result.push(key + '[]=' + _value);
-          });
-          break;
-        case 'repeat':
-          // 结果: ids=1&ids=2&ids=3
-          value.forEach(function (_value) {
-            _result.push(key + '=' + _value);
-          });
-          break;
-        case 'comma':
-          // 结果: ids=1,2,3
-          var commaStr = "";
-          value.forEach(function (_value) {
-            commaStr += (commaStr ? "," : "") + _value;
-          });
-          _result.push(key + '=' + commaStr);
-          break;
-        default:
-          value.forEach(function (_value) {
-            _result.push(key + '[]=' + _value);
-          });}
-
-    } else {
-      _result.push(key + '=' + value);
-    }};for (var key in data) {var _ret = _loop(key);if (_ret === "continue") continue;
-  }
-  return _result.length ? prefix + _result.join('&') : '';
-}var _default =
-
-queryParams;exports.default = _default;
-
-/***/ }),
-/* 61 */
-/*!****************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/route.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 60));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-/**
-                                                                                                                                                                                                                                                                                            * 路由跳转
-                                                                                                                                                                                                                                                                                            * 注意:本方法没有对跳转的回调函数进行封装
-                                                                                                                                                                                                                                                                                            */
-function route() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  var config = {
-    type: 'navigateTo',
-    url: '',
-    delta: 1, // navigateBack页面后退时,回退的层数
-    params: {}, // 传递的参数
-    animationType: 'pop-in', // 窗口动画,只在APP有效
-    animationDuration: 300 // 窗口动画持续时间,单位毫秒,只在APP有效
-  };
-  config = Object.assign(config, options);
-  // 如果url没有"/"开头，添加上，因为uni的路由跳转需要"/"开头
-  if (config.url[0] != '/') config.url = '/' + config.url;
-  // 判断是否有传递显式的参数,Object.keys转为数组并判断长度,switchTab类型时不能携带参数
-  if (Object.keys(config.params).length && config.type != 'switchTab') {
-    // 判断用户传递的url中，是否带有参数
-    // 使用正则匹配，主要依据是判断是否有"/","?","="等，如“/page/index/index?name=mary"
-    // 如果有url中有get参数，转换后无需带上"?"
-    var query = '';
-    if (/.*\/.*\?.*=.*/.test(config.url)) {
-      // object对象转为get类型的参数
-      query = (0, _queryParams.default)(config.params, false);
-      // 因为已有get参数,所以后面拼接的参数需要带上"&"隔开
-      config.url += "&" + query;
-    } else {
-      query = (0, _queryParams.default)(config.params);
-      config.url += query;
-    }
-  }
-  // 简写形式，把url和参数拼接起来
-  if (typeof options === 'string' && typeof params == 'object') {
-    var _query = '';
-    if (/.*\/.*\?.*=.*/.test(options)) {
-      // object对象转为get类型的参数
-      _query = (0, _queryParams.default)(params, false);
-      // 因为已有get参数,所以后面拼接的参数需要带上"&"隔开
-      options += "&" + _query;
-    } else {
-      _query = (0, _queryParams.default)(params);
-      options += _query;
-    }
-  }
-  // 判断是否一个字符串，如果是，直接跳转(简写法)
-  // 如果是中情形，默认第二个参数为对象形式的参数
-  if (typeof options === 'string') {
-    if (options[0] != '/') options = '/' + options;
-    return uni.navigateTo({
-      url: options });
-
-  }
-  // navigateTo类型的跳转
-  if (config.type == 'navigateTo' || config.type == 'to') {
-    return uni.navigateTo({
-      url: config.url,
-      animationType: config.animationType,
-      animationDuration: config.animationDuration });
-
-  }
-  if (config.type == 'redirectTo' || config.type == 'redirect') {
-    return uni.redirectTo({
-      url: config.url });
-
-  }
-  if (config.type == 'switchTab' || config.type == 'tab') {
-    return uni.switchTab({
-      url: config.url });
-
-  }
-  if (config.type == 'reLaunch') {
-    return uni.reLaunch({
-      url: config.url });
-
-  }
-  if (config.type == 'navigateBack' || config.type == 'back') {
-    return uni.navigateBack({
-      delta: parseInt(config.delta ? config.delta : this.delta) });
-
-  }
-}var _default =
-
-route;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 62 */
-/*!*********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/timeFormat.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function timeFormat() {var timestamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;var fmt = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-mm-dd';
-  // 其他更多是格式化有如下:
-  // yyyy:mm:dd|yyyy:mm|yyyy年mm月dd日|yyyy年mm月dd日 hh时MM分等,可自定义组合
-  timestamp = parseInt(timestamp);
-  // 如果为null,则格式化当前时间
-  if (!timestamp) timestamp = Number(new Date());
-  // 判断用户输入的时间戳是秒还是毫秒,一般前端js获取的时间戳是毫秒(13位),后端传过来的为秒(10位)
-  if (timestamp.toString().length == 10) timestamp *= 1000;
-  var date = new Date(timestamp);
-  var ret;
-  var opt = {
-    "y+": date.getFullYear().toString(), // 年
-    "m+": (date.getMonth() + 1).toString(), // 月
-    "d+": date.getDate().toString(), // 日
-    "h+": date.getHours().toString(), // 时
-    "M+": date.getMinutes().toString(), // 分
-    "s+": date.getSeconds().toString() // 秒
-    // 有其他格式化字符需求可以继续添加，必须转化成字符串
-  };
-  for (var k in opt) {
-    ret = new RegExp("(" + k + ")").exec(fmt);
-    if (ret) {
-      fmt = fmt.replace(ret[1], ret[1].length == 1 ? opt[k] : opt[k].padStart(ret[1].length, "0"));
-    };
-  };
-  return fmt;
-}var _default =
-
-timeFormat;exports.default = _default;
-
-/***/ }),
-/* 63 */
-/*!*******************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/timeFrom.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 62));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-/**
-                                                                                                                                                                                                                                                                                          * 时间戳转为多久之前
-                                                                                                                                                                                                                                                                                          * @param String timestamp 时间戳
-                                                                                                                                                                                                                                                                                          * @param String | Boolean format 如果为时间格式字符串，超出一定时间范围，返回固定的时间格式；
-                                                                                                                                                                                                                                                                                          * 如果为布尔值false，无论什么时间，都返回多久以前的格式
-                                                                                                                                                                                                                                                                                          */
-function timeFrom() {var timestamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;var format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-mm-dd';
-  if (timestamp == null) timestamp = Number(new Date());
-  timestamp = parseInt(timestamp);
-  // 判断用户输入的时间戳是秒还是毫秒,一般前端js获取的时间戳是毫秒(13位),后端传过来的为秒(10位)
-  if (timestamp.toString().length == 10) timestamp *= 1000;
-  var timer = new Date().getTime() - timestamp;
-  timer = parseInt(timer / 1000);
-  // 如果小于5分钟,则返回"刚刚",其他以此类推
-  var tips = '';
-  switch (true) {
-    case timer < 300:
-      tips = '刚刚';
-      break;
-    case timer >= 300 && timer < 3600:
-      tips = parseInt(timer / 60) + '分钟前';
-      break;
-    case timer >= 3600 && timer < 86400:
-      tips = parseInt(timer / 3600) + '小时前';
-      break;
-    case timer >= 86400 && timer < 2592000:
-      tips = parseInt(timer / 86400) + '天前';
-      break;
-    default:
-      // 如果format为false，则无论什么时间戳，都显示xx之前
-      if (format === false) {
-        if (timer >= 2592000 && timer < 365 * 86400) {
-          tips = parseInt(timer / (86400 * 30)) + '个月前';
-        } else {
-          tips = parseInt(timer / (86400 * 365)) + '年前';
-        }
-      } else {
-        tips = (0, _timeFormat.default)(timestamp, format);
-      }}
-
-  return tips;
-}var _default =
-
-timeFrom;exports.default = _default;
-
-/***/ }),
-/* 64 */
-/*!************************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/colorGradient.js ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 求两个颜色之间的渐变值
-                                                                                                      * @param {string} startColor 开始的颜色
-                                                                                                      * @param {string} endColor 结束的颜色
-                                                                                                      * @param {number} step 颜色等分的份额
-                                                                                                      * */
-function colorGradient() {var startColor = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'rgb(0, 0, 0)';var endColor = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rgb(255, 255, 255)';var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
-  var startRGB = hexToRgb(startColor, false); //转换为rgb数组模式
-  var startR = startRGB[0];
-  var startG = startRGB[1];
-  var startB = startRGB[2];
-
-  var endRGB = hexToRgb(endColor, false);
-  var endR = endRGB[0];
-  var endG = endRGB[1];
-  var endB = endRGB[2];
-
-  var sR = (endR - startR) / step; //总差值
-  var sG = (endG - startG) / step;
-  var sB = (endB - startB) / step;
-  var colorArr = [];
-  for (var i = 0; i < step; i++) {
-    //计算每一步的hex值 
-    var hex = rgbToHex('rgb(' + Math.round(sR * i + startR) + ',' + Math.round(sG * i + startG) + ',' + Math.round(sB *
-    i + startB) + ')');
-    colorArr.push(hex);
-  }
-  return colorArr;
-}
-
-// 将hex表示方式转换为rgb表示方式(这里返回rgb数组模式)
-function hexToRgb(sColor) {var str = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
-  sColor = sColor.toLowerCase();
-  if (sColor && reg.test(sColor)) {
-    if (sColor.length === 4) {
-      var sColorNew = "#";
-      for (var i = 1; i < 4; i += 1) {
-        sColorNew += sColor.slice(i, i + 1).concat(sColor.slice(i, i + 1));
-      }
-      sColor = sColorNew;
-    }
-    //处理六位的颜色值
-    var sColorChange = [];
-    for (var _i = 1; _i < 7; _i += 2) {
-      sColorChange.push(parseInt("0x" + sColor.slice(_i, _i + 2)));
-    }
-    if (!str) {
-      return sColorChange;
-    } else {
-      return "rgb(".concat(sColorChange[0], ",").concat(sColorChange[1], ",").concat(sColorChange[2], ")");
-    }
-  } else if (/^(rgb|RGB)/.test(sColor)) {
-    var arr = sColor.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
-    return arr.map(function (val) {return Number(val);});
-  } else {
-    return sColor;
-  }
-};
-
-// 将rgb表示方式转换为hex表示方式
-function rgbToHex(rgb) {
-  var _this = rgb;
-  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
-  if (/^(rgb|RGB)/.test(_this)) {
-    var aColor = _this.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
-    var strHex = "#";
-    for (var i = 0; i < aColor.length; i++) {
-      var hex = Number(aColor[i]).toString(16);
-      hex = String(hex).length == 1 ? 0 + '' + hex : hex; // 保证每个rgb的值为2位
-      if (hex === "0") {
-        hex += hex;
-      }
-      strHex += hex;
-    }
-    if (strHex.length !== 7) {
-      strHex = _this;
-    }
-    return strHex;
-  } else if (reg.test(_this)) {
-    var aNum = _this.replace(/#/, "").split("");
-    if (aNum.length === 6) {
-      return _this;
-    } else if (aNum.length === 3) {
-      var numHex = "#";
-      for (var _i2 = 0; _i2 < aNum.length; _i2 += 1) {
-        numHex += aNum[_i2] + aNum[_i2];
-      }
-      return numHex;
-    }
-  } else {
-    return _this;
-  }
-}var _default =
-
-{
-  colorGradient: colorGradient,
-  hexToRgb: hexToRgb,
-  rgbToHex: rgbToHex };exports.default = _default;
-
-/***/ }),
-/* 65 */
-/*!***************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/guid.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 本算法来源于简书开源代码，详见：https://www.jianshu.com/p/fdbf293d0a85
-                                                                                                      * 全局唯一标识符（uuid，Globally Unique Identifier）,也称作 uuid(Universally Unique IDentifier) 
-                                                                                                      * 一般用于多个组件之间,给它一个唯一的标识符,或者v-for循环的时候,如果使用数组的index可能会导致更新列表出现问题
-                                                                                                      * 最可能的情况是左滑删除item或者对某条信息流"不喜欢"并去掉它的时候,会导致组件内的数据可能出现错乱
-                                                                                                      * v-for的时候,推荐使用后端返回的id而不是循环的index
-                                                                                                      * @param {Number} len uuid的长度
-                                                                                                      * @param {Boolean} firstU 将返回的首字母置为"u"
-                                                                                                      * @param {Nubmer} radix 生成uuid的基数(意味着返回的字符串都是这个基数),2-二进制,8-八进制,10-十进制,16-十六进制
-                                                                                                      */
-function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 32;var firstU = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var radix = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-  var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
-  var uuid = [];
-  radix = radix || chars.length;
-
-  if (len) {
-    // 如果指定uuid长度,只是取随机的字符,0|x为位运算,能去掉x的小数位,返回整数位
-    for (var i = 0; i < len; i++) {uuid[i] = chars[0 | Math.random() * radix];}
-  } else {
-    var r;
-    // rfc4122标准要求返回的uuid中,某些位为固定的字符
-    uuid[8] = uuid[13] = uuid[18] = uuid[23] = '-';
-    uuid[14] = '4';
-
-    for (var _i = 0; _i < 36; _i++) {
-      if (!uuid[_i]) {
-        r = 0 | Math.random() * 16;
-        uuid[_i] = chars[_i == 19 ? r & 0x3 | 0x8 : r];
-      }
-    }
-  }
-  // 移除第一个字符,并用u替代,因为第一个字符为数值时,该guuid不能用作id或者class
-  if (firstU) {
-    uuid.shift();
-    return 'u' + uuid.join('');
-  } else {
-    return uuid.join('');
-  }
-}var _default =
-
-guid;exports.default = _default;
-
-/***/ }),
-/* 66 */
-/*!****************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/color.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 为了让用户能够自定义主题，会逐步弃用此文件，各颜色通过css提供
-// 为了给某些特殊场景使用和向后兼容，无需删除此文件(2020-06-20)
-var color = {
-  primary: "#2979ff",
-  primaryDark: "#2b85e4",
-  primaryDisabled: "#a0cfff",
-  primaryLight: "#ecf5ff",
-  bgColor: "#f3f4f6",
-
-  info: "#909399",
-  infoDark: "#82848a",
-  infoDisabled: "#c8c9cc",
-  infoLight: "#f4f4f5",
-
-  warning: "#ff9900",
-  warningDark: "#f29100",
-  warningDisabled: "#fcbd71",
-  warningLight: "#fdf6ec",
-
-  error: "#fa3534",
-  errorDark: "#dd6161",
-  errorDisabled: "#fab6b6",
-  errorLight: "#fef0f0",
-
-  success: "#19be6b",
-  successDark: "#18b566",
-  successDisabled: "#71d5a1",
-  successLight: "#dbf1e1",
-
-  mainColor: "#303133",
-  contentColor: "#606266",
-  tipsColor: "#909399",
-  lightColor: "#c0c4cc",
-  borderColor: "#e4e7ed" };var _default =
-
-
-color;exports.default = _default;
-
-/***/ }),
-/* 67 */
-/*!********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/type2icon.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 根据主题type值,获取对应的图标
-                                                                                                      * @param String type 主题名称,primary|info|error|warning|success
-                                                                                                      * @param String fill 是否使用fill填充实体的图标  
-                                                                                                      */
-function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'success';var fill = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  // 如果非预置值,默认为success
-  if (['primary', 'info', 'error', 'warning', 'success'].indexOf(type) == -1) type = 'success';
-  var iconName = '';
-  // 目前(2019-12-12),info和primary使用同一个图标
-  switch (type) {
-    case 'primary':
-      iconName = 'info-circle';
-      break;
-    case 'info':
-      iconName = 'info-circle';
-      break;
-    case 'error':
-      iconName = 'close-circle';
-      break;
-    case 'warning':
-      iconName = 'error-circle';
-      break;
-    case 'success':
-      iconName = 'checkmark-circle';
-      break;
-    default:
-      iconName = 'checkmark-circle';}
-
-  // 是否是实体类型,加上-fill,在icon组件库中,实体的类名是后面加-fill的
-  if (fill) iconName += '-fill';
-  return iconName;
-}var _default =
-
-type2icon;exports.default = _default;
-
-/***/ }),
-/* 68 */
-/*!**********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/randomArray.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 打乱数组
-function randomArray() {var array = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-  // 原理是sort排序,Math.random()产生0<= x < 1之间的数,会导致x-0.05大于或者小于0
-  return array.sort(function () {return Math.random() - 0.5;});
-}var _default =
-
-randomArray;exports.default = _default;
-
-/***/ }),
-/* 69 */
-/*!******************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/addUnit.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 59));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-// 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
-function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
-  value = String(value);
-  // 用uView内置验证规则中的number判断是否为数值
-  return _test.default.number(value) ? "".concat(value).concat(unit) : value;
-}
-
-/***/ }),
-/* 70 */
-/*!*****************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/random.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function random(min, max) {
-  if (min >= 0 && max > 0 && max >= min) {
-    var gab = max - min + 1;
-    return Math.floor(Math.random() * gab + min);
-  } else {
-    return 0;
-  }
-}var _default =
-
-random;exports.default = _default;
-
-/***/ }),
-/* 71 */
-/*!***************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/trim.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function trim(str) {var pos = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'both';
-  if (pos == 'both') {
-    return str.replace(/^\s+|\s+$/g, "");
-  } else if (pos == "left") {
-    return str.replace(/^\s*/, '');
-  } else if (pos == 'right') {
-    return str.replace(/(\s*$)/g, "");
-  } else if (pos == 'all') {
-    return str.replace(/\s+/g, "");
-  } else {
-    return str;
-  }
-}var _default =
-
-trim;exports.default = _default;
-
-/***/ }),
-/* 72 */
-/*!****************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/toast.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
-  uni.showToast({
-    title: title,
-    icon: 'none',
-    duration: duration });
-
-}var _default =
-
-toast;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 73 */
-/*!********************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/getParent.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = getParent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-function getParent(name, keys) {
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {var _ret = function () {
-        var data = {};
-        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
-        if (Array.isArray(keys)) {
-          keys.map(function (val) {
-            data[val] = parent[val] ? parent[val] : '';
-          });
-        } else {
-          // 历遍传过来的对象参数
-          for (var i in keys) {
-            // 如果子组件有此值则用，无此值则用父组件的值
-            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
-            if (Array.isArray(keys[i])) {
-              if (keys[i].length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else if (keys[i].constructor === Object) {
-              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
-              if (Object.keys(keys[i]).length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else {
-              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
-              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
-            }
-          }
-        }
-        return { v: data };}();if (typeof _ret === "object") return _ret.v;
-    }
-  }
-
-  return {};
-}
-
-/***/ }),
-/* 74 */
-/*!******************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/function/$parent.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-function $parent(name, keys) {
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {
-      return parent;
-    }
-  }
-  return false;
-}
-
-/***/ }),
-/* 75 */
-/*!***************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/config/config.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 此版本发布于2020-07-28
-var version = '1.5.6';var _default =
-
-{
-  v: version,
-  version: version,
-  // 主题名称
-  type: [
-  'primary',
-  'success',
-  'info',
-  'error',
-  'warning'] };exports.default = _default;
-
-/***/ }),
-/* 76 */
-/*!***************************************************************************!*\
-  !*** E:/demo/uni-router-demo/node_modules/uview-ui/libs/config/zIndex.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // uniapp在H5中各API的z-index值如下：
-/**
- * actionsheet: 999
- * modal: 999
- * navigate: 998
- * tabbar: 998
- * toast: 999
- */var _default =
-
-{
-  toast: 10090,
-  noNetwork: 10080,
-  // popup包含popup，actionsheet，keyboard，picker的值
-  popup: 10075,
-  mask: 10070,
-  navbar: 980,
-  topTips: 975,
-  sticky: 970,
-  indexListSticky: 965 };exports.default = _default;
-
-/***/ }),
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */
 /*!************************************************************************************!*\
   !*** E:/demo/uni-router-demo/node_modules/_crypto-js@4.0.0@crypto-js/crypto-js.js ***!
   \************************************************************************************/
@@ -14721,7 +16644,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     // Native crypto import via require (NodeJS)
     if (!crypto && "function" === 'function') {
       try {
-        crypto = __webpack_require__(/*! crypto */ 84);
+        crypto = __webpack_require__(/*! crypto */ 229);
       } catch (err) {}
     }
 
@@ -20741,7 +22664,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! (webpack)/buildin/global.js */ 3)))
 
 /***/ }),
-/* 84 */
+/* 229 */
 /*!*************************************************!*\
   !*** ./node_modules/crypto-browserify/index.js ***!
   \*************************************************/
@@ -20751,22 +22674,22 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 "use strict";
 
 
-exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = __webpack_require__(/*! randombytes */ 85)
-exports.createHash = exports.Hash = __webpack_require__(/*! create-hash */ 93)
-exports.createHmac = exports.Hmac = __webpack_require__(/*! create-hmac */ 128)
+exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = __webpack_require__(/*! randombytes */ 230)
+exports.createHash = exports.Hash = __webpack_require__(/*! create-hash */ 236)
+exports.createHmac = exports.Hmac = __webpack_require__(/*! create-hmac */ 271)
 
-var algos = __webpack_require__(/*! browserify-sign/algos */ 131)
+var algos = __webpack_require__(/*! browserify-sign/algos */ 274)
 var algoKeys = Object.keys(algos)
 var hashes = ['sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'md5', 'rmd160'].concat(algoKeys)
 exports.getHashes = function () {
   return hashes
 }
 
-var p = __webpack_require__(/*! pbkdf2 */ 133)
+var p = __webpack_require__(/*! pbkdf2 */ 276)
 exports.pbkdf2 = p.pbkdf2
 exports.pbkdf2Sync = p.pbkdf2Sync
 
-var aes = __webpack_require__(/*! browserify-cipher */ 138)
+var aes = __webpack_require__(/*! browserify-cipher */ 281)
 
 exports.Cipher = aes.Cipher
 exports.createCipher = aes.createCipher
@@ -20779,7 +22702,7 @@ exports.createDecipheriv = aes.createDecipheriv
 exports.getCiphers = aes.getCiphers
 exports.listCiphers = aes.listCiphers
 
-var dh = __webpack_require__(/*! diffie-hellman */ 167)
+var dh = __webpack_require__(/*! diffie-hellman */ 310)
 
 exports.DiffieHellmanGroup = dh.DiffieHellmanGroup
 exports.createDiffieHellmanGroup = dh.createDiffieHellmanGroup
@@ -20787,16 +22710,16 @@ exports.getDiffieHellman = dh.getDiffieHellman
 exports.createDiffieHellman = dh.createDiffieHellman
 exports.DiffieHellman = dh.DiffieHellman
 
-var sign = __webpack_require__(/*! browserify-sign */ 177)
+var sign = __webpack_require__(/*! browserify-sign */ 320)
 
 exports.createSign = sign.createSign
 exports.Sign = sign.Sign
 exports.createVerify = sign.createVerify
 exports.Verify = sign.Verify
 
-exports.createECDH = __webpack_require__(/*! create-ecdh */ 232)
+exports.createECDH = __webpack_require__(/*! create-ecdh */ 375)
 
-var publicEncrypt = __webpack_require__(/*! public-encrypt */ 233)
+var publicEncrypt = __webpack_require__(/*! public-encrypt */ 376)
 
 exports.publicEncrypt = publicEncrypt.publicEncrypt
 exports.privateEncrypt = publicEncrypt.privateEncrypt
@@ -20816,7 +22739,7 @@ exports.privateDecrypt = publicEncrypt.privateDecrypt
 //   }
 // })
 
-var rf = __webpack_require__(/*! randomfill */ 239)
+var rf = __webpack_require__(/*! randomfill */ 382)
 
 exports.randomFill = rf.randomFill
 exports.randomFillSync = rf.randomFillSync
@@ -20849,7 +22772,7 @@ exports.constants = {
 
 
 /***/ }),
-/* 85 */
+/* 230 */
 /*!*********************************************!*\
   !*** ./node_modules/randombytes/browser.js ***!
   \*********************************************/
@@ -20871,7 +22794,7 @@ function oldBrowser () {
   throw new Error('Secure random number generation is not supported by this browser.\nUse Chrome, Firefox or Internet Explorer 11')
 }
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 var crypto = global.crypto || global.msCrypto
 
 if (crypto && crypto.getRandomValues) {
@@ -20908,367 +22831,10 @@ function randomBytes (size, cb) {
   return bytes
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 86)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 203)))
 
 /***/ }),
-/* 86 */
-/*!********************************************************!*\
-  !*** ./node_modules/node-libs-browser/mock/process.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports.nextTick = function nextTick(fn) {
-    var args = Array.prototype.slice.call(arguments);
-    args.shift();
-    setTimeout(function () {
-        fn.apply(null, args);
-    }, 0);
-};
-
-exports.platform = exports.arch = 
-exports.execPath = exports.title = 'browser';
-exports.pid = 1;
-exports.browser = true;
-exports.env = {};
-exports.argv = [];
-
-exports.binding = function (name) {
-	throw new Error('No such module. (Possibly not yet loaded)')
-};
-
-(function () {
-    var cwd = '/';
-    var path;
-    exports.cwd = function () { return cwd };
-    exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 87);
-        cwd = path.resolve(dir, cwd);
-    };
-})();
-
-exports.exit = exports.kill = 
-exports.umask = exports.dlopen = 
-exports.uptime = exports.memoryUsage = 
-exports.uvCounters = function() {};
-exports.features = {};
-
-
-/***/ }),
-/* 87 */
-/*!***********************************************!*\
-  !*** ./node_modules/path-browserify/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(process) {// .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
-// backported and transplited with Babel, with backwards-compat fixes
-
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-// resolves . and .. elements in a path array with directory names there
-// must be no slashes, empty elements, or device names (c:\) in the array
-// (so also no leading and trailing slashes - it does not distinguish
-// relative and absolute paths)
-function normalizeArray(parts, allowAboveRoot) {
-  // if the path tries to go above the root, `up` ends up > 0
-  var up = 0;
-  for (var i = parts.length - 1; i >= 0; i--) {
-    var last = parts[i];
-    if (last === '.') {
-      parts.splice(i, 1);
-    } else if (last === '..') {
-      parts.splice(i, 1);
-      up++;
-    } else if (up) {
-      parts.splice(i, 1);
-      up--;
-    }
-  }
-
-  // if the path is allowed to go above the root, restore leading ..s
-  if (allowAboveRoot) {
-    for (; up--; up) {
-      parts.unshift('..');
-    }
-  }
-
-  return parts;
-}
-
-// path.resolve([from ...], to)
-// posix version
-exports.resolve = function() {
-  var resolvedPath = '',
-      resolvedAbsolute = false;
-
-  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
-    var path = (i >= 0) ? arguments[i] : process.cwd();
-
-    // Skip empty and invalid entries
-    if (typeof path !== 'string') {
-      throw new TypeError('Arguments to path.resolve must be strings');
-    } else if (!path) {
-      continue;
-    }
-
-    resolvedPath = path + '/' + resolvedPath;
-    resolvedAbsolute = path.charAt(0) === '/';
-  }
-
-  // At this point the path should be resolved to a full absolute path, but
-  // handle relative paths to be safe (might happen when process.cwd() fails)
-
-  // Normalize the path
-  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {
-    return !!p;
-  }), !resolvedAbsolute).join('/');
-
-  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
-};
-
-// path.normalize(path)
-// posix version
-exports.normalize = function(path) {
-  var isAbsolute = exports.isAbsolute(path),
-      trailingSlash = substr(path, -1) === '/';
-
-  // Normalize the path
-  path = normalizeArray(filter(path.split('/'), function(p) {
-    return !!p;
-  }), !isAbsolute).join('/');
-
-  if (!path && !isAbsolute) {
-    path = '.';
-  }
-  if (path && trailingSlash) {
-    path += '/';
-  }
-
-  return (isAbsolute ? '/' : '') + path;
-};
-
-// posix version
-exports.isAbsolute = function(path) {
-  return path.charAt(0) === '/';
-};
-
-// posix version
-exports.join = function() {
-  var paths = Array.prototype.slice.call(arguments, 0);
-  return exports.normalize(filter(paths, function(p, index) {
-    if (typeof p !== 'string') {
-      throw new TypeError('Arguments to path.join must be strings');
-    }
-    return p;
-  }).join('/'));
-};
-
-
-// path.relative(from, to)
-// posix version
-exports.relative = function(from, to) {
-  from = exports.resolve(from).substr(1);
-  to = exports.resolve(to).substr(1);
-
-  function trim(arr) {
-    var start = 0;
-    for (; start < arr.length; start++) {
-      if (arr[start] !== '') break;
-    }
-
-    var end = arr.length - 1;
-    for (; end >= 0; end--) {
-      if (arr[end] !== '') break;
-    }
-
-    if (start > end) return [];
-    return arr.slice(start, end - start + 1);
-  }
-
-  var fromParts = trim(from.split('/'));
-  var toParts = trim(to.split('/'));
-
-  var length = Math.min(fromParts.length, toParts.length);
-  var samePartsLength = length;
-  for (var i = 0; i < length; i++) {
-    if (fromParts[i] !== toParts[i]) {
-      samePartsLength = i;
-      break;
-    }
-  }
-
-  var outputParts = [];
-  for (var i = samePartsLength; i < fromParts.length; i++) {
-    outputParts.push('..');
-  }
-
-  outputParts = outputParts.concat(toParts.slice(samePartsLength));
-
-  return outputParts.join('/');
-};
-
-exports.sep = '/';
-exports.delimiter = ':';
-
-exports.dirname = function (path) {
-  if (typeof path !== 'string') path = path + '';
-  if (path.length === 0) return '.';
-  var code = path.charCodeAt(0);
-  var hasRoot = code === 47 /*/*/;
-  var end = -1;
-  var matchedSlash = true;
-  for (var i = path.length - 1; i >= 1; --i) {
-    code = path.charCodeAt(i);
-    if (code === 47 /*/*/) {
-        if (!matchedSlash) {
-          end = i;
-          break;
-        }
-      } else {
-      // We saw the first non-path separator
-      matchedSlash = false;
-    }
-  }
-
-  if (end === -1) return hasRoot ? '/' : '.';
-  if (hasRoot && end === 1) {
-    // return '//';
-    // Backwards-compat fix:
-    return '/';
-  }
-  return path.slice(0, end);
-};
-
-function basename(path) {
-  if (typeof path !== 'string') path = path + '';
-
-  var start = 0;
-  var end = -1;
-  var matchedSlash = true;
-  var i;
-
-  for (i = path.length - 1; i >= 0; --i) {
-    if (path.charCodeAt(i) === 47 /*/*/) {
-        // If we reached a path separator that was not part of a set of path
-        // separators at the end of the string, stop now
-        if (!matchedSlash) {
-          start = i + 1;
-          break;
-        }
-      } else if (end === -1) {
-      // We saw the first non-path separator, mark this as the end of our
-      // path component
-      matchedSlash = false;
-      end = i + 1;
-    }
-  }
-
-  if (end === -1) return '';
-  return path.slice(start, end);
-}
-
-// Uses a mixed approach for backwards-compatibility, as ext behavior changed
-// in new Node.js versions, so only basename() above is backported here
-exports.basename = function (path, ext) {
-  var f = basename(path);
-  if (ext && f.substr(-1 * ext.length) === ext) {
-    f = f.substr(0, f.length - ext.length);
-  }
-  return f;
-};
-
-exports.extname = function (path) {
-  if (typeof path !== 'string') path = path + '';
-  var startDot = -1;
-  var startPart = 0;
-  var end = -1;
-  var matchedSlash = true;
-  // Track the state of characters (if any) we see before our first dot and
-  // after any path separator we find
-  var preDotState = 0;
-  for (var i = path.length - 1; i >= 0; --i) {
-    var code = path.charCodeAt(i);
-    if (code === 47 /*/*/) {
-        // If we reached a path separator that was not part of a set of path
-        // separators at the end of the string, stop now
-        if (!matchedSlash) {
-          startPart = i + 1;
-          break;
-        }
-        continue;
-      }
-    if (end === -1) {
-      // We saw the first non-path separator, mark this as the end of our
-      // extension
-      matchedSlash = false;
-      end = i + 1;
-    }
-    if (code === 46 /*.*/) {
-        // If this is our first dot, mark it as the start of our extension
-        if (startDot === -1)
-          startDot = i;
-        else if (preDotState !== 1)
-          preDotState = 1;
-    } else if (startDot !== -1) {
-      // We saw a non-dot and non-path separator before our dot, so we should
-      // have a good chance at having a non-empty extension
-      preDotState = -1;
-    }
-  }
-
-  if (startDot === -1 || end === -1 ||
-      // We saw a non-dot character immediately before the dot
-      preDotState === 0 ||
-      // The (right-most) trimmed path component is exactly '..'
-      preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
-    return '';
-  }
-  return path.slice(startDot, end);
-};
-
-function filter (xs, f) {
-    if (xs.filter) return xs.filter(f);
-    var res = [];
-    for (var i = 0; i < xs.length; i++) {
-        if (f(xs[i], i, xs)) res.push(xs[i]);
-    }
-    return res;
-}
-
-// String.prototype.substr - negative index don't work in IE8
-var substr = 'ab'.substr(-1) === 'b'
-    ? function (str, start, len) { return str.substr(start, len) }
-    : function (str, start, len) {
-        if (start < 0) start = str.length + start;
-        return str.substr(start, len);
-    }
-;
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 86)))
-
-/***/ }),
-/* 88 */
+/* 231 */
 /*!*******************************************!*\
   !*** ./node_modules/safe-buffer/index.js ***!
   \*******************************************/
@@ -21276,7 +22842,7 @@ var substr = 'ab'.substr(-1) === 'b'
 /***/ (function(module, exports, __webpack_require__) {
 
 /* eslint-disable node/no-deprecated-api */
-var buffer = __webpack_require__(/*! buffer */ 89)
+var buffer = __webpack_require__(/*! buffer */ 232)
 var Buffer = buffer.Buffer
 
 // alternative to using Object.keys for old browsers
@@ -21340,7 +22906,7 @@ SafeBuffer.allocUnsafeSlow = function (size) {
 
 
 /***/ }),
-/* 89 */
+/* 232 */
 /*!**************************************!*\
   !*** ./node_modules/buffer/index.js ***!
   \**************************************/
@@ -21358,9 +22924,9 @@ SafeBuffer.allocUnsafeSlow = function (size) {
 
 
 
-var base64 = __webpack_require__(/*! base64-js */ 90)
-var ieee754 = __webpack_require__(/*! ieee754 */ 91)
-var isArray = __webpack_require__(/*! isarray */ 92)
+var base64 = __webpack_require__(/*! base64-js */ 233)
+var ieee754 = __webpack_require__(/*! ieee754 */ 234)
+var isArray = __webpack_require__(/*! isarray */ 235)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -23141,7 +24707,7 @@ function isnan (val) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 90 */
+/* 233 */
 /*!*****************************************!*\
   !*** ./node_modules/base64-js/index.js ***!
   \*****************************************/
@@ -23304,7 +24870,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 91 */
+/* 234 */
 /*!***************************************!*\
   !*** ./node_modules/ieee754/index.js ***!
   \***************************************/
@@ -23398,7 +24964,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 92 */
+/* 235 */
 /*!***************************************!*\
   !*** ./node_modules/isarray/index.js ***!
   \***************************************/
@@ -23413,7 +24979,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 93 */
+/* 236 */
 /*!*********************************************!*\
   !*** ./node_modules/create-hash/browser.js ***!
   \*********************************************/
@@ -23422,11 +24988,11 @@ module.exports = Array.isArray || function (arr) {
 
 "use strict";
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var MD5 = __webpack_require__(/*! md5.js */ 95)
-var RIPEMD160 = __webpack_require__(/*! ripemd160 */ 118)
-var sha = __webpack_require__(/*! sha.js */ 119)
-var Base = __webpack_require__(/*! cipher-base */ 127)
+var inherits = __webpack_require__(/*! inherits */ 237)
+var MD5 = __webpack_require__(/*! md5.js */ 238)
+var RIPEMD160 = __webpack_require__(/*! ripemd160 */ 261)
+var sha = __webpack_require__(/*! sha.js */ 262)
+var Base = __webpack_require__(/*! cipher-base */ 270)
 
 function Hash (hash) {
   Base.call(this, 'digest')
@@ -23454,7 +25020,7 @@ module.exports = function createHash (alg) {
 
 
 /***/ }),
-/* 94 */
+/* 237 */
 /*!***************************************************!*\
   !*** ./node_modules/inherits/inherits_browser.js ***!
   \***************************************************/
@@ -23491,7 +25057,7 @@ if (typeof Object.create === 'function') {
 
 
 /***/ }),
-/* 95 */
+/* 238 */
 /*!**************************************!*\
   !*** ./node_modules/md5.js/index.js ***!
   \**************************************/
@@ -23500,9 +25066,9 @@ if (typeof Object.create === 'function') {
 
 "use strict";
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var HashBase = __webpack_require__(/*! hash-base */ 96)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var HashBase = __webpack_require__(/*! hash-base */ 239)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var ARRAY16 = new Array(16)
 
@@ -23648,7 +25214,7 @@ module.exports = MD5
 
 
 /***/ }),
-/* 96 */
+/* 239 */
 /*!*****************************************!*\
   !*** ./node_modules/hash-base/index.js ***!
   \*****************************************/
@@ -23657,9 +25223,9 @@ module.exports = MD5
 
 "use strict";
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var Transform = __webpack_require__(/*! stream */ 97).Transform
-var inherits = __webpack_require__(/*! inherits */ 94)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var Transform = __webpack_require__(/*! stream */ 240).Transform
+var inherits = __webpack_require__(/*! inherits */ 237)
 
 function throwIfNotStringOrBuffer (val, prefix) {
   if (!Buffer.isBuffer(val) && typeof val !== 'string') {
@@ -23754,7 +25320,7 @@ module.exports = HashBase
 
 
 /***/ }),
-/* 97 */
+/* 240 */
 /*!*************************************************!*\
   !*** ./node_modules/stream-browserify/index.js ***!
   \*************************************************/
@@ -23784,15 +25350,15 @@ module.exports = HashBase
 
 module.exports = Stream;
 
-var EE = __webpack_require__(/*! events */ 98).EventEmitter;
-var inherits = __webpack_require__(/*! inherits */ 94);
+var EE = __webpack_require__(/*! events */ 241).EventEmitter;
+var inherits = __webpack_require__(/*! inherits */ 237);
 
 inherits(Stream, EE);
-Stream.Readable = __webpack_require__(/*! readable-stream/readable.js */ 99);
-Stream.Writable = __webpack_require__(/*! readable-stream/writable.js */ 114);
-Stream.Duplex = __webpack_require__(/*! readable-stream/duplex.js */ 115);
-Stream.Transform = __webpack_require__(/*! readable-stream/transform.js */ 116);
-Stream.PassThrough = __webpack_require__(/*! readable-stream/passthrough.js */ 117);
+Stream.Readable = __webpack_require__(/*! readable-stream/readable.js */ 242);
+Stream.Writable = __webpack_require__(/*! readable-stream/writable.js */ 257);
+Stream.Duplex = __webpack_require__(/*! readable-stream/duplex.js */ 258);
+Stream.Transform = __webpack_require__(/*! readable-stream/transform.js */ 259);
+Stream.PassThrough = __webpack_require__(/*! readable-stream/passthrough.js */ 260);
 
 // Backwards-compat with node 0.4.x
 Stream.Stream = Stream;
@@ -23891,7 +25457,7 @@ Stream.prototype.pipe = function(dest, options) {
 
 
 /***/ }),
-/* 98 */
+/* 241 */
 /*!***************************************!*\
   !*** ./node_modules/events/events.js ***!
   \***************************************/
@@ -24348,24 +25914,24 @@ function unwrapListeners(arr) {
 
 
 /***/ }),
-/* 99 */
+/* 242 */
 /*!**********************************************************!*\
   !*** ./node_modules/readable-stream/readable-browser.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ./lib/_stream_readable.js */ 100);
+exports = module.exports = __webpack_require__(/*! ./lib/_stream_readable.js */ 243);
 exports.Stream = exports;
 exports.Readable = exports;
-exports.Writable = __webpack_require__(/*! ./lib/_stream_writable.js */ 109);
-exports.Duplex = __webpack_require__(/*! ./lib/_stream_duplex.js */ 108);
-exports.Transform = __webpack_require__(/*! ./lib/_stream_transform.js */ 112);
-exports.PassThrough = __webpack_require__(/*! ./lib/_stream_passthrough.js */ 113);
+exports.Writable = __webpack_require__(/*! ./lib/_stream_writable.js */ 252);
+exports.Duplex = __webpack_require__(/*! ./lib/_stream_duplex.js */ 251);
+exports.Transform = __webpack_require__(/*! ./lib/_stream_transform.js */ 255);
+exports.PassThrough = __webpack_require__(/*! ./lib/_stream_passthrough.js */ 256);
 
 
 /***/ }),
-/* 100 */
+/* 243 */
 /*!**************************************************************!*\
   !*** ./node_modules/readable-stream/lib/_stream_readable.js ***!
   \**************************************************************/
@@ -24398,13 +25964,13 @@ exports.PassThrough = __webpack_require__(/*! ./lib/_stream_passthrough.js */ 11
 
 /*<replacement>*/
 
-var pna = __webpack_require__(/*! process-nextick-args */ 101);
+var pna = __webpack_require__(/*! process-nextick-args */ 244);
 /*</replacement>*/
 
 module.exports = Readable;
 
 /*<replacement>*/
-var isArray = __webpack_require__(/*! isarray */ 92);
+var isArray = __webpack_require__(/*! isarray */ 235);
 /*</replacement>*/
 
 /*<replacement>*/
@@ -24414,7 +25980,7 @@ var Duplex;
 Readable.ReadableState = ReadableState;
 
 /*<replacement>*/
-var EE = __webpack_require__(/*! events */ 98).EventEmitter;
+var EE = __webpack_require__(/*! events */ 241).EventEmitter;
 
 var EElistenerCount = function (emitter, type) {
   return emitter.listeners(type).length;
@@ -24422,12 +25988,12 @@ var EElistenerCount = function (emitter, type) {
 /*</replacement>*/
 
 /*<replacement>*/
-var Stream = __webpack_require__(/*! ./internal/streams/stream */ 102);
+var Stream = __webpack_require__(/*! ./internal/streams/stream */ 245);
 /*</replacement>*/
 
 /*<replacement>*/
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer;
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer;
 var OurUint8Array = global.Uint8Array || function () {};
 function _uint8ArrayToBuffer(chunk) {
   return Buffer.from(chunk);
@@ -24439,12 +26005,12 @@ function _isUint8Array(obj) {
 /*</replacement>*/
 
 /*<replacement>*/
-var util = Object.create(__webpack_require__(/*! core-util-is */ 103));
-util.inherits = __webpack_require__(/*! inherits */ 94);
+var util = Object.create(__webpack_require__(/*! core-util-is */ 246));
+util.inherits = __webpack_require__(/*! inherits */ 237);
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 104);
+var debugUtil = __webpack_require__(/*! util */ 247);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -24453,8 +26019,8 @@ if (debugUtil && debugUtil.debuglog) {
 }
 /*</replacement>*/
 
-var BufferList = __webpack_require__(/*! ./internal/streams/BufferList */ 105);
-var destroyImpl = __webpack_require__(/*! ./internal/streams/destroy */ 107);
+var BufferList = __webpack_require__(/*! ./internal/streams/BufferList */ 248);
+var destroyImpl = __webpack_require__(/*! ./internal/streams/destroy */ 250);
 var StringDecoder;
 
 util.inherits(Readable, Stream);
@@ -24474,7 +26040,7 @@ function prependListener(emitter, event, fn) {
 }
 
 function ReadableState(options, stream) {
-  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 108);
+  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 251);
 
   options = options || {};
 
@@ -24544,14 +26110,14 @@ function ReadableState(options, stream) {
   this.decoder = null;
   this.encoding = null;
   if (options.encoding) {
-    if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ 111).StringDecoder;
+    if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ 254).StringDecoder;
     this.decoder = new StringDecoder(options.encoding);
     this.encoding = options.encoding;
   }
 }
 
 function Readable(options) {
-  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 108);
+  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 251);
 
   if (!(this instanceof Readable)) return new Readable(options);
 
@@ -24700,7 +26266,7 @@ Readable.prototype.isPaused = function () {
 
 // backwards compatibility.
 Readable.prototype.setEncoding = function (enc) {
-  if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ 111).StringDecoder;
+  if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ 254).StringDecoder;
   this._readableState.decoder = new StringDecoder(enc);
   this._readableState.encoding = enc;
   return this;
@@ -25392,10 +26958,10 @@ function indexOf(xs, x) {
   }
   return -1;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 86)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 203)))
 
 /***/ }),
-/* 101 */
+/* 244 */
 /*!****************************************************!*\
   !*** ./node_modules/process-nextick-args/index.js ***!
   \****************************************************/
@@ -25449,21 +27015,21 @@ function nextTick(fn, arg1, arg2, arg3) {
 }
 
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 86)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 203)))
 
 /***/ }),
-/* 102 */
+/* 245 */
 /*!*****************************************************************************!*\
   !*** ./node_modules/readable-stream/lib/internal/streams/stream-browser.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! events */ 98).EventEmitter;
+module.exports = __webpack_require__(/*! events */ 241).EventEmitter;
 
 
 /***/ }),
-/* 103 */
+/* 246 */
 /*!***********************************************!*\
   !*** ./node_modules/core-util-is/lib/util.js ***!
   \***********************************************/
@@ -25578,10 +27144,10 @@ function objectToString(o) {
   return Object.prototype.toString.call(o);
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 104 */
+/* 247 */
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -25591,7 +27157,7 @@ function objectToString(o) {
 /* (ignored) */
 
 /***/ }),
-/* 105 */
+/* 248 */
 /*!*************************************************************************!*\
   !*** ./node_modules/readable-stream/lib/internal/streams/BufferList.js ***!
   \*************************************************************************/
@@ -25603,8 +27169,8 @@ function objectToString(o) {
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer;
-var util = __webpack_require__(/*! util */ 106);
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer;
+var util = __webpack_require__(/*! util */ 249);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -25680,7 +27246,7 @@ if (util && util.inspect && util.inspect.custom) {
 }
 
 /***/ }),
-/* 106 */
+/* 249 */
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -25690,7 +27256,7 @@ if (util && util.inspect && util.inspect.custom) {
 /* (ignored) */
 
 /***/ }),
-/* 107 */
+/* 250 */
 /*!**********************************************************************!*\
   !*** ./node_modules/readable-stream/lib/internal/streams/destroy.js ***!
   \**********************************************************************/
@@ -25702,7 +27268,7 @@ if (util && util.inspect && util.inspect.custom) {
 
 /*<replacement>*/
 
-var pna = __webpack_require__(/*! process-nextick-args */ 101);
+var pna = __webpack_require__(/*! process-nextick-args */ 244);
 /*</replacement>*/
 
 // undocumented cb() API, needed for core, not for public API
@@ -25774,7 +27340,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 251 */
 /*!************************************************************!*\
   !*** ./node_modules/readable-stream/lib/_stream_duplex.js ***!
   \************************************************************/
@@ -25812,7 +27378,7 @@ module.exports = {
 
 /*<replacement>*/
 
-var pna = __webpack_require__(/*! process-nextick-args */ 101);
+var pna = __webpack_require__(/*! process-nextick-args */ 244);
 /*</replacement>*/
 
 /*<replacement>*/
@@ -25827,12 +27393,12 @@ var objectKeys = Object.keys || function (obj) {
 module.exports = Duplex;
 
 /*<replacement>*/
-var util = Object.create(__webpack_require__(/*! core-util-is */ 103));
-util.inherits = __webpack_require__(/*! inherits */ 94);
+var util = Object.create(__webpack_require__(/*! core-util-is */ 246));
+util.inherits = __webpack_require__(/*! inherits */ 237);
 /*</replacement>*/
 
-var Readable = __webpack_require__(/*! ./_stream_readable */ 100);
-var Writable = __webpack_require__(/*! ./_stream_writable */ 109);
+var Readable = __webpack_require__(/*! ./_stream_readable */ 243);
+var Writable = __webpack_require__(/*! ./_stream_writable */ 252);
 
 util.inherits(Duplex, Readable);
 
@@ -25915,7 +27481,7 @@ Duplex.prototype._destroy = function (err, cb) {
 };
 
 /***/ }),
-/* 109 */
+/* 252 */
 /*!**************************************************************!*\
   !*** ./node_modules/readable-stream/lib/_stream_writable.js ***!
   \**************************************************************/
@@ -25952,7 +27518,7 @@ Duplex.prototype._destroy = function (err, cb) {
 
 /*<replacement>*/
 
-var pna = __webpack_require__(/*! process-nextick-args */ 101);
+var pna = __webpack_require__(/*! process-nextick-args */ 244);
 /*</replacement>*/
 
 module.exports = Writable;
@@ -25989,23 +27555,23 @@ var Duplex;
 Writable.WritableState = WritableState;
 
 /*<replacement>*/
-var util = Object.create(__webpack_require__(/*! core-util-is */ 103));
-util.inherits = __webpack_require__(/*! inherits */ 94);
+var util = Object.create(__webpack_require__(/*! core-util-is */ 246));
+util.inherits = __webpack_require__(/*! inherits */ 237);
 /*</replacement>*/
 
 /*<replacement>*/
 var internalUtil = {
-  deprecate: __webpack_require__(/*! util-deprecate */ 110)
+  deprecate: __webpack_require__(/*! util-deprecate */ 253)
 };
 /*</replacement>*/
 
 /*<replacement>*/
-var Stream = __webpack_require__(/*! ./internal/streams/stream */ 102);
+var Stream = __webpack_require__(/*! ./internal/streams/stream */ 245);
 /*</replacement>*/
 
 /*<replacement>*/
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer;
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer;
 var OurUint8Array = global.Uint8Array || function () {};
 function _uint8ArrayToBuffer(chunk) {
   return Buffer.from(chunk);
@@ -26016,14 +27582,14 @@ function _isUint8Array(obj) {
 
 /*</replacement>*/
 
-var destroyImpl = __webpack_require__(/*! ./internal/streams/destroy */ 107);
+var destroyImpl = __webpack_require__(/*! ./internal/streams/destroy */ 250);
 
 util.inherits(Writable, Stream);
 
 function nop() {}
 
 function WritableState(options, stream) {
-  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 108);
+  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 251);
 
   options = options || {};
 
@@ -26173,7 +27739,7 @@ if (typeof Symbol === 'function' && Symbol.hasInstance && typeof Function.protot
 }
 
 function Writable(options) {
-  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 108);
+  Duplex = Duplex || __webpack_require__(/*! ./_stream_duplex */ 251);
 
   // Writable ctor is applied to Duplexes, too.
   // `realHasInstance` is necessary because using plain `instanceof`
@@ -26610,10 +28176,10 @@ Writable.prototype._destroy = function (err, cb) {
   this.end();
   cb(err);
 };
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 86), __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 203), __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 110 */
+/* 253 */
 /*!************************************************!*\
   !*** ./node_modules/util-deprecate/browser.js ***!
   \************************************************/
@@ -26691,7 +28257,7 @@ function config (name) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 111 */
+/* 254 */
 /*!***********************************************************!*\
   !*** ./node_modules/string_decoder/lib/string_decoder.js ***!
   \***********************************************************/
@@ -26724,7 +28290,7 @@ function config (name) {
 
 /*<replacement>*/
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer;
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer;
 /*</replacement>*/
 
 var isEncoding = Buffer.isEncoding || function (encoding) {
@@ -26997,7 +28563,7 @@ function simpleEnd(buf) {
 }
 
 /***/ }),
-/* 112 */
+/* 255 */
 /*!***************************************************************!*\
   !*** ./node_modules/readable-stream/lib/_stream_transform.js ***!
   \***************************************************************/
@@ -27072,11 +28638,11 @@ function simpleEnd(buf) {
 
 module.exports = Transform;
 
-var Duplex = __webpack_require__(/*! ./_stream_duplex */ 108);
+var Duplex = __webpack_require__(/*! ./_stream_duplex */ 251);
 
 /*<replacement>*/
-var util = Object.create(__webpack_require__(/*! core-util-is */ 103));
-util.inherits = __webpack_require__(/*! inherits */ 94);
+var util = Object.create(__webpack_require__(/*! core-util-is */ 246));
+util.inherits = __webpack_require__(/*! inherits */ 237);
 /*</replacement>*/
 
 util.inherits(Transform, Duplex);
@@ -27221,7 +28787,7 @@ function done(stream, er, data) {
 }
 
 /***/ }),
-/* 113 */
+/* 256 */
 /*!*****************************************************************!*\
   !*** ./node_modules/readable-stream/lib/_stream_passthrough.js ***!
   \*****************************************************************/
@@ -27258,11 +28824,11 @@ function done(stream, er, data) {
 
 module.exports = PassThrough;
 
-var Transform = __webpack_require__(/*! ./_stream_transform */ 112);
+var Transform = __webpack_require__(/*! ./_stream_transform */ 255);
 
 /*<replacement>*/
-var util = Object.create(__webpack_require__(/*! core-util-is */ 103));
-util.inherits = __webpack_require__(/*! inherits */ 94);
+var util = Object.create(__webpack_require__(/*! core-util-is */ 246));
+util.inherits = __webpack_require__(/*! inherits */ 237);
 /*</replacement>*/
 
 util.inherits(PassThrough, Transform);
@@ -27278,51 +28844,51 @@ PassThrough.prototype._transform = function (chunk, encoding, cb) {
 };
 
 /***/ }),
-/* 114 */
+/* 257 */
 /*!**********************************************************!*\
   !*** ./node_modules/readable-stream/writable-browser.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./lib/_stream_writable.js */ 109);
+module.exports = __webpack_require__(/*! ./lib/_stream_writable.js */ 252);
 
 
 /***/ }),
-/* 115 */
+/* 258 */
 /*!********************************************************!*\
   !*** ./node_modules/readable-stream/duplex-browser.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./lib/_stream_duplex.js */ 108);
+module.exports = __webpack_require__(/*! ./lib/_stream_duplex.js */ 251);
 
 
 /***/ }),
-/* 116 */
+/* 259 */
 /*!***************************************************!*\
   !*** ./node_modules/readable-stream/transform.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./readable */ 99).Transform
+module.exports = __webpack_require__(/*! ./readable */ 242).Transform
 
 
 /***/ }),
-/* 117 */
+/* 260 */
 /*!*****************************************************!*\
   !*** ./node_modules/readable-stream/passthrough.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./readable */ 99).PassThrough
+module.exports = __webpack_require__(/*! ./readable */ 242).PassThrough
 
 
 /***/ }),
-/* 118 */
+/* 261 */
 /*!*****************************************!*\
   !*** ./node_modules/ripemd160/index.js ***!
   \*****************************************/
@@ -27331,9 +28897,9 @@ module.exports = __webpack_require__(/*! ./readable */ 99).PassThrough
 
 "use strict";
 
-var Buffer = __webpack_require__(/*! buffer */ 89).Buffer
-var inherits = __webpack_require__(/*! inherits */ 94)
-var HashBase = __webpack_require__(/*! hash-base */ 96)
+var Buffer = __webpack_require__(/*! buffer */ 232).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var HashBase = __webpack_require__(/*! hash-base */ 239)
 
 var ARRAY16 = new Array(16)
 
@@ -27496,7 +29062,7 @@ module.exports = RIPEMD160
 
 
 /***/ }),
-/* 119 */
+/* 262 */
 /*!**************************************!*\
   !*** ./node_modules/sha.js/index.js ***!
   \**************************************/
@@ -27512,16 +29078,16 @@ var exports = module.exports = function SHA (algorithm) {
   return new Algorithm()
 }
 
-exports.sha = __webpack_require__(/*! ./sha */ 120)
-exports.sha1 = __webpack_require__(/*! ./sha1 */ 122)
-exports.sha224 = __webpack_require__(/*! ./sha224 */ 123)
-exports.sha256 = __webpack_require__(/*! ./sha256 */ 124)
-exports.sha384 = __webpack_require__(/*! ./sha384 */ 125)
-exports.sha512 = __webpack_require__(/*! ./sha512 */ 126)
+exports.sha = __webpack_require__(/*! ./sha */ 263)
+exports.sha1 = __webpack_require__(/*! ./sha1 */ 265)
+exports.sha224 = __webpack_require__(/*! ./sha224 */ 266)
+exports.sha256 = __webpack_require__(/*! ./sha256 */ 267)
+exports.sha384 = __webpack_require__(/*! ./sha384 */ 268)
+exports.sha512 = __webpack_require__(/*! ./sha512 */ 269)
 
 
 /***/ }),
-/* 120 */
+/* 263 */
 /*!************************************!*\
   !*** ./node_modules/sha.js/sha.js ***!
   \************************************/
@@ -27536,9 +29102,9 @@ exports.sha512 = __webpack_require__(/*! ./sha512 */ 126)
  * operation was added.
  */
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Hash = __webpack_require__(/*! ./hash */ 121)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Hash = __webpack_require__(/*! ./hash */ 264)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var K = [
   0x5a827999, 0x6ed9eba1, 0x8f1bbcdc | 0, 0xca62c1d6 | 0
@@ -27625,14 +29191,14 @@ module.exports = Sha
 
 
 /***/ }),
-/* 121 */
+/* 264 */
 /*!*************************************!*\
   !*** ./node_modules/sha.js/hash.js ***!
   \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 // prototype class for hash functions
 function Hash (blockSize, finalSize) {
@@ -27716,7 +29282,7 @@ module.exports = Hash
 
 
 /***/ }),
-/* 122 */
+/* 265 */
 /*!*************************************!*\
   !*** ./node_modules/sha.js/sha1.js ***!
   \*************************************/
@@ -27732,9 +29298,9 @@ module.exports = Hash
  * See http://pajhome.org.uk/crypt/md5 for details.
  */
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Hash = __webpack_require__(/*! ./hash */ 121)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Hash = __webpack_require__(/*! ./hash */ 264)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var K = [
   0x5a827999, 0x6ed9eba1, 0x8f1bbcdc | 0, 0xca62c1d6 | 0
@@ -27825,7 +29391,7 @@ module.exports = Sha1
 
 
 /***/ }),
-/* 123 */
+/* 266 */
 /*!***************************************!*\
   !*** ./node_modules/sha.js/sha224.js ***!
   \***************************************/
@@ -27840,10 +29406,10 @@ module.exports = Sha1
  *
  */
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Sha256 = __webpack_require__(/*! ./sha256 */ 124)
-var Hash = __webpack_require__(/*! ./hash */ 121)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Sha256 = __webpack_require__(/*! ./sha256 */ 267)
+var Hash = __webpack_require__(/*! ./hash */ 264)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var W = new Array(64)
 
@@ -27888,7 +29454,7 @@ module.exports = Sha224
 
 
 /***/ }),
-/* 124 */
+/* 267 */
 /*!***************************************!*\
   !*** ./node_modules/sha.js/sha256.js ***!
   \***************************************/
@@ -27903,9 +29469,9 @@ module.exports = Sha224
  *
  */
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Hash = __webpack_require__(/*! ./hash */ 121)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Hash = __webpack_require__(/*! ./hash */ 264)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var K = [
   0x428A2F98, 0x71374491, 0xB5C0FBCF, 0xE9B5DBA5,
@@ -28033,17 +29599,17 @@ module.exports = Sha256
 
 
 /***/ }),
-/* 125 */
+/* 268 */
 /*!***************************************!*\
   !*** ./node_modules/sha.js/sha384.js ***!
   \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var SHA512 = __webpack_require__(/*! ./sha512 */ 126)
-var Hash = __webpack_require__(/*! ./hash */ 121)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var SHA512 = __webpack_require__(/*! ./sha512 */ 269)
+var Hash = __webpack_require__(/*! ./hash */ 264)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var W = new Array(160)
 
@@ -28100,16 +29666,16 @@ module.exports = Sha384
 
 
 /***/ }),
-/* 126 */
+/* 269 */
 /*!***************************************!*\
   !*** ./node_modules/sha.js/sha512.js ***!
   \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Hash = __webpack_require__(/*! ./hash */ 121)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Hash = __webpack_require__(/*! ./hash */ 264)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var K = [
   0x428a2f98, 0xd728ae22, 0x71374491, 0x23ef65cd,
@@ -28370,17 +29936,17 @@ module.exports = Sha512
 
 
 /***/ }),
-/* 127 */
+/* 270 */
 /*!*******************************************!*\
   !*** ./node_modules/cipher-base/index.js ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var Transform = __webpack_require__(/*! stream */ 97).Transform
-var StringDecoder = __webpack_require__(/*! string_decoder */ 111).StringDecoder
-var inherits = __webpack_require__(/*! inherits */ 94)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var Transform = __webpack_require__(/*! stream */ 240).Transform
+var StringDecoder = __webpack_require__(/*! string_decoder */ 254).StringDecoder
+var inherits = __webpack_require__(/*! inherits */ 237)
 
 function CipherBase (hashMode) {
   Transform.call(this)
@@ -28479,7 +30045,7 @@ module.exports = CipherBase
 
 
 /***/ }),
-/* 128 */
+/* 271 */
 /*!*********************************************!*\
   !*** ./node_modules/create-hmac/browser.js ***!
   \*********************************************/
@@ -28488,14 +30054,14 @@ module.exports = CipherBase
 
 "use strict";
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Legacy = __webpack_require__(/*! ./legacy */ 129)
-var Base = __webpack_require__(/*! cipher-base */ 127)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var md5 = __webpack_require__(/*! create-hash/md5 */ 130)
-var RIPEMD160 = __webpack_require__(/*! ripemd160 */ 118)
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Legacy = __webpack_require__(/*! ./legacy */ 272)
+var Base = __webpack_require__(/*! cipher-base */ 270)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var md5 = __webpack_require__(/*! create-hash/md5 */ 273)
+var RIPEMD160 = __webpack_require__(/*! ripemd160 */ 261)
 
-var sha = __webpack_require__(/*! sha.js */ 119)
+var sha = __webpack_require__(/*! sha.js */ 262)
 
 var ZEROS = Buffer.alloc(128)
 
@@ -28552,7 +30118,7 @@ module.exports = function createHmac (alg, key) {
 
 
 /***/ }),
-/* 129 */
+/* 272 */
 /*!********************************************!*\
   !*** ./node_modules/create-hmac/legacy.js ***!
   \********************************************/
@@ -28561,10 +30127,10 @@ module.exports = function createHmac (alg, key) {
 
 "use strict";
 
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
-var Base = __webpack_require__(/*! cipher-base */ 127)
+var Base = __webpack_require__(/*! cipher-base */ 270)
 
 var ZEROS = Buffer.alloc(128)
 var blocksize = 64
@@ -28609,14 +30175,14 @@ module.exports = Hmac
 
 
 /***/ }),
-/* 130 */
+/* 273 */
 /*!*****************************************!*\
   !*** ./node_modules/create-hash/md5.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var MD5 = __webpack_require__(/*! md5.js */ 95)
+var MD5 = __webpack_require__(/*! md5.js */ 238)
 
 module.exports = function (buffer) {
   return new MD5().update(buffer).digest()
@@ -28624,18 +30190,18 @@ module.exports = function (buffer) {
 
 
 /***/ }),
-/* 131 */
+/* 274 */
 /*!***********************************************!*\
   !*** ./node_modules/browserify-sign/algos.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./browser/algorithms.json */ 132)
+module.exports = __webpack_require__(/*! ./browser/algorithms.json */ 275)
 
 
 /***/ }),
-/* 132 */
+/* 275 */
 /*!**************************************************************!*\
   !*** ./node_modules/browserify-sign/browser/algorithms.json ***!
   \**************************************************************/
@@ -28645,29 +30211,29 @@ module.exports = __webpack_require__(/*! ./browser/algorithms.json */ 132)
 module.exports = {"sha224WithRSAEncryption":{"sign":"rsa","hash":"sha224","id":"302d300d06096086480165030402040500041c"},"RSA-SHA224":{"sign":"ecdsa/rsa","hash":"sha224","id":"302d300d06096086480165030402040500041c"},"sha256WithRSAEncryption":{"sign":"rsa","hash":"sha256","id":"3031300d060960864801650304020105000420"},"RSA-SHA256":{"sign":"ecdsa/rsa","hash":"sha256","id":"3031300d060960864801650304020105000420"},"sha384WithRSAEncryption":{"sign":"rsa","hash":"sha384","id":"3041300d060960864801650304020205000430"},"RSA-SHA384":{"sign":"ecdsa/rsa","hash":"sha384","id":"3041300d060960864801650304020205000430"},"sha512WithRSAEncryption":{"sign":"rsa","hash":"sha512","id":"3051300d060960864801650304020305000440"},"RSA-SHA512":{"sign":"ecdsa/rsa","hash":"sha512","id":"3051300d060960864801650304020305000440"},"RSA-SHA1":{"sign":"rsa","hash":"sha1","id":"3021300906052b0e03021a05000414"},"ecdsa-with-SHA1":{"sign":"ecdsa","hash":"sha1","id":""},"sha256":{"sign":"ecdsa","hash":"sha256","id":""},"sha224":{"sign":"ecdsa","hash":"sha224","id":""},"sha384":{"sign":"ecdsa","hash":"sha384","id":""},"sha512":{"sign":"ecdsa","hash":"sha512","id":""},"DSA-SHA":{"sign":"dsa","hash":"sha1","id":""},"DSA-SHA1":{"sign":"dsa","hash":"sha1","id":""},"DSA":{"sign":"dsa","hash":"sha1","id":""},"DSA-WITH-SHA224":{"sign":"dsa","hash":"sha224","id":""},"DSA-SHA224":{"sign":"dsa","hash":"sha224","id":""},"DSA-WITH-SHA256":{"sign":"dsa","hash":"sha256","id":""},"DSA-SHA256":{"sign":"dsa","hash":"sha256","id":""},"DSA-WITH-SHA384":{"sign":"dsa","hash":"sha384","id":""},"DSA-SHA384":{"sign":"dsa","hash":"sha384","id":""},"DSA-WITH-SHA512":{"sign":"dsa","hash":"sha512","id":""},"DSA-SHA512":{"sign":"dsa","hash":"sha512","id":""},"DSA-RIPEMD160":{"sign":"dsa","hash":"rmd160","id":""},"ripemd160WithRSA":{"sign":"rsa","hash":"rmd160","id":"3021300906052b2403020105000414"},"RSA-RIPEMD160":{"sign":"rsa","hash":"rmd160","id":"3021300906052b2403020105000414"},"md5WithRSAEncryption":{"sign":"rsa","hash":"md5","id":"3020300c06082a864886f70d020505000410"},"RSA-MD5":{"sign":"rsa","hash":"md5","id":"3020300c06082a864886f70d020505000410"}};
 
 /***/ }),
-/* 133 */
+/* 276 */
 /*!****************************************!*\
   !*** ./node_modules/pbkdf2/browser.js ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.pbkdf2 = __webpack_require__(/*! ./lib/async */ 134)
-exports.pbkdf2Sync = __webpack_require__(/*! ./lib/sync */ 137)
+exports.pbkdf2 = __webpack_require__(/*! ./lib/async */ 277)
+exports.pbkdf2Sync = __webpack_require__(/*! ./lib/sync */ 280)
 
 
 /***/ }),
-/* 134 */
+/* 277 */
 /*!******************************************!*\
   !*** ./node_modules/pbkdf2/lib/async.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global, process) {var checkParameters = __webpack_require__(/*! ./precondition */ 135)
-var defaultEncoding = __webpack_require__(/*! ./default-encoding */ 136)
-var sync = __webpack_require__(/*! ./sync */ 137)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+/* WEBPACK VAR INJECTION */(function(global, process) {var checkParameters = __webpack_require__(/*! ./precondition */ 278)
+var defaultEncoding = __webpack_require__(/*! ./default-encoding */ 279)
+var sync = __webpack_require__(/*! ./sync */ 280)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var ZERO_BUF
 var subtle = global.crypto && global.crypto.subtle
@@ -28765,10 +30331,10 @@ module.exports = function (password, salt, iterations, keylen, digest, callback)
   }), callback)
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 86)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 203)))
 
 /***/ }),
-/* 135 */
+/* 278 */
 /*!*************************************************!*\
   !*** ./node_modules/pbkdf2/lib/precondition.js ***!
   \*************************************************/
@@ -28804,10 +30370,10 @@ module.exports = function (password, salt, iterations, keylen) {
   }
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 136 */
+/* 279 */
 /*!*****************************************************!*\
   !*** ./node_modules/pbkdf2/lib/default-encoding.js ***!
   \*****************************************************/
@@ -28825,23 +30391,23 @@ if (process.browser) {
 }
 module.exports = defaultEncoding
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 86)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node-libs-browser/mock/process.js */ 203)))
 
 /***/ }),
-/* 137 */
+/* 280 */
 /*!*************************************************!*\
   !*** ./node_modules/pbkdf2/lib/sync-browser.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var md5 = __webpack_require__(/*! create-hash/md5 */ 130)
-var RIPEMD160 = __webpack_require__(/*! ripemd160 */ 118)
-var sha = __webpack_require__(/*! sha.js */ 119)
+var md5 = __webpack_require__(/*! create-hash/md5 */ 273)
+var RIPEMD160 = __webpack_require__(/*! ripemd160 */ 261)
+var sha = __webpack_require__(/*! sha.js */ 262)
 
-var checkParameters = __webpack_require__(/*! ./precondition */ 135)
-var defaultEncoding = __webpack_require__(/*! ./default-encoding */ 136)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var checkParameters = __webpack_require__(/*! ./precondition */ 278)
+var defaultEncoding = __webpack_require__(/*! ./default-encoding */ 279)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 var ZEROS = Buffer.alloc(128)
 var sizes = {
   md5: 16,
@@ -28942,18 +30508,18 @@ module.exports = pbkdf2
 
 
 /***/ }),
-/* 138 */
+/* 281 */
 /*!***************************************************!*\
   !*** ./node_modules/browserify-cipher/browser.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var DES = __webpack_require__(/*! browserify-des */ 139)
-var aes = __webpack_require__(/*! browserify-aes/browser */ 147)
-var aesModes = __webpack_require__(/*! browserify-aes/modes */ 149)
-var desModes = __webpack_require__(/*! browserify-des/modes */ 166)
-var ebtk = __webpack_require__(/*! evp_bytestokey */ 164)
+var DES = __webpack_require__(/*! browserify-des */ 282)
+var aes = __webpack_require__(/*! browserify-aes/browser */ 290)
+var aesModes = __webpack_require__(/*! browserify-aes/modes */ 292)
+var desModes = __webpack_require__(/*! browserify-des/modes */ 309)
+var ebtk = __webpack_require__(/*! evp_bytestokey */ 307)
 
 function createCipher (suite, password) {
   suite = suite.toLowerCase()
@@ -29019,17 +30585,17 @@ exports.listCiphers = exports.getCiphers = getCiphers
 
 
 /***/ }),
-/* 139 */
+/* 282 */
 /*!**********************************************!*\
   !*** ./node_modules/browserify-des/index.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var CipherBase = __webpack_require__(/*! cipher-base */ 127)
-var des = __webpack_require__(/*! des.js */ 140)
-var inherits = __webpack_require__(/*! inherits */ 94)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var CipherBase = __webpack_require__(/*! cipher-base */ 270)
+var des = __webpack_require__(/*! des.js */ 283)
+var inherits = __webpack_require__(/*! inherits */ 237)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 var modes = {
   'des-ede3-cbc': des.CBC.instantiate(des.EDE),
@@ -29079,7 +30645,7 @@ DES.prototype._final = function () {
 
 
 /***/ }),
-/* 140 */
+/* 283 */
 /*!****************************************!*\
   !*** ./node_modules/des.js/lib/des.js ***!
   \****************************************/
@@ -29089,15 +30655,15 @@ DES.prototype._final = function () {
 "use strict";
 
 
-exports.utils = __webpack_require__(/*! ./des/utils */ 141);
-exports.Cipher = __webpack_require__(/*! ./des/cipher */ 142);
-exports.DES = __webpack_require__(/*! ./des/des */ 144);
-exports.CBC = __webpack_require__(/*! ./des/cbc */ 145);
-exports.EDE = __webpack_require__(/*! ./des/ede */ 146);
+exports.utils = __webpack_require__(/*! ./des/utils */ 284);
+exports.Cipher = __webpack_require__(/*! ./des/cipher */ 285);
+exports.DES = __webpack_require__(/*! ./des/des */ 287);
+exports.CBC = __webpack_require__(/*! ./des/cbc */ 288);
+exports.EDE = __webpack_require__(/*! ./des/ede */ 289);
 
 
 /***/ }),
-/* 141 */
+/* 284 */
 /*!**********************************************!*\
   !*** ./node_modules/des.js/lib/des/utils.js ***!
   \**********************************************/
@@ -29364,7 +30930,7 @@ exports.padSplit = function padSplit(num, size, group) {
 
 
 /***/ }),
-/* 142 */
+/* 285 */
 /*!***********************************************!*\
   !*** ./node_modules/des.js/lib/des/cipher.js ***!
   \***********************************************/
@@ -29374,7 +30940,7 @@ exports.padSplit = function padSplit(num, size, group) {
 "use strict";
 
 
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 function Cipher(options) {
   this.options = options;
@@ -29516,7 +31082,7 @@ Cipher.prototype._finalDecrypt = function _finalDecrypt() {
 
 
 /***/ }),
-/* 143 */
+/* 286 */
 /*!***************************************************!*\
   !*** ./node_modules/minimalistic-assert/index.js ***!
   \***************************************************/
@@ -29537,7 +31103,7 @@ assert.equal = function assertEqual(l, r, msg) {
 
 
 /***/ }),
-/* 144 */
+/* 287 */
 /*!********************************************!*\
   !*** ./node_modules/des.js/lib/des/des.js ***!
   \********************************************/
@@ -29547,11 +31113,11 @@ assert.equal = function assertEqual(l, r, msg) {
 "use strict";
 
 
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
-var inherits = __webpack_require__(/*! inherits */ 94);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
-var utils = __webpack_require__(/*! ./utils */ 141);
-var Cipher = __webpack_require__(/*! ./cipher */ 142);
+var utils = __webpack_require__(/*! ./utils */ 284);
+var Cipher = __webpack_require__(/*! ./cipher */ 285);
 
 function DESState() {
   this.tmp = new Array(2);
@@ -29690,7 +31256,7 @@ DES.prototype._decrypt = function _decrypt(state, lStart, rStart, out, off) {
 
 
 /***/ }),
-/* 145 */
+/* 288 */
 /*!********************************************!*\
   !*** ./node_modules/des.js/lib/des/cbc.js ***!
   \********************************************/
@@ -29700,8 +31266,8 @@ DES.prototype._decrypt = function _decrypt(state, lStart, rStart, out, off) {
 "use strict";
 
 
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
-var inherits = __webpack_require__(/*! inherits */ 94);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
 var proto = {};
 
@@ -29766,7 +31332,7 @@ proto._update = function _update(inp, inOff, out, outOff) {
 
 
 /***/ }),
-/* 146 */
+/* 289 */
 /*!********************************************!*\
   !*** ./node_modules/des.js/lib/des/ede.js ***!
   \********************************************/
@@ -29776,11 +31342,11 @@ proto._update = function _update(inp, inOff, out, outOff) {
 "use strict";
 
 
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
-var inherits = __webpack_require__(/*! inherits */ 94);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
-var Cipher = __webpack_require__(/*! ./cipher */ 142);
-var DES = __webpack_require__(/*! ./des */ 144);
+var Cipher = __webpack_require__(/*! ./cipher */ 285);
+var DES = __webpack_require__(/*! ./des */ 287);
 
 function EDEState(type, key) {
   assert.equal(key.length, 24, 'Invalid key length');
@@ -29831,16 +31397,16 @@ EDE.prototype._unpad = DES.prototype._unpad;
 
 
 /***/ }),
-/* 147 */
+/* 290 */
 /*!************************************************!*\
   !*** ./node_modules/browserify-aes/browser.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var ciphers = __webpack_require__(/*! ./encrypter */ 148)
-var deciphers = __webpack_require__(/*! ./decrypter */ 165)
-var modes = __webpack_require__(/*! ./modes/list.json */ 159)
+var ciphers = __webpack_require__(/*! ./encrypter */ 291)
+var deciphers = __webpack_require__(/*! ./decrypter */ 308)
+var modes = __webpack_require__(/*! ./modes/list.json */ 302)
 
 function getCiphers () {
   return Object.keys(modes)
@@ -29854,21 +31420,21 @@ exports.listCiphers = exports.getCiphers = getCiphers
 
 
 /***/ }),
-/* 148 */
+/* 291 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/encrypter.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var MODES = __webpack_require__(/*! ./modes */ 149)
-var AuthCipher = __webpack_require__(/*! ./authCipher */ 160)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var StreamCipher = __webpack_require__(/*! ./streamCipher */ 163)
-var Transform = __webpack_require__(/*! cipher-base */ 127)
-var aes = __webpack_require__(/*! ./aes */ 161)
-var ebtk = __webpack_require__(/*! evp_bytestokey */ 164)
-var inherits = __webpack_require__(/*! inherits */ 94)
+var MODES = __webpack_require__(/*! ./modes */ 292)
+var AuthCipher = __webpack_require__(/*! ./authCipher */ 303)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var StreamCipher = __webpack_require__(/*! ./streamCipher */ 306)
+var Transform = __webpack_require__(/*! cipher-base */ 270)
+var aes = __webpack_require__(/*! ./aes */ 304)
+var ebtk = __webpack_require__(/*! evp_bytestokey */ 307)
+var inherits = __webpack_require__(/*! inherits */ 237)
 
 function Cipher (mode, key, iv) {
   Transform.call(this)
@@ -29978,7 +31544,7 @@ exports.createCipher = createCipher
 
 
 /***/ }),
-/* 149 */
+/* 292 */
 /*!****************************************************!*\
   !*** ./node_modules/browserify-aes/modes/index.js ***!
   \****************************************************/
@@ -29986,17 +31552,17 @@ exports.createCipher = createCipher
 /***/ (function(module, exports, __webpack_require__) {
 
 var modeModules = {
-  ECB: __webpack_require__(/*! ./ecb */ 150),
-  CBC: __webpack_require__(/*! ./cbc */ 151),
-  CFB: __webpack_require__(/*! ./cfb */ 153),
-  CFB8: __webpack_require__(/*! ./cfb8 */ 154),
-  CFB1: __webpack_require__(/*! ./cfb1 */ 155),
-  OFB: __webpack_require__(/*! ./ofb */ 156),
-  CTR: __webpack_require__(/*! ./ctr */ 157),
-  GCM: __webpack_require__(/*! ./ctr */ 157)
+  ECB: __webpack_require__(/*! ./ecb */ 293),
+  CBC: __webpack_require__(/*! ./cbc */ 294),
+  CFB: __webpack_require__(/*! ./cfb */ 296),
+  CFB8: __webpack_require__(/*! ./cfb8 */ 297),
+  CFB1: __webpack_require__(/*! ./cfb1 */ 298),
+  OFB: __webpack_require__(/*! ./ofb */ 299),
+  CTR: __webpack_require__(/*! ./ctr */ 300),
+  GCM: __webpack_require__(/*! ./ctr */ 300)
 }
 
-var modes = __webpack_require__(/*! ./list.json */ 159)
+var modes = __webpack_require__(/*! ./list.json */ 302)
 
 for (var key in modes) {
   modes[key].module = modeModules[modes[key].mode]
@@ -30006,7 +31572,7 @@ module.exports = modes
 
 
 /***/ }),
-/* 150 */
+/* 293 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/modes/ecb.js ***!
   \**************************************************/
@@ -30023,14 +31589,14 @@ exports.decrypt = function (self, block) {
 
 
 /***/ }),
-/* 151 */
+/* 294 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/modes/cbc.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var xor = __webpack_require__(/*! buffer-xor */ 152)
+var xor = __webpack_require__(/*! buffer-xor */ 295)
 
 exports.encrypt = function (self, block) {
   var data = xor(block, self._prev)
@@ -30050,7 +31616,7 @@ exports.decrypt = function (self, block) {
 
 
 /***/ }),
-/* 152 */
+/* 295 */
 /*!******************************************!*\
   !*** ./node_modules/buffer-xor/index.js ***!
   \******************************************/
@@ -30068,18 +31634,18 @@ exports.decrypt = function (self, block) {
   return buffer
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 153 */
+/* 296 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/modes/cfb.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var xor = __webpack_require__(/*! buffer-xor */ 152)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var xor = __webpack_require__(/*! buffer-xor */ 295)
 
 function encryptStart (self, data, decrypt) {
   var len = data.length
@@ -30114,14 +31680,14 @@ exports.encrypt = function (self, data, decrypt) {
 
 
 /***/ }),
-/* 154 */
+/* 297 */
 /*!***************************************************!*\
   !*** ./node_modules/browserify-aes/modes/cfb8.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 function encryptByte (self, byteParam, decrypt) {
   var pad = self._cipher.encryptBlock(self._prev)
@@ -30149,14 +31715,14 @@ exports.encrypt = function (self, chunk, decrypt) {
 
 
 /***/ }),
-/* 155 */
+/* 298 */
 /*!***************************************************!*\
   !*** ./node_modules/browserify-aes/modes/cfb1.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 function encryptByte (self, byteParam, decrypt) {
   var pad
@@ -30201,14 +31767,14 @@ exports.encrypt = function (self, chunk, decrypt) {
 
 
 /***/ }),
-/* 156 */
+/* 299 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/modes/ofb.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(Buffer) {var xor = __webpack_require__(/*! buffer-xor */ 152)
+/* WEBPACK VAR INJECTION */(function(Buffer) {var xor = __webpack_require__(/*! buffer-xor */ 295)
 
 function getBlock (self) {
   self._prev = self._cipher.encryptBlock(self._prev)
@@ -30225,19 +31791,19 @@ exports.encrypt = function (self, chunk) {
   return xor(chunk, pad)
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 157 */
+/* 300 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/modes/ctr.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var xor = __webpack_require__(/*! buffer-xor */ 152)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var incr32 = __webpack_require__(/*! ../incr32 */ 158)
+var xor = __webpack_require__(/*! buffer-xor */ 295)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var incr32 = __webpack_require__(/*! ../incr32 */ 301)
 
 function getBlock (self) {
   var out = self._cipher.encryptBlockRaw(self._prev)
@@ -30268,7 +31834,7 @@ exports.encrypt = function (self, chunk) {
 
 
 /***/ }),
-/* 158 */
+/* 301 */
 /*!***********************************************!*\
   !*** ./node_modules/browserify-aes/incr32.js ***!
   \***********************************************/
@@ -30293,7 +31859,7 @@ module.exports = incr32
 
 
 /***/ }),
-/* 159 */
+/* 302 */
 /*!*****************************************************!*\
   !*** ./node_modules/browserify-aes/modes/list.json ***!
   \*****************************************************/
@@ -30303,20 +31869,20 @@ module.exports = incr32
 module.exports = {"aes-128-ecb":{"cipher":"AES","key":128,"iv":0,"mode":"ECB","type":"block"},"aes-192-ecb":{"cipher":"AES","key":192,"iv":0,"mode":"ECB","type":"block"},"aes-256-ecb":{"cipher":"AES","key":256,"iv":0,"mode":"ECB","type":"block"},"aes-128-cbc":{"cipher":"AES","key":128,"iv":16,"mode":"CBC","type":"block"},"aes-192-cbc":{"cipher":"AES","key":192,"iv":16,"mode":"CBC","type":"block"},"aes-256-cbc":{"cipher":"AES","key":256,"iv":16,"mode":"CBC","type":"block"},"aes128":{"cipher":"AES","key":128,"iv":16,"mode":"CBC","type":"block"},"aes192":{"cipher":"AES","key":192,"iv":16,"mode":"CBC","type":"block"},"aes256":{"cipher":"AES","key":256,"iv":16,"mode":"CBC","type":"block"},"aes-128-cfb":{"cipher":"AES","key":128,"iv":16,"mode":"CFB","type":"stream"},"aes-192-cfb":{"cipher":"AES","key":192,"iv":16,"mode":"CFB","type":"stream"},"aes-256-cfb":{"cipher":"AES","key":256,"iv":16,"mode":"CFB","type":"stream"},"aes-128-cfb8":{"cipher":"AES","key":128,"iv":16,"mode":"CFB8","type":"stream"},"aes-192-cfb8":{"cipher":"AES","key":192,"iv":16,"mode":"CFB8","type":"stream"},"aes-256-cfb8":{"cipher":"AES","key":256,"iv":16,"mode":"CFB8","type":"stream"},"aes-128-cfb1":{"cipher":"AES","key":128,"iv":16,"mode":"CFB1","type":"stream"},"aes-192-cfb1":{"cipher":"AES","key":192,"iv":16,"mode":"CFB1","type":"stream"},"aes-256-cfb1":{"cipher":"AES","key":256,"iv":16,"mode":"CFB1","type":"stream"},"aes-128-ofb":{"cipher":"AES","key":128,"iv":16,"mode":"OFB","type":"stream"},"aes-192-ofb":{"cipher":"AES","key":192,"iv":16,"mode":"OFB","type":"stream"},"aes-256-ofb":{"cipher":"AES","key":256,"iv":16,"mode":"OFB","type":"stream"},"aes-128-ctr":{"cipher":"AES","key":128,"iv":16,"mode":"CTR","type":"stream"},"aes-192-ctr":{"cipher":"AES","key":192,"iv":16,"mode":"CTR","type":"stream"},"aes-256-ctr":{"cipher":"AES","key":256,"iv":16,"mode":"CTR","type":"stream"},"aes-128-gcm":{"cipher":"AES","key":128,"iv":12,"mode":"GCM","type":"auth"},"aes-192-gcm":{"cipher":"AES","key":192,"iv":12,"mode":"GCM","type":"auth"},"aes-256-gcm":{"cipher":"AES","key":256,"iv":12,"mode":"GCM","type":"auth"}};
 
 /***/ }),
-/* 160 */
+/* 303 */
 /*!***************************************************!*\
   !*** ./node_modules/browserify-aes/authCipher.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var aes = __webpack_require__(/*! ./aes */ 161)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var Transform = __webpack_require__(/*! cipher-base */ 127)
-var inherits = __webpack_require__(/*! inherits */ 94)
-var GHASH = __webpack_require__(/*! ./ghash */ 162)
-var xor = __webpack_require__(/*! buffer-xor */ 152)
-var incr32 = __webpack_require__(/*! ./incr32 */ 158)
+var aes = __webpack_require__(/*! ./aes */ 304)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var Transform = __webpack_require__(/*! cipher-base */ 270)
+var inherits = __webpack_require__(/*! inherits */ 237)
+var GHASH = __webpack_require__(/*! ./ghash */ 305)
+var xor = __webpack_require__(/*! buffer-xor */ 295)
+var incr32 = __webpack_require__(/*! ./incr32 */ 301)
 
 function xorTest (a, b) {
   var out = 0
@@ -30430,7 +31996,7 @@ module.exports = StreamCipher
 
 
 /***/ }),
-/* 161 */
+/* 304 */
 /*!********************************************!*\
   !*** ./node_modules/browserify-aes/aes.js ***!
   \********************************************/
@@ -30442,7 +32008,7 @@ module.exports = StreamCipher
 // which is in turn based on the one from crypto-js
 // https://code.google.com/p/crypto-js/
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 function asUInt32Array (buf) {
   if (!Buffer.isBuffer(buf)) buf = Buffer.from(buf)
@@ -30668,14 +32234,14 @@ module.exports.AES = AES
 
 
 /***/ }),
-/* 162 */
+/* 305 */
 /*!**********************************************!*\
   !*** ./node_modules/browserify-aes/ghash.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 var ZEROES = Buffer.alloc(16, 0)
 
 function toArray (buf) {
@@ -30767,17 +32333,17 @@ module.exports = GHASH
 
 
 /***/ }),
-/* 163 */
+/* 306 */
 /*!*****************************************************!*\
   !*** ./node_modules/browserify-aes/streamCipher.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var aes = __webpack_require__(/*! ./aes */ 161)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var Transform = __webpack_require__(/*! cipher-base */ 127)
-var inherits = __webpack_require__(/*! inherits */ 94)
+var aes = __webpack_require__(/*! ./aes */ 304)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var Transform = __webpack_require__(/*! cipher-base */ 270)
+var inherits = __webpack_require__(/*! inherits */ 237)
 
 function StreamCipher (mode, key, iv, decrypt) {
   Transform.call(this)
@@ -30804,15 +32370,15 @@ module.exports = StreamCipher
 
 
 /***/ }),
-/* 164 */
+/* 307 */
 /*!**********************************************!*\
   !*** ./node_modules/evp_bytestokey/index.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var MD5 = __webpack_require__(/*! md5.js */ 95)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var MD5 = __webpack_require__(/*! md5.js */ 238)
 
 /* eslint-disable camelcase */
 function EVP_BytesToKey (password, salt, keyBits, ivLen) {
@@ -30859,21 +32425,21 @@ module.exports = EVP_BytesToKey
 
 
 /***/ }),
-/* 165 */
+/* 308 */
 /*!**************************************************!*\
   !*** ./node_modules/browserify-aes/decrypter.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var AuthCipher = __webpack_require__(/*! ./authCipher */ 160)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
-var MODES = __webpack_require__(/*! ./modes */ 149)
-var StreamCipher = __webpack_require__(/*! ./streamCipher */ 163)
-var Transform = __webpack_require__(/*! cipher-base */ 127)
-var aes = __webpack_require__(/*! ./aes */ 161)
-var ebtk = __webpack_require__(/*! evp_bytestokey */ 164)
-var inherits = __webpack_require__(/*! inherits */ 94)
+var AuthCipher = __webpack_require__(/*! ./authCipher */ 303)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
+var MODES = __webpack_require__(/*! ./modes */ 292)
+var StreamCipher = __webpack_require__(/*! ./streamCipher */ 306)
+var Transform = __webpack_require__(/*! cipher-base */ 270)
+var aes = __webpack_require__(/*! ./aes */ 304)
+var ebtk = __webpack_require__(/*! evp_bytestokey */ 307)
+var inherits = __webpack_require__(/*! inherits */ 237)
 
 function Decipher (mode, key, iv) {
   Transform.call(this)
@@ -30993,7 +32559,7 @@ exports.createDecipheriv = createDecipheriv
 
 
 /***/ }),
-/* 166 */
+/* 309 */
 /*!**********************************************!*\
   !*** ./node_modules/browserify-des/modes.js ***!
   \**********************************************/
@@ -31027,17 +32593,17 @@ exports['des-ede'] = {
 
 
 /***/ }),
-/* 167 */
+/* 310 */
 /*!************************************************!*\
   !*** ./node_modules/diffie-hellman/browser.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(Buffer) {var generatePrime = __webpack_require__(/*! ./lib/generatePrime */ 168)
-var primes = __webpack_require__(/*! ./lib/primes.json */ 175)
+/* WEBPACK VAR INJECTION */(function(Buffer) {var generatePrime = __webpack_require__(/*! ./lib/generatePrime */ 311)
+var primes = __webpack_require__(/*! ./lib/primes.json */ 318)
 
-var DH = __webpack_require__(/*! ./lib/dh */ 176)
+var DH = __webpack_require__(/*! ./lib/dh */ 319)
 
 function getDiffieHellman (mod) {
   var prime = new Buffer(primes[mod].prime, 'hex')
@@ -31077,23 +32643,23 @@ function createDiffieHellman (prime, enc, generator, genc) {
 exports.DiffieHellmanGroup = exports.createDiffieHellmanGroup = exports.getDiffieHellman = getDiffieHellman
 exports.createDiffieHellman = exports.DiffieHellman = createDiffieHellman
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 168 */
+/* 311 */
 /*!**********************************************************!*\
   !*** ./node_modules/diffie-hellman/lib/generatePrime.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var randomBytes = __webpack_require__(/*! randombytes */ 85);
+var randomBytes = __webpack_require__(/*! randombytes */ 230);
 module.exports = findPrime;
 findPrime.simpleSieve = simpleSieve;
 findPrime.fermatTest = fermatTest;
-var BN = __webpack_require__(/*! bn.js */ 169);
+var BN = __webpack_require__(/*! bn.js */ 312);
 var TWENTYFOUR = new BN(24);
-var MillerRabin = __webpack_require__(/*! miller-rabin */ 172);
+var MillerRabin = __webpack_require__(/*! miller-rabin */ 315);
 var millerRabin = new MillerRabin();
 var ONE = new BN(1);
 var TWO = new BN(2);
@@ -31195,7 +32761,7 @@ function findPrime(bits, gen) {
 
 
 /***/ }),
-/* 169 */
+/* 312 */
 /*!**************************************!*\
   !*** ./node_modules/bn.js/lib/bn.js ***!
   \**************************************/
@@ -31254,7 +32820,7 @@ function findPrime(bits, gen) {
 
   var Buffer;
   try {
-    Buffer = __webpack_require__(/*! buffer */ 171).Buffer;
+    Buffer = __webpack_require__(/*! buffer */ 314).Buffer;
   } catch (e) {
   }
 
@@ -34630,10 +36196,10 @@ function findPrime(bits, gen) {
   };
 })( false || module, this);
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/module.js */ 170)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/module.js */ 313)(module)))
 
 /***/ }),
-/* 170 */
+/* 313 */
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
@@ -34665,7 +36231,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 171 */
+/* 314 */
 /*!************************!*\
   !*** buffer (ignored) ***!
   \************************/
@@ -34675,15 +36241,15 @@ module.exports = function(module) {
 /* (ignored) */
 
 /***/ }),
-/* 172 */
+/* 315 */
 /*!*********************************************!*\
   !*** ./node_modules/miller-rabin/lib/mr.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var bn = __webpack_require__(/*! bn.js */ 169);
-var brorand = __webpack_require__(/*! brorand */ 173);
+var bn = __webpack_require__(/*! bn.js */ 312);
+var brorand = __webpack_require__(/*! brorand */ 316);
 
 function MillerRabin(rand) {
   this.rand = rand || new brorand.Rand();
@@ -34800,7 +36366,7 @@ MillerRabin.prototype.getDivisor = function getDivisor(n, k) {
 
 
 /***/ }),
-/* 173 */
+/* 316 */
 /*!***************************************!*\
   !*** ./node_modules/brorand/index.js ***!
   \***************************************/
@@ -34862,7 +36428,7 @@ if (typeof self === 'object') {
 } else {
   // Node.js or Web worker with no crypto support
   try {
-    var crypto = __webpack_require__(/*! crypto */ 174);
+    var crypto = __webpack_require__(/*! crypto */ 317);
     if (typeof crypto.randomBytes !== 'function')
       throw new Error('Not supported');
 
@@ -34875,7 +36441,7 @@ if (typeof self === 'object') {
 
 
 /***/ }),
-/* 174 */
+/* 317 */
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -34885,7 +36451,7 @@ if (typeof self === 'object') {
 /* (ignored) */
 
 /***/ }),
-/* 175 */
+/* 318 */
 /*!*****************************************************!*\
   !*** ./node_modules/diffie-hellman/lib/primes.json ***!
   \*****************************************************/
@@ -34895,23 +36461,23 @@ if (typeof self === 'object') {
 module.exports = {"modp1":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a63a3620ffffffffffffffff"},"modp2":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece65381ffffffffffffffff"},"modp5":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca237327ffffffffffffffff"},"modp14":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aacaa68ffffffffffffffff"},"modp15":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a93ad2caffffffffffffffff"},"modp16":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c934063199ffffffffffffffff"},"modp17":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c93402849236c3fab4d27c7026c1d4dcb2602646dec9751e763dba37bdf8ff9406ad9e530ee5db382f413001aeb06a53ed9027d831179727b0865a8918da3edbebcf9b14ed44ce6cbaced4bb1bdb7f1447e6cc254b332051512bd7af426fb8f401378cd2bf5983ca01c64b92ecf032ea15d1721d03f482d7ce6e74fef6d55e702f46980c82b5a84031900b1c9e59e7c97fbec7e8f323a97a7e36cc88be0f1d45b7ff585ac54bd407b22b4154aacc8f6d7ebf48e1d814cc5ed20f8037e0a79715eef29be32806a1d58bb7c5da76f550aa3d8a1fbff0eb19ccb1a313d55cda56c9ec2ef29632387fe8d76e3c0468043e8f663f4860ee12bf2d5b0b7474d6e694f91e6dcc4024ffffffffffffffff"},"modp18":{"gen":"02","prime":"ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c93402849236c3fab4d27c7026c1d4dcb2602646dec9751e763dba37bdf8ff9406ad9e530ee5db382f413001aeb06a53ed9027d831179727b0865a8918da3edbebcf9b14ed44ce6cbaced4bb1bdb7f1447e6cc254b332051512bd7af426fb8f401378cd2bf5983ca01c64b92ecf032ea15d1721d03f482d7ce6e74fef6d55e702f46980c82b5a84031900b1c9e59e7c97fbec7e8f323a97a7e36cc88be0f1d45b7ff585ac54bd407b22b4154aacc8f6d7ebf48e1d814cc5ed20f8037e0a79715eef29be32806a1d58bb7c5da76f550aa3d8a1fbff0eb19ccb1a313d55cda56c9ec2ef29632387fe8d76e3c0468043e8f663f4860ee12bf2d5b0b7474d6e694f91e6dbe115974a3926f12fee5e438777cb6a932df8cd8bec4d073b931ba3bc832b68d9dd300741fa7bf8afc47ed2576f6936ba424663aab639c5ae4f5683423b4742bf1c978238f16cbe39d652de3fdb8befc848ad922222e04a4037c0713eb57a81a23f0c73473fc646cea306b4bcbc8862f8385ddfa9d4b7fa2c087e879683303ed5bdd3a062b3cf5b3a278a66d2a13f83f44f82ddf310ee074ab6a364597e899a0255dc164f31cc50846851df9ab48195ded7ea1b1d510bd7ee74d73faf36bc31ecfa268359046f4eb879f924009438b481c6cd7889a002ed5ee382bc9190da6fc026e479558e4475677e9aa9e3050e2765694dfc81f56e880b96e7160c980dd98edd3dfffffffffffffffff"}};
 
 /***/ }),
-/* 176 */
+/* 319 */
 /*!***********************************************!*\
   !*** ./node_modules/diffie-hellman/lib/dh.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(Buffer) {var BN = __webpack_require__(/*! bn.js */ 169);
-var MillerRabin = __webpack_require__(/*! miller-rabin */ 172);
+/* WEBPACK VAR INJECTION */(function(Buffer) {var BN = __webpack_require__(/*! bn.js */ 312);
+var MillerRabin = __webpack_require__(/*! miller-rabin */ 315);
 var millerRabin = new MillerRabin();
 var TWENTYFOUR = new BN(24);
 var ELEVEN = new BN(11);
 var TEN = new BN(10);
 var THREE = new BN(3);
 var SEVEN = new BN(7);
-var primes = __webpack_require__(/*! ./generatePrime */ 168);
-var randomBytes = __webpack_require__(/*! randombytes */ 85);
+var primes = __webpack_require__(/*! ./generatePrime */ 311);
+var randomBytes = __webpack_require__(/*! randombytes */ 230);
 module.exports = DH;
 
 function setPublicKey(pub, enc) {
@@ -35067,23 +36633,23 @@ function formatReturnValue(bn, enc) {
   }
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 177 */
+/* 320 */
 /*!*******************************************************!*\
   !*** ./node_modules/browserify-sign/browser/index.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(Buffer) {var createHash = __webpack_require__(/*! create-hash */ 93)
-var stream = __webpack_require__(/*! stream */ 97)
-var inherits = __webpack_require__(/*! inherits */ 94)
-var sign = __webpack_require__(/*! ./sign */ 178)
-var verify = __webpack_require__(/*! ./verify */ 231)
+/* WEBPACK VAR INJECTION */(function(Buffer) {var createHash = __webpack_require__(/*! create-hash */ 236)
+var stream = __webpack_require__(/*! stream */ 240)
+var inherits = __webpack_require__(/*! inherits */ 237)
+var sign = __webpack_require__(/*! ./sign */ 321)
+var verify = __webpack_require__(/*! ./verify */ 374)
 
-var algorithms = __webpack_require__(/*! ./algorithms.json */ 132)
+var algorithms = __webpack_require__(/*! ./algorithms.json */ 275)
 Object.keys(algorithms).forEach(function (key) {
   algorithms[key].id = new Buffer(algorithms[key].id, 'hex')
   algorithms[key.toLowerCase()] = algorithms[key]
@@ -35169,10 +36735,10 @@ module.exports = {
   createVerify: createVerify
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 178 */
+/* 321 */
 /*!******************************************************!*\
   !*** ./node_modules/browserify-sign/browser/sign.js ***!
   \******************************************************/
@@ -35180,12 +36746,12 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {// much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
-var createHmac = __webpack_require__(/*! create-hmac */ 128)
-var crt = __webpack_require__(/*! browserify-rsa */ 179)
-var EC = __webpack_require__(/*! elliptic */ 180).ec
-var BN = __webpack_require__(/*! bn.js */ 169)
-var parseKeys = __webpack_require__(/*! parse-asn1 */ 210)
-var curves = __webpack_require__(/*! ./curves.json */ 230)
+var createHmac = __webpack_require__(/*! create-hmac */ 271)
+var crt = __webpack_require__(/*! browserify-rsa */ 322)
+var EC = __webpack_require__(/*! elliptic */ 323).ec
+var BN = __webpack_require__(/*! bn.js */ 312)
+var parseKeys = __webpack_require__(/*! parse-asn1 */ 353)
+var curves = __webpack_require__(/*! ./curves.json */ 373)
 
 function sign (hash, key, hashType, signType, tag) {
   var priv = parseKeys(key)
@@ -35325,18 +36891,18 @@ module.exports = sign
 module.exports.getKey = getKey
 module.exports.makeKey = makeKey
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 179 */
+/* 322 */
 /*!**********************************************!*\
   !*** ./node_modules/browserify-rsa/index.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(Buffer) {var bn = __webpack_require__(/*! bn.js */ 169);
-var randomBytes = __webpack_require__(/*! randombytes */ 85);
+/* WEBPACK VAR INJECTION */(function(Buffer) {var bn = __webpack_require__(/*! bn.js */ 312);
+var randomBytes = __webpack_require__(/*! randombytes */ 230);
 module.exports = crt;
 function blind(priv) {
   var r = getr(priv);
@@ -35376,10 +36942,10 @@ function getr(priv) {
   return r;
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 180 */
+/* 323 */
 /*!***********************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic.js ***!
   \***********************************************/
@@ -35391,19 +36957,19 @@ function getr(priv) {
 
 var elliptic = exports;
 
-elliptic.version = __webpack_require__(/*! ../package.json */ 181).version;
-elliptic.utils = __webpack_require__(/*! ./elliptic/utils */ 182);
-elliptic.rand = __webpack_require__(/*! brorand */ 173);
-elliptic.curve = __webpack_require__(/*! ./elliptic/curve */ 184);
-elliptic.curves = __webpack_require__(/*! ./elliptic/curves */ 189);
+elliptic.version = __webpack_require__(/*! ../package.json */ 324).version;
+elliptic.utils = __webpack_require__(/*! ./elliptic/utils */ 325);
+elliptic.rand = __webpack_require__(/*! brorand */ 316);
+elliptic.curve = __webpack_require__(/*! ./elliptic/curve */ 327);
+elliptic.curves = __webpack_require__(/*! ./elliptic/curves */ 332);
 
 // Protocols
-elliptic.ec = __webpack_require__(/*! ./elliptic/ec */ 203);
-elliptic.eddsa = __webpack_require__(/*! ./elliptic/eddsa */ 207);
+elliptic.ec = __webpack_require__(/*! ./elliptic/ec */ 346);
+elliptic.eddsa = __webpack_require__(/*! ./elliptic/eddsa */ 350);
 
 
 /***/ }),
-/* 181 */
+/* 324 */
 /*!********************************************!*\
   !*** ./node_modules/elliptic/package.json ***!
   \********************************************/
@@ -35413,7 +36979,7 @@ elliptic.eddsa = __webpack_require__(/*! ./elliptic/eddsa */ 207);
 module.exports = {"_from":"elliptic@^6.0.0","_id":"elliptic@6.5.2","_inBundle":false,"_integrity":"sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==","_location":"/elliptic","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"elliptic@^6.0.0","name":"elliptic","escapedName":"elliptic","rawSpec":"^6.0.0","saveSpec":null,"fetchSpec":"^6.0.0"},"_requiredBy":["/browserify-sign","/create-ecdh"],"_resolved":"https://registry.npmjs.org/elliptic/-/elliptic-6.5.2.tgz","_shasum":"05c5678d7173c049d8ca433552224a495d0e3762","_spec":"elliptic@^6.0.0","_where":"/Users/fxy/Documents/DCloud/HbuilderX-plugins/alpha/uniapp-cli/node_modules/browserify-sign","author":{"name":"Fedor Indutny","email":"fedor@indutny.com"},"bugs":{"url":"https://github.com/indutny/elliptic/issues"},"bundleDependencies":false,"dependencies":{"bn.js":"^4.4.0","brorand":"^1.0.1","hash.js":"^1.0.0","hmac-drbg":"^1.0.0","inherits":"^2.0.1","minimalistic-assert":"^1.0.0","minimalistic-crypto-utils":"^1.0.0"},"deprecated":false,"description":"EC cryptography","devDependencies":{"brfs":"^1.4.3","coveralls":"^3.0.8","grunt":"^1.0.4","grunt-browserify":"^5.0.0","grunt-cli":"^1.2.0","grunt-contrib-connect":"^1.0.0","grunt-contrib-copy":"^1.0.0","grunt-contrib-uglify":"^1.0.1","grunt-mocha-istanbul":"^3.0.1","grunt-saucelabs":"^9.0.1","istanbul":"^0.4.2","jscs":"^3.0.7","jshint":"^2.10.3","mocha":"^6.2.2"},"files":["lib"],"homepage":"https://github.com/indutny/elliptic","keywords":["EC","Elliptic","curve","Cryptography"],"license":"MIT","main":"lib/elliptic.js","name":"elliptic","repository":{"type":"git","url":"git+ssh://git@github.com/indutny/elliptic.git"},"scripts":{"jscs":"jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js","jshint":"jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js","lint":"npm run jscs && npm run jshint","test":"npm run lint && npm run unit","unit":"istanbul test _mocha --reporter=spec test/index.js","version":"grunt dist && git add dist/"},"version":"6.5.2"};
 
 /***/ }),
-/* 182 */
+/* 325 */
 /*!*****************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/utils.js ***!
   \*****************************************************/
@@ -35424,9 +36990,9 @@ module.exports = {"_from":"elliptic@^6.0.0","_id":"elliptic@6.5.2","_inBundle":f
 
 
 var utils = exports;
-var BN = __webpack_require__(/*! bn.js */ 169);
-var minAssert = __webpack_require__(/*! minimalistic-assert */ 143);
-var minUtils = __webpack_require__(/*! minimalistic-crypto-utils */ 183);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var minAssert = __webpack_require__(/*! minimalistic-assert */ 286);
+var minUtils = __webpack_require__(/*! minimalistic-crypto-utils */ 326);
 
 utils.assert = minAssert;
 utils.toArray = minUtils.toArray;
@@ -35543,7 +37109,7 @@ utils.intFromLE = intFromLE;
 
 
 /***/ }),
-/* 183 */
+/* 326 */
 /*!*************************************************************!*\
   !*** ./node_modules/minimalistic-crypto-utils/lib/utils.js ***!
   \*************************************************************/
@@ -35612,7 +37178,7 @@ utils.encode = function encode(arr, enc) {
 
 
 /***/ }),
-/* 184 */
+/* 327 */
 /*!***********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/curve/index.js ***!
   \***********************************************************/
@@ -35624,14 +37190,14 @@ utils.encode = function encode(arr, enc) {
 
 var curve = exports;
 
-curve.base = __webpack_require__(/*! ./base */ 185);
-curve.short = __webpack_require__(/*! ./short */ 186);
-curve.mont = __webpack_require__(/*! ./mont */ 187);
-curve.edwards = __webpack_require__(/*! ./edwards */ 188);
+curve.base = __webpack_require__(/*! ./base */ 328);
+curve.short = __webpack_require__(/*! ./short */ 329);
+curve.mont = __webpack_require__(/*! ./mont */ 330);
+curve.edwards = __webpack_require__(/*! ./edwards */ 331);
 
 
 /***/ }),
-/* 185 */
+/* 328 */
 /*!**********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/curve/base.js ***!
   \**********************************************************/
@@ -35641,8 +37207,8 @@ curve.edwards = __webpack_require__(/*! ./edwards */ 188);
 "use strict";
 
 
-var BN = __webpack_require__(/*! bn.js */ 169);
-var utils = __webpack_require__(/*! ../utils */ 182);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var utils = __webpack_require__(/*! ../utils */ 325);
 var getNAF = utils.getNAF;
 var getJSF = utils.getJSF;
 var assert = utils.assert;
@@ -36018,7 +37584,7 @@ BasePoint.prototype.dblp = function dblp(k) {
 
 
 /***/ }),
-/* 186 */
+/* 329 */
 /*!***********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/curve/short.js ***!
   \***********************************************************/
@@ -36028,10 +37594,10 @@ BasePoint.prototype.dblp = function dblp(k) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 182);
-var BN = __webpack_require__(/*! bn.js */ 169);
-var inherits = __webpack_require__(/*! inherits */ 94);
-var Base = __webpack_require__(/*! ./base */ 185);
+var utils = __webpack_require__(/*! ../utils */ 325);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var inherits = __webpack_require__(/*! inherits */ 237);
+var Base = __webpack_require__(/*! ./base */ 328);
 
 var assert = utils.assert;
 
@@ -36966,7 +38532,7 @@ JPoint.prototype.isInfinity = function isInfinity() {
 
 
 /***/ }),
-/* 187 */
+/* 330 */
 /*!**********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/curve/mont.js ***!
   \**********************************************************/
@@ -36976,11 +38542,11 @@ JPoint.prototype.isInfinity = function isInfinity() {
 "use strict";
 
 
-var BN = __webpack_require__(/*! bn.js */ 169);
-var inherits = __webpack_require__(/*! inherits */ 94);
-var Base = __webpack_require__(/*! ./base */ 185);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var inherits = __webpack_require__(/*! inherits */ 237);
+var Base = __webpack_require__(/*! ./base */ 328);
 
-var utils = __webpack_require__(/*! ../utils */ 182);
+var utils = __webpack_require__(/*! ../utils */ 325);
 
 function MontCurve(conf) {
   Base.call(this, 'mont', conf);
@@ -37155,7 +38721,7 @@ Point.prototype.getX = function getX() {
 
 
 /***/ }),
-/* 188 */
+/* 331 */
 /*!*************************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/curve/edwards.js ***!
   \*************************************************************/
@@ -37165,10 +38731,10 @@ Point.prototype.getX = function getX() {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 182);
-var BN = __webpack_require__(/*! bn.js */ 169);
-var inherits = __webpack_require__(/*! inherits */ 94);
-var Base = __webpack_require__(/*! ./base */ 185);
+var utils = __webpack_require__(/*! ../utils */ 325);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var inherits = __webpack_require__(/*! inherits */ 237);
+var Base = __webpack_require__(/*! ./base */ 328);
 
 var assert = utils.assert;
 
@@ -37598,7 +39164,7 @@ Point.prototype.mixedAdd = Point.prototype.add;
 
 
 /***/ }),
-/* 189 */
+/* 332 */
 /*!******************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/curves.js ***!
   \******************************************************/
@@ -37610,9 +39176,9 @@ Point.prototype.mixedAdd = Point.prototype.add;
 
 var curves = exports;
 
-var hash = __webpack_require__(/*! hash.js */ 190);
-var curve = __webpack_require__(/*! ./curve */ 184);
-var utils = __webpack_require__(/*! ./utils */ 182);
+var hash = __webpack_require__(/*! hash.js */ 333);
+var curve = __webpack_require__(/*! ./curve */ 327);
+var utils = __webpack_require__(/*! ./utils */ 325);
 
 var assert = utils.assert;
 
@@ -37776,7 +39342,7 @@ defineCurve('ed25519', {
 
 var pre;
 try {
-  pre = __webpack_require__(/*! ./precomputed/secp256k1 */ 202);
+  pre = __webpack_require__(/*! ./precomputed/secp256k1 */ 345);
 } catch (e) {
   pre = undefined;
 }
@@ -37815,7 +39381,7 @@ defineCurve('secp256k1', {
 
 
 /***/ }),
-/* 190 */
+/* 333 */
 /*!******************************************!*\
   !*** ./node_modules/hash.js/lib/hash.js ***!
   \******************************************/
@@ -37824,11 +39390,11 @@ defineCurve('secp256k1', {
 
 var hash = exports;
 
-hash.utils = __webpack_require__(/*! ./hash/utils */ 191);
-hash.common = __webpack_require__(/*! ./hash/common */ 192);
-hash.sha = __webpack_require__(/*! ./hash/sha */ 193);
-hash.ripemd = __webpack_require__(/*! ./hash/ripemd */ 200);
-hash.hmac = __webpack_require__(/*! ./hash/hmac */ 201);
+hash.utils = __webpack_require__(/*! ./hash/utils */ 334);
+hash.common = __webpack_require__(/*! ./hash/common */ 335);
+hash.sha = __webpack_require__(/*! ./hash/sha */ 336);
+hash.ripemd = __webpack_require__(/*! ./hash/ripemd */ 343);
+hash.hmac = __webpack_require__(/*! ./hash/hmac */ 344);
 
 // Proxy hash functions to the main object
 hash.sha1 = hash.sha.sha1;
@@ -37840,7 +39406,7 @@ hash.ripemd160 = hash.ripemd.ripemd160;
 
 
 /***/ }),
-/* 191 */
+/* 334 */
 /*!************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/utils.js ***!
   \************************************************/
@@ -37850,8 +39416,8 @@ hash.ripemd160 = hash.ripemd.ripemd160;
 "use strict";
 
 
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
-var inherits = __webpack_require__(/*! inherits */ 94);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
 exports.inherits = inherits;
 
@@ -38129,7 +39695,7 @@ exports.shr64_lo = shr64_lo;
 
 
 /***/ }),
-/* 192 */
+/* 335 */
 /*!*************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/common.js ***!
   \*************************************************/
@@ -38139,8 +39705,8 @@ exports.shr64_lo = shr64_lo;
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./utils */ 191);
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var utils = __webpack_require__(/*! ./utils */ 334);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 function BlockHash() {
   this.pending = null;
@@ -38232,7 +39798,7 @@ BlockHash.prototype._pad = function pad() {
 
 
 /***/ }),
-/* 193 */
+/* 336 */
 /*!**********************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha.js ***!
   \**********************************************/
@@ -38242,15 +39808,15 @@ BlockHash.prototype._pad = function pad() {
 "use strict";
 
 
-exports.sha1 = __webpack_require__(/*! ./sha/1 */ 194);
-exports.sha224 = __webpack_require__(/*! ./sha/224 */ 196);
-exports.sha256 = __webpack_require__(/*! ./sha/256 */ 197);
-exports.sha384 = __webpack_require__(/*! ./sha/384 */ 198);
-exports.sha512 = __webpack_require__(/*! ./sha/512 */ 199);
+exports.sha1 = __webpack_require__(/*! ./sha/1 */ 337);
+exports.sha224 = __webpack_require__(/*! ./sha/224 */ 339);
+exports.sha256 = __webpack_require__(/*! ./sha/256 */ 340);
+exports.sha384 = __webpack_require__(/*! ./sha/384 */ 341);
+exports.sha512 = __webpack_require__(/*! ./sha/512 */ 342);
 
 
 /***/ }),
-/* 194 */
+/* 337 */
 /*!************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha/1.js ***!
   \************************************************/
@@ -38260,9 +39826,9 @@ exports.sha512 = __webpack_require__(/*! ./sha/512 */ 199);
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 191);
-var common = __webpack_require__(/*! ../common */ 192);
-var shaCommon = __webpack_require__(/*! ./common */ 195);
+var utils = __webpack_require__(/*! ../utils */ 334);
+var common = __webpack_require__(/*! ../common */ 335);
+var shaCommon = __webpack_require__(/*! ./common */ 338);
 
 var rotl32 = utils.rotl32;
 var sum32 = utils.sum32;
@@ -38335,7 +39901,7 @@ SHA1.prototype._digest = function digest(enc) {
 
 
 /***/ }),
-/* 195 */
+/* 338 */
 /*!*****************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha/common.js ***!
   \*****************************************************/
@@ -38345,7 +39911,7 @@ SHA1.prototype._digest = function digest(enc) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 191);
+var utils = __webpack_require__(/*! ../utils */ 334);
 var rotr32 = utils.rotr32;
 
 function ft_1(s, x, y, z) {
@@ -38395,7 +39961,7 @@ exports.g1_256 = g1_256;
 
 
 /***/ }),
-/* 196 */
+/* 339 */
 /*!**************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha/224.js ***!
   \**************************************************/
@@ -38405,8 +39971,8 @@ exports.g1_256 = g1_256;
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 191);
-var SHA256 = __webpack_require__(/*! ./256 */ 197);
+var utils = __webpack_require__(/*! ../utils */ 334);
+var SHA256 = __webpack_require__(/*! ./256 */ 340);
 
 function SHA224() {
   if (!(this instanceof SHA224))
@@ -38436,7 +40002,7 @@ SHA224.prototype._digest = function digest(enc) {
 
 
 /***/ }),
-/* 197 */
+/* 340 */
 /*!**************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha/256.js ***!
   \**************************************************/
@@ -38446,10 +40012,10 @@ SHA224.prototype._digest = function digest(enc) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 191);
-var common = __webpack_require__(/*! ../common */ 192);
-var shaCommon = __webpack_require__(/*! ./common */ 195);
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var utils = __webpack_require__(/*! ../utils */ 334);
+var common = __webpack_require__(/*! ../common */ 335);
+var shaCommon = __webpack_require__(/*! ./common */ 338);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 var sum32 = utils.sum32;
 var sum32_4 = utils.sum32_4;
@@ -38552,7 +40118,7 @@ SHA256.prototype._digest = function digest(enc) {
 
 
 /***/ }),
-/* 198 */
+/* 341 */
 /*!**************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha/384.js ***!
   \**************************************************/
@@ -38562,9 +40128,9 @@ SHA256.prototype._digest = function digest(enc) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 191);
+var utils = __webpack_require__(/*! ../utils */ 334);
 
-var SHA512 = __webpack_require__(/*! ./512 */ 199);
+var SHA512 = __webpack_require__(/*! ./512 */ 342);
 
 function SHA384() {
   if (!(this instanceof SHA384))
@@ -38598,7 +40164,7 @@ SHA384.prototype._digest = function digest(enc) {
 
 
 /***/ }),
-/* 199 */
+/* 342 */
 /*!**************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/sha/512.js ***!
   \**************************************************/
@@ -38608,9 +40174,9 @@ SHA384.prototype._digest = function digest(enc) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 191);
-var common = __webpack_require__(/*! ../common */ 192);
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var utils = __webpack_require__(/*! ../utils */ 334);
+var common = __webpack_require__(/*! ../common */ 335);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 var rotr64_hi = utils.rotr64_hi;
 var rotr64_lo = utils.rotr64_lo;
@@ -38939,7 +40505,7 @@ function g1_512_lo(xh, xl) {
 
 
 /***/ }),
-/* 200 */
+/* 343 */
 /*!*************************************************!*\
   !*** ./node_modules/hash.js/lib/hash/ripemd.js ***!
   \*************************************************/
@@ -38949,8 +40515,8 @@ function g1_512_lo(xh, xl) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./utils */ 191);
-var common = __webpack_require__(/*! ./common */ 192);
+var utils = __webpack_require__(/*! ./utils */ 334);
+var common = __webpack_require__(/*! ./common */ 335);
 
 var rotl32 = utils.rotl32;
 var sum32 = utils.sum32;
@@ -39096,7 +40662,7 @@ var sh = [
 
 
 /***/ }),
-/* 201 */
+/* 344 */
 /*!***********************************************!*\
   !*** ./node_modules/hash.js/lib/hash/hmac.js ***!
   \***********************************************/
@@ -39106,8 +40672,8 @@ var sh = [
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./utils */ 191);
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var utils = __webpack_require__(/*! ./utils */ 334);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 function Hmac(hash, key, enc) {
   if (!(this instanceof Hmac))
@@ -39154,7 +40720,7 @@ Hmac.prototype.digest = function digest(enc) {
 
 
 /***/ }),
-/* 202 */
+/* 345 */
 /*!*********************************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js ***!
   \*********************************************************************/
@@ -39944,7 +41510,7 @@ module.exports = {
 
 
 /***/ }),
-/* 203 */
+/* 346 */
 /*!********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/ec/index.js ***!
   \********************************************************/
@@ -39954,15 +41520,15 @@ module.exports = {
 "use strict";
 
 
-var BN = __webpack_require__(/*! bn.js */ 169);
-var HmacDRBG = __webpack_require__(/*! hmac-drbg */ 204);
-var utils = __webpack_require__(/*! ../utils */ 182);
-var curves = __webpack_require__(/*! ../curves */ 189);
-var rand = __webpack_require__(/*! brorand */ 173);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var HmacDRBG = __webpack_require__(/*! hmac-drbg */ 347);
+var utils = __webpack_require__(/*! ../utils */ 325);
+var curves = __webpack_require__(/*! ../curves */ 332);
+var rand = __webpack_require__(/*! brorand */ 316);
 var assert = utils.assert;
 
-var KeyPair = __webpack_require__(/*! ./key */ 205);
-var Signature = __webpack_require__(/*! ./signature */ 206);
+var KeyPair = __webpack_require__(/*! ./key */ 348);
+var Signature = __webpack_require__(/*! ./signature */ 349);
 
 function EC(options) {
   if (!(this instanceof EC))
@@ -40196,7 +41762,7 @@ EC.prototype.getKeyRecoveryParam = function(e, signature, Q, enc) {
 
 
 /***/ }),
-/* 204 */
+/* 347 */
 /*!*************************************************!*\
   !*** ./node_modules/hmac-drbg/lib/hmac-drbg.js ***!
   \*************************************************/
@@ -40206,9 +41772,9 @@ EC.prototype.getKeyRecoveryParam = function(e, signature, Q, enc) {
 "use strict";
 
 
-var hash = __webpack_require__(/*! hash.js */ 190);
-var utils = __webpack_require__(/*! minimalistic-crypto-utils */ 183);
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var hash = __webpack_require__(/*! hash.js */ 333);
+var utils = __webpack_require__(/*! minimalistic-crypto-utils */ 326);
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 function HmacDRBG(options) {
   if (!(this instanceof HmacDRBG))
@@ -40320,7 +41886,7 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
 
 
 /***/ }),
-/* 205 */
+/* 348 */
 /*!******************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/ec/key.js ***!
   \******************************************************/
@@ -40330,8 +41896,8 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
 "use strict";
 
 
-var BN = __webpack_require__(/*! bn.js */ 169);
-var utils = __webpack_require__(/*! ../utils */ 182);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var utils = __webpack_require__(/*! ../utils */ 325);
 var assert = utils.assert;
 
 function KeyPair(ec, options) {
@@ -40449,7 +42015,7 @@ KeyPair.prototype.inspect = function inspect() {
 
 
 /***/ }),
-/* 206 */
+/* 349 */
 /*!************************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/ec/signature.js ***!
   \************************************************************/
@@ -40459,9 +42025,9 @@ KeyPair.prototype.inspect = function inspect() {
 "use strict";
 
 
-var BN = __webpack_require__(/*! bn.js */ 169);
+var BN = __webpack_require__(/*! bn.js */ 312);
 
-var utils = __webpack_require__(/*! ../utils */ 182);
+var utils = __webpack_require__(/*! ../utils */ 325);
 var assert = utils.assert;
 
 function Signature(options, enc) {
@@ -40594,7 +42160,7 @@ Signature.prototype.toDER = function toDER(enc) {
 
 
 /***/ }),
-/* 207 */
+/* 350 */
 /*!***********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/eddsa/index.js ***!
   \***********************************************************/
@@ -40604,13 +42170,13 @@ Signature.prototype.toDER = function toDER(enc) {
 "use strict";
 
 
-var hash = __webpack_require__(/*! hash.js */ 190);
-var curves = __webpack_require__(/*! ../curves */ 189);
-var utils = __webpack_require__(/*! ../utils */ 182);
+var hash = __webpack_require__(/*! hash.js */ 333);
+var curves = __webpack_require__(/*! ../curves */ 332);
+var utils = __webpack_require__(/*! ../utils */ 325);
 var assert = utils.assert;
 var parseBytes = utils.parseBytes;
-var KeyPair = __webpack_require__(/*! ./key */ 208);
-var Signature = __webpack_require__(/*! ./signature */ 209);
+var KeyPair = __webpack_require__(/*! ./key */ 351);
+var Signature = __webpack_require__(/*! ./signature */ 352);
 
 function EDDSA(curve) {
   assert(curve === 'ed25519', 'only tested with ed25519 so far');
@@ -40723,7 +42289,7 @@ EDDSA.prototype.isPoint = function isPoint(val) {
 
 
 /***/ }),
-/* 208 */
+/* 351 */
 /*!*********************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/eddsa/key.js ***!
   \*********************************************************/
@@ -40733,7 +42299,7 @@ EDDSA.prototype.isPoint = function isPoint(val) {
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ 182);
+var utils = __webpack_require__(/*! ../utils */ 325);
 var assert = utils.assert;
 var parseBytes = utils.parseBytes;
 var cachedProperty = utils.cachedProperty;
@@ -40829,7 +42395,7 @@ module.exports = KeyPair;
 
 
 /***/ }),
-/* 209 */
+/* 352 */
 /*!***************************************************************!*\
   !*** ./node_modules/elliptic/lib/elliptic/eddsa/signature.js ***!
   \***************************************************************/
@@ -40839,8 +42405,8 @@ module.exports = KeyPair;
 "use strict";
 
 
-var BN = __webpack_require__(/*! bn.js */ 169);
-var utils = __webpack_require__(/*! ../utils */ 182);
+var BN = __webpack_require__(/*! bn.js */ 312);
+var utils = __webpack_require__(/*! ../utils */ 325);
 var assert = utils.assert;
 var cachedProperty = utils.cachedProperty;
 var parseBytes = utils.parseBytes;
@@ -40905,19 +42471,19 @@ module.exports = Signature;
 
 
 /***/ }),
-/* 210 */
+/* 353 */
 /*!******************************************!*\
   !*** ./node_modules/parse-asn1/index.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var asn1 = __webpack_require__(/*! ./asn1 */ 211)
-var aesid = __webpack_require__(/*! ./aesid.json */ 228)
-var fixProc = __webpack_require__(/*! ./fixProc */ 229)
-var ciphers = __webpack_require__(/*! browserify-aes */ 147)
-var compat = __webpack_require__(/*! pbkdf2 */ 133)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var asn1 = __webpack_require__(/*! ./asn1 */ 354)
+var aesid = __webpack_require__(/*! ./aesid.json */ 371)
+var fixProc = __webpack_require__(/*! ./fixProc */ 372)
+var ciphers = __webpack_require__(/*! browserify-aes */ 290)
+var compat = __webpack_require__(/*! pbkdf2 */ 276)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 module.exports = parseKeys
 
 function parseKeys (buffer) {
@@ -41022,7 +42588,7 @@ function decrypt (data, password) {
 
 
 /***/ }),
-/* 211 */
+/* 354 */
 /*!*****************************************!*\
   !*** ./node_modules/parse-asn1/asn1.js ***!
   \*****************************************/
@@ -41034,9 +42600,9 @@ function decrypt (data, password) {
 // Fedor, you are amazing.
 
 
-var asn1 = __webpack_require__(/*! asn1.js */ 212)
+var asn1 = __webpack_require__(/*! asn1.js */ 355)
 
-exports.certificate = __webpack_require__(/*! ./certificate */ 227)
+exports.certificate = __webpack_require__(/*! ./certificate */ 370)
 
 var RSAPrivateKey = asn1.define('RSAPrivateKey', function () {
   this.seq().obj(
@@ -41155,7 +42721,7 @@ exports.signature = asn1.define('signature', function () {
 
 
 /***/ }),
-/* 212 */
+/* 355 */
 /*!******************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1.js ***!
   \******************************************/
@@ -41164,25 +42730,25 @@ exports.signature = asn1.define('signature', function () {
 
 var asn1 = exports;
 
-asn1.bignum = __webpack_require__(/*! bn.js */ 169);
+asn1.bignum = __webpack_require__(/*! bn.js */ 312);
 
-asn1.define = __webpack_require__(/*! ./asn1/api */ 213).define;
-asn1.base = __webpack_require__(/*! ./asn1/base */ 215);
-asn1.constants = __webpack_require__(/*! ./asn1/constants */ 219);
-asn1.decoders = __webpack_require__(/*! ./asn1/decoders */ 221);
-asn1.encoders = __webpack_require__(/*! ./asn1/encoders */ 224);
+asn1.define = __webpack_require__(/*! ./asn1/api */ 356).define;
+asn1.base = __webpack_require__(/*! ./asn1/base */ 358);
+asn1.constants = __webpack_require__(/*! ./asn1/constants */ 362);
+asn1.decoders = __webpack_require__(/*! ./asn1/decoders */ 364);
+asn1.encoders = __webpack_require__(/*! ./asn1/encoders */ 367);
 
 
 /***/ }),
-/* 213 */
+/* 356 */
 /*!**********************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/api.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var asn1 = __webpack_require__(/*! ../asn1 */ 212);
-var inherits = __webpack_require__(/*! inherits */ 94);
+var asn1 = __webpack_require__(/*! ../asn1 */ 355);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
 var api = exports;
 
@@ -41201,7 +42767,7 @@ function Entity(name, body) {
 Entity.prototype._createNamed = function createNamed(base) {
   var named;
   try {
-    named = __webpack_require__(/*! vm */ 214).runInThisContext(
+    named = __webpack_require__(/*! vm */ 357).runInThisContext(
       '(function ' + this.name + '(entity) {\n' +
       '  this._initNamed(entity);\n' +
       '})'
@@ -41245,7 +42811,7 @@ Entity.prototype.encode = function encode(data, enc, /* internal */ reporter) {
 
 
 /***/ }),
-/* 214 */
+/* 357 */
 /*!*********************************************!*\
   !*** ./node_modules/vm-browserify/index.js ***!
   \*********************************************/
@@ -41404,7 +42970,7 @@ exports.createContext = Script.createContext = function (context) {
 
 
 /***/ }),
-/* 215 */
+/* 358 */
 /*!*****************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/base/index.js ***!
   \*****************************************************/
@@ -41413,21 +42979,21 @@ exports.createContext = Script.createContext = function (context) {
 
 var base = exports;
 
-base.Reporter = __webpack_require__(/*! ./reporter */ 216).Reporter;
-base.DecoderBuffer = __webpack_require__(/*! ./buffer */ 217).DecoderBuffer;
-base.EncoderBuffer = __webpack_require__(/*! ./buffer */ 217).EncoderBuffer;
-base.Node = __webpack_require__(/*! ./node */ 218);
+base.Reporter = __webpack_require__(/*! ./reporter */ 359).Reporter;
+base.DecoderBuffer = __webpack_require__(/*! ./buffer */ 360).DecoderBuffer;
+base.EncoderBuffer = __webpack_require__(/*! ./buffer */ 360).EncoderBuffer;
+base.Node = __webpack_require__(/*! ./node */ 361);
 
 
 /***/ }),
-/* 216 */
+/* 359 */
 /*!********************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/base/reporter.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
 function Reporter(options) {
   this._reporterState = {
@@ -41551,16 +43117,16 @@ ReporterError.prototype.rethrow = function rethrow(msg) {
 
 
 /***/ }),
-/* 217 */
+/* 360 */
 /*!******************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/base/buffer.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94);
-var Reporter = __webpack_require__(/*! ../base */ 215).Reporter;
-var Buffer = __webpack_require__(/*! buffer */ 89).Buffer;
+var inherits = __webpack_require__(/*! inherits */ 237);
+var Reporter = __webpack_require__(/*! ../base */ 358).Reporter;
+var Buffer = __webpack_require__(/*! buffer */ 232).Buffer;
 
 function DecoderBuffer(base, options) {
   Reporter.call(this, options);
@@ -41677,17 +43243,17 @@ EncoderBuffer.prototype.join = function join(out, offset) {
 
 
 /***/ }),
-/* 218 */
+/* 361 */
 /*!****************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/base/node.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Reporter = __webpack_require__(/*! ../base */ 215).Reporter;
-var EncoderBuffer = __webpack_require__(/*! ../base */ 215).EncoderBuffer;
-var DecoderBuffer = __webpack_require__(/*! ../base */ 215).DecoderBuffer;
-var assert = __webpack_require__(/*! minimalistic-assert */ 143);
+var Reporter = __webpack_require__(/*! ../base */ 358).Reporter;
+var EncoderBuffer = __webpack_require__(/*! ../base */ 358).EncoderBuffer;
+var DecoderBuffer = __webpack_require__(/*! ../base */ 358).DecoderBuffer;
+var assert = __webpack_require__(/*! minimalistic-assert */ 286);
 
 // Supported tags
 var tags = [
@@ -42321,7 +43887,7 @@ Node.prototype._isPrintstr = function isPrintstr(str) {
 
 
 /***/ }),
-/* 219 */
+/* 362 */
 /*!**********************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/constants/index.js ***!
   \**********************************************************/
@@ -42346,18 +43912,18 @@ constants._reverse = function reverse(map) {
   return res;
 };
 
-constants.der = __webpack_require__(/*! ./der */ 220);
+constants.der = __webpack_require__(/*! ./der */ 363);
 
 
 /***/ }),
-/* 220 */
+/* 363 */
 /*!********************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/constants/der.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var constants = __webpack_require__(/*! ../constants */ 219);
+var constants = __webpack_require__(/*! ../constants */ 362);
 
 exports.tagClass = {
   0: 'universal',
@@ -42402,7 +43968,7 @@ exports.tagByName = constants._reverse(exports.tag);
 
 
 /***/ }),
-/* 221 */
+/* 364 */
 /*!*********************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/decoders/index.js ***!
   \*********************************************************/
@@ -42411,21 +43977,21 @@ exports.tagByName = constants._reverse(exports.tag);
 
 var decoders = exports;
 
-decoders.der = __webpack_require__(/*! ./der */ 222);
-decoders.pem = __webpack_require__(/*! ./pem */ 223);
+decoders.der = __webpack_require__(/*! ./der */ 365);
+decoders.pem = __webpack_require__(/*! ./pem */ 366);
 
 
 /***/ }),
-/* 222 */
+/* 365 */
 /*!*******************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/decoders/der.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
-var asn1 = __webpack_require__(/*! ../../asn1 */ 212);
+var asn1 = __webpack_require__(/*! ../../asn1 */ 355);
 var base = asn1.base;
 var bignum = asn1.bignum;
 
@@ -42750,17 +44316,17 @@ function derDecodeLen(buf, primitive, fail) {
 
 
 /***/ }),
-/* 223 */
+/* 366 */
 /*!*******************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/decoders/pem.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94);
-var Buffer = __webpack_require__(/*! buffer */ 89).Buffer;
+var inherits = __webpack_require__(/*! inherits */ 237);
+var Buffer = __webpack_require__(/*! buffer */ 232).Buffer;
 
-var DERDecoder = __webpack_require__(/*! ./der */ 222);
+var DERDecoder = __webpack_require__(/*! ./der */ 365);
 
 function PEMDecoder(entity) {
   DERDecoder.call(this, entity);
@@ -42809,7 +44375,7 @@ PEMDecoder.prototype.decode = function decode(data, options) {
 
 
 /***/ }),
-/* 224 */
+/* 367 */
 /*!*********************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/encoders/index.js ***!
   \*********************************************************/
@@ -42818,22 +44384,22 @@ PEMDecoder.prototype.decode = function decode(data, options) {
 
 var encoders = exports;
 
-encoders.der = __webpack_require__(/*! ./der */ 225);
-encoders.pem = __webpack_require__(/*! ./pem */ 226);
+encoders.der = __webpack_require__(/*! ./der */ 368);
+encoders.pem = __webpack_require__(/*! ./pem */ 369);
 
 
 /***/ }),
-/* 225 */
+/* 368 */
 /*!*******************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/encoders/der.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94);
-var Buffer = __webpack_require__(/*! buffer */ 89).Buffer;
+var inherits = __webpack_require__(/*! inherits */ 237);
+var Buffer = __webpack_require__(/*! buffer */ 232).Buffer;
 
-var asn1 = __webpack_require__(/*! ../../asn1 */ 212);
+var asn1 = __webpack_require__(/*! ../../asn1 */ 355);
 var base = asn1.base;
 
 // Import DER constants
@@ -43128,16 +44694,16 @@ function encodeTag(tag, primitive, cls, reporter) {
 
 
 /***/ }),
-/* 226 */
+/* 369 */
 /*!*******************************************************!*\
   !*** ./node_modules/asn1.js/lib/asn1/encoders/pem.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(/*! inherits */ 94);
+var inherits = __webpack_require__(/*! inherits */ 237);
 
-var DEREncoder = __webpack_require__(/*! ./der */ 225);
+var DEREncoder = __webpack_require__(/*! ./der */ 368);
 
 function PEMEncoder(entity) {
   DEREncoder.call(this, entity);
@@ -43159,7 +44725,7 @@ PEMEncoder.prototype.encode = function encode(data, options) {
 
 
 /***/ }),
-/* 227 */
+/* 370 */
 /*!************************************************!*\
   !*** ./node_modules/parse-asn1/certificate.js ***!
   \************************************************/
@@ -43172,7 +44738,7 @@ PEMEncoder.prototype.encode = function encode(data, options) {
 
 
 
-var asn = __webpack_require__(/*! asn1.js */ 212)
+var asn = __webpack_require__(/*! asn1.js */ 355)
 
 var Time = asn.define('Time', function () {
   this.choice({
@@ -43259,7 +44825,7 @@ module.exports = X509Certificate
 
 
 /***/ }),
-/* 228 */
+/* 371 */
 /*!********************************************!*\
   !*** ./node_modules/parse-asn1/aesid.json ***!
   \********************************************/
@@ -43269,7 +44835,7 @@ module.exports = X509Certificate
 module.exports = {"2.16.840.1.101.3.4.1.1":"aes-128-ecb","2.16.840.1.101.3.4.1.2":"aes-128-cbc","2.16.840.1.101.3.4.1.3":"aes-128-ofb","2.16.840.1.101.3.4.1.4":"aes-128-cfb","2.16.840.1.101.3.4.1.21":"aes-192-ecb","2.16.840.1.101.3.4.1.22":"aes-192-cbc","2.16.840.1.101.3.4.1.23":"aes-192-ofb","2.16.840.1.101.3.4.1.24":"aes-192-cfb","2.16.840.1.101.3.4.1.41":"aes-256-ecb","2.16.840.1.101.3.4.1.42":"aes-256-cbc","2.16.840.1.101.3.4.1.43":"aes-256-ofb","2.16.840.1.101.3.4.1.44":"aes-256-cfb"};
 
 /***/ }),
-/* 229 */
+/* 372 */
 /*!********************************************!*\
   !*** ./node_modules/parse-asn1/fixProc.js ***!
   \********************************************/
@@ -43280,9 +44846,9 @@ module.exports = {"2.16.840.1.101.3.4.1.1":"aes-128-ecb","2.16.840.1.101.3.4.1.2
 var findProc = /Proc-Type: 4,ENCRYPTED[\n\r]+DEK-Info: AES-((?:128)|(?:192)|(?:256))-CBC,([0-9A-H]+)[\n\r]+([0-9A-z\n\r\+\/\=]+)[\n\r]+/m
 var startRegex = /^-----BEGIN ((?:.*? KEY)|CERTIFICATE)-----/m
 var fullRegex = /^-----BEGIN ((?:.*? KEY)|CERTIFICATE)-----([0-9A-z\n\r\+\/\=]+)-----END \1-----$/m
-var evp = __webpack_require__(/*! evp_bytestokey */ 164)
-var ciphers = __webpack_require__(/*! browserify-aes */ 147)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var evp = __webpack_require__(/*! evp_bytestokey */ 307)
+var ciphers = __webpack_require__(/*! browserify-aes */ 290)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 module.exports = function (okey, password) {
   var key = okey.toString()
   var match = key.match(findProc)
@@ -43310,7 +44876,7 @@ module.exports = function (okey, password) {
 
 
 /***/ }),
-/* 230 */
+/* 373 */
 /*!**********************************************************!*\
   !*** ./node_modules/browserify-sign/browser/curves.json ***!
   \**********************************************************/
@@ -43320,7 +44886,7 @@ module.exports = function (okey, password) {
 module.exports = {"1.3.132.0.10":"secp256k1","1.3.132.0.33":"p224","1.2.840.10045.3.1.1":"p192","1.2.840.10045.3.1.7":"p256","1.3.132.0.34":"p384","1.3.132.0.35":"p521"};
 
 /***/ }),
-/* 231 */
+/* 374 */
 /*!********************************************************!*\
   !*** ./node_modules/browserify-sign/browser/verify.js ***!
   \********************************************************/
@@ -43328,10 +44894,10 @@ module.exports = {"1.3.132.0.10":"secp256k1","1.3.132.0.33":"p224","1.2.840.1004
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {// much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
-var BN = __webpack_require__(/*! bn.js */ 169)
-var EC = __webpack_require__(/*! elliptic */ 180).ec
-var parseKeys = __webpack_require__(/*! parse-asn1 */ 210)
-var curves = __webpack_require__(/*! ./curves.json */ 230)
+var BN = __webpack_require__(/*! bn.js */ 312)
+var EC = __webpack_require__(/*! elliptic */ 323).ec
+var parseKeys = __webpack_require__(/*! parse-asn1 */ 353)
+var curves = __webpack_require__(/*! ./curves.json */ 373)
 
 function verify (sig, hash, key, signType, tag) {
   var pub = parseKeys(key)
@@ -43411,18 +44977,18 @@ function checkValue (b, q) {
 
 module.exports = verify
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 232 */
+/* 375 */
 /*!*********************************************!*\
   !*** ./node_modules/create-ecdh/browser.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(Buffer) {var elliptic = __webpack_require__(/*! elliptic */ 180)
-var BN = __webpack_require__(/*! bn.js */ 169)
+/* WEBPACK VAR INJECTION */(function(Buffer) {var elliptic = __webpack_require__(/*! elliptic */ 323)
+var BN = __webpack_require__(/*! bn.js */ 312)
 
 module.exports = function createECDH (curve) {
   return new ECDH(curve)
@@ -43546,18 +45112,18 @@ function formatReturnValue (bn, enc, len) {
   }
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 89).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../buffer/index.js */ 232).Buffer))
 
 /***/ }),
-/* 233 */
+/* 376 */
 /*!************************************************!*\
   !*** ./node_modules/public-encrypt/browser.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.publicEncrypt = __webpack_require__(/*! ./publicEncrypt */ 234)
-exports.privateDecrypt = __webpack_require__(/*! ./privateDecrypt */ 238)
+exports.publicEncrypt = __webpack_require__(/*! ./publicEncrypt */ 377)
+exports.privateDecrypt = __webpack_require__(/*! ./privateDecrypt */ 381)
 
 exports.privateEncrypt = function privateEncrypt (key, buf) {
   return exports.publicEncrypt(key, buf, true)
@@ -43569,22 +45135,22 @@ exports.publicDecrypt = function publicDecrypt (key, buf) {
 
 
 /***/ }),
-/* 234 */
+/* 377 */
 /*!******************************************************!*\
   !*** ./node_modules/public-encrypt/publicEncrypt.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parseKeys = __webpack_require__(/*! parse-asn1 */ 210)
-var randomBytes = __webpack_require__(/*! randombytes */ 85)
-var createHash = __webpack_require__(/*! create-hash */ 93)
-var mgf = __webpack_require__(/*! ./mgf */ 235)
-var xor = __webpack_require__(/*! ./xor */ 236)
-var BN = __webpack_require__(/*! bn.js */ 169)
-var withPublic = __webpack_require__(/*! ./withPublic */ 237)
-var crt = __webpack_require__(/*! browserify-rsa */ 179)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var parseKeys = __webpack_require__(/*! parse-asn1 */ 353)
+var randomBytes = __webpack_require__(/*! randombytes */ 230)
+var createHash = __webpack_require__(/*! create-hash */ 236)
+var mgf = __webpack_require__(/*! ./mgf */ 378)
+var xor = __webpack_require__(/*! ./xor */ 379)
+var BN = __webpack_require__(/*! bn.js */ 312)
+var withPublic = __webpack_require__(/*! ./withPublic */ 380)
+var crt = __webpack_require__(/*! browserify-rsa */ 322)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 module.exports = function publicEncrypt (publicKey, msg, reverse) {
   var padding
@@ -43667,15 +45233,15 @@ function nonZero (len) {
 
 
 /***/ }),
-/* 235 */
+/* 378 */
 /*!********************************************!*\
   !*** ./node_modules/public-encrypt/mgf.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var createHash = __webpack_require__(/*! create-hash */ 93)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var createHash = __webpack_require__(/*! create-hash */ 236)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 module.exports = function (seed, len) {
   var t = Buffer.alloc(0)
@@ -43696,7 +45262,7 @@ function i2ops (c) {
 
 
 /***/ }),
-/* 236 */
+/* 379 */
 /*!********************************************!*\
   !*** ./node_modules/public-encrypt/xor.js ***!
   \********************************************/
@@ -43714,15 +45280,15 @@ module.exports = function xor (a, b) {
 
 
 /***/ }),
-/* 237 */
+/* 380 */
 /*!***************************************************!*\
   !*** ./node_modules/public-encrypt/withPublic.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var BN = __webpack_require__(/*! bn.js */ 169)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var BN = __webpack_require__(/*! bn.js */ 312)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 function withPublic (paddedMsg, key) {
   return Buffer.from(paddedMsg
@@ -43736,21 +45302,21 @@ module.exports = withPublic
 
 
 /***/ }),
-/* 238 */
+/* 381 */
 /*!*******************************************************!*\
   !*** ./node_modules/public-encrypt/privateDecrypt.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parseKeys = __webpack_require__(/*! parse-asn1 */ 210)
-var mgf = __webpack_require__(/*! ./mgf */ 235)
-var xor = __webpack_require__(/*! ./xor */ 236)
-var BN = __webpack_require__(/*! bn.js */ 169)
-var crt = __webpack_require__(/*! browserify-rsa */ 179)
-var createHash = __webpack_require__(/*! create-hash */ 93)
-var withPublic = __webpack_require__(/*! ./withPublic */ 237)
-var Buffer = __webpack_require__(/*! safe-buffer */ 88).Buffer
+var parseKeys = __webpack_require__(/*! parse-asn1 */ 353)
+var mgf = __webpack_require__(/*! ./mgf */ 378)
+var xor = __webpack_require__(/*! ./xor */ 379)
+var BN = __webpack_require__(/*! bn.js */ 312)
+var crt = __webpack_require__(/*! browserify-rsa */ 322)
+var createHash = __webpack_require__(/*! create-hash */ 236)
+var withPublic = __webpack_require__(/*! ./withPublic */ 380)
+var Buffer = __webpack_require__(/*! safe-buffer */ 231).Buffer
 
 module.exports = function privateDecrypt (privateKey, enc, reverse) {
   var padding
@@ -43851,7 +45417,7 @@ function compare (a, b) {
 
 
 /***/ }),
-/* 239 */
+/* 382 */
 /*!********************************************!*\
   !*** ./node_modules/randomfill/browser.js ***!
   \********************************************/
@@ -43864,8 +45430,8 @@ function compare (a, b) {
 function oldBrowser () {
   throw new Error('secure random number generation not supported by this browser\nuse chrome, FireFox or Internet Explorer 11')
 }
-var safeBuffer = __webpack_require__(/*! safe-buffer */ 88)
-var randombytes = __webpack_require__(/*! randombytes */ 85)
+var safeBuffer = __webpack_require__(/*! safe-buffer */ 231)
+var randombytes = __webpack_require__(/*! randombytes */ 230)
 var Buffer = safeBuffer.Buffer
 var kBufferMaxLength = safeBuffer.kMaxLength
 var crypto = global.crypto || global.msCrypto
@@ -43968,7 +45534,7 @@ function randomFillSync (buf, offset, size) {
   return actualFill(buf, offset, size)
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 86)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 203)))
 
 /***/ })
 ]]);

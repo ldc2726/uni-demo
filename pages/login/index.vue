@@ -1,6 +1,6 @@
 <template>
 	<view class="login">
-		<!-- <view class="login_logo">
+		<view class="login_logo">
 			<u-image width="100%" height="100%" :src="src"></u-image>	
 		</view>
 		<u-form :model="form" ref="uForm">
@@ -11,9 +11,7 @@
 				<u-input type="password" v-model="form.password" />
 			</u-form-item>
 		</u-form>
-		<u-button class="login_btn" @click="submit">登录</u-button> -->
-		<!-- <web-view src="https://ycttest.cms.diyibox.com/packapp/storestaff/index.html"></web-view> -->
-		<web-view src="http://192.168.13.215:8080?v=4.89" @message="handleMessage"></web-view>
+		<u-button class="login_btn" @click="submit">登录</u-button>
 	</view>
 </template>
 
@@ -47,38 +45,12 @@ export default {
 		};
 	},
 	methods: {
-		handleMessage(evt) {
-			console.log('接收到的消息：' + JSON.stringify(evt.detail.data));
-			uni.scanCode({
-				success: function (res) {
-					console.log('条码类型：' + res.scanType);
-					console.log('条码内容：' + res.result);
-				}
-			});
-		},
 		submit() {
 			this.$refs.uForm.validate(valid => {
 				if (valid) {
-					console.log('验证通过');
-					uni.setStorage({
-					    key: '_tokens',
-					    data: 'hello',
-					    success:  ()=> {
-					        console.log('success');
-							setTimeout(()=>{
-								this.$Router.pushTab('/pages/tabbar/tabbar-1/tabbar-1')
-							})
-					    }
-					});
-					// setTimeout(()=>{
-					// 	// this.$routers.switchTab('pages/index/index')
-					// 	uni.getStorageInfo({
-					// 		success: function (res) {
-					// 			console.log(res.keys);
-					// 			// $router.push('/pages/login')
-					// 		}
-					// 	});
-					// },4000)
+					console.log('验证通过',this.$store);
+					this.$store.dispatch('user/setUser','token')
+					
 				} else {
 					uni.showToast({
 						title:"验证失败",
@@ -93,18 +65,7 @@ export default {
 	// 必须要在onReady生命周期，因为onLoad生命周期组件可能尚未创建完毕
 	onReady() {
 		// this.$refs.uForm.setRules(this.rules);
-		
-		// window.openScan = function(){
-		// 	uni.scanCode({
-		// 		success: function (res) {
-		// 			console.log('条码类型：' + res.scanType);
-		// 			console.log('条码内容：' + res.result);
-		// 		}
-		// 	});
-		// }
-	},
-	mounted(){
-		console.log(this.$u,window,'++++++++++')
+		console.log(this.$u)
 	}
 };
 </script>
