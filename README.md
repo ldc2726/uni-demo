@@ -1,6 +1,8 @@
 # uni-demo
-uni-demo包含router管理，tabbar案例，登录跳转，uview库组件使用，api封装、mock数据、crypto-js的加密测试、组件传值的案例
+#### uni-demo包含router管理，tabbar案例，登录跳转，uview库组件使用，api封装、mock数据、crypto-js的加密测试、组件传值、store的登陆管理等demo案例
 
+
+我觉得你不懂uni-app不要紧，down下来这个demo就能明白真实的vue写法，开箱即用。
 ### 安装
 npm install   必须使用npm镜像，cnpm可能会导致错误
 
@@ -10,8 +12,9 @@ npm install   必须使用npm镜像，cnpm可能会导致错误
 
 
 
-## router的使用
-###### 关于router的替换声明，为更好的router拦截跳转，不再使用uni进行跳转
+## router的使用 
+[感谢uni-simple-router团队的路由管理方案](https://hhyang.cn/v2/start/cross/codeRoute.htmlhttp:// "感谢uni-simple-router团队的路由管理方案")
+###### 关于router的替换声明，为更好的router拦截跳转，不再使用uni进行跳转，我们更加推荐有一个类vue的开发风格习惯
 
 **this.$Router.push 等同 uni.navgateTo()**
 这个方法会向 history 栈添加一个新的记录，所以，当用户点击浏览器后退按钮时，则回到之前的 URL。
@@ -47,4 +50,50 @@ this.$Router.pushTab(...)
 this.$Router.back(2)
 // 如果 history 记录不够用，那就默默地失败呗
 this.$Router.back(100)
+```
+
+##  接口API的调用
+###### 关于接口我个人更加推崇统一管理，类jsapi的方式，更加语意话，接口管理也更加方便
+uni-demo====>http====>api  所有不同分类接口的聚合，我们把这个文件夹看成是一个接口库
+如：
+```javascript
+export default {
+    QueryAccountListData: { //查询账户信息列表
+        url: '/ErpBasic/Account/QueryAccountListData',
+        type: 'post',//默认post，可忽略不写
+        header: {
+            'Content-Type': 'application/json',//可省略默认
+            isIgnore: true//是否过滤拦截，默认false
+        }
+    },
+    InsertAccountData: { //添加账户
+        url: '/ErpBasic/Account/InsertAccountData'
+    }
+}
+```
+调用时：
+```javascript
+this.$api('StationList').then(res=>{
+	console.log(res)
+}).catch(err=>{
+	console.log(err)
+})
+```
+## 接口mock
+uni-demo====>http====>mock     mock库
+因为我们需要适配多端，很多情况下不能直接对所有的端服务进行mock拦截，所以我们这里需要对自己封装的http请求进行mock拦截。
+```javascript
+export default {
+	'/ErpBasic/Account/QueryAccountListData': {
+		"IsSuccess": true,
+		"Code": 200,
+		"Message": "string",
+		"RespTime": "string",
+		"Data": {
+			"Total": 0,
+			article: '@csentence'
+		}
+	}
+}
+
 ```
